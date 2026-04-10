@@ -18,6 +18,9 @@ on:
       - "wrangler.toml"
       - ".github/workflows/deploy-cloudflare-pages.yml"
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Hourly News Update"]
+    types: [completed]
 
 concurrency:
   group: cf-pages-${{ github.ref }}
@@ -25,6 +28,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -33,6 +37,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          # workflow_run 時，部署 hourly job 寫入完成的那個 commit
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.sha }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v5
