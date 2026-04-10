@@ -5,8 +5,10 @@
 const DISPLAY_TZ = "Asia/Taipei";
 const STORAGE_KEY = "news0407_history_overlay";
 const LAST_ITEMS_FP_KEY = "news0407_last_items_fp";
+const CUSTOM_PRESET_KEYWORDS_KEY = "news0407_custom_preset_keywords";
 /** 向伺服器重新讀取 data/*.json 的間隔（GitHub 約每小時推送新稿，5 分鐘內可跟上部署） */
 const DATA_POLL_MS = 5 * 60 * 1000;
+const PRESET_KEYWORDS = ["台股", "美股", "台積電", "聯發科", "NVIDIA", "Fed", "降息", "財報"];
 
 function nowDisplayStr() {
   const fmt = new Intl.DateTimeFormat("en-CA", {
@@ -72,29 +74,82 @@ function escHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
-function renderRawNewsSection(items, todayDateStr) {
+function parseSearchKeywords(input) {
+  const raw = String(input || "").trim();
+  if (!raw) return [];
+  return raw
+    .split("+")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function highlightText(text, keywords, className = "kw-hit") {
+  const source = String(text || "");
+  if (!keywords.length) return escHtml(source);
+  const escaped = keywords
+    .map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .filter(Boolean);
+  if (!escaped.length) return escHtml(source);
+  const re = new RegExp(escaped.join("|"), "gi");
+  let out = "";
+  let last = 0;
+  let m;
+  while ((m = re.exec(source)) !== null) {
+    out += escHtml(source.slice(last, m.index));
+    out += `<span class="${className}">${escHtml(m[0])}</span>`;
+    last = m.index + m[0].length;
+    if (m.index === re.lastIndex) re.lastIndex += 1;
+  }
+  out += escHtml(source.slice(last));
+  return out;
+}
+
+function highlightMarkdown(md, keywords) {
+  const source = String(md || "");
+  if (!keywords.length) return source;
+  const escaped = keywords
+    .map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .filter(Boolean);
+  if (!escaped.length) return source;
+  const re = new RegExp(escaped.join("|"), "gi");
+  return source.replace(re, (m) => `<span class="kw-hit">${m}</span>`);
+}
+
+function renderRawNewsSection(items, todayDateStr, keyword = "") {
   const listEl = document.getElementById("rawNewsList");
   const metaEl = document.getElementById("rawNewsMeta");
   const emptyEl = document.getElementById("rawNewsEmpty");
   if (!listEl || !metaEl || !emptyEl) return;
 
+  const keywords = parseSearchKeywords(keyword);
+  const lowerKeywords = keywords.map((k) => k.toLowerCase());
+  const filtered = lowerKeywords.length
+    ? items.filter((it) => {
+        const text = `${it.title || ""} ${it.summary || ""} ${it.source || ""}`.toLowerCase();
+        return lowerKeywords.every((kw) => text.includes(kw));
+      })
+    : items;
+
   listEl.innerHTML = "";
-  if (!items.length) {
+  if (!filtered.length) {
     emptyEl.hidden = false;
-    metaEl.textContent = "";
+    metaEl.textContent = keywords.length ? `找不到關鍵字「${keyword}」相關新聞` : "";
     return;
   }
   emptyEl.hidden = true;
   const dateHint = todayDateStr ? `今日累積日期：${todayDateStr} · ` : "";
-  metaEl.textContent = `${dateHint}共 ${items.length} 則（合併今日累積與 48h 候選池，依時間新→舊）`;
+  const kwHint = keywords.length ? `｜關鍵字(AND)：${keywords.join(" + ")}` : "";
+  metaEl.textContent = `${dateHint}共 ${filtered.length} 則（合併今日累積與 48h 候選池，依時間新→舊）${kwHint}`;
 
-  for (const it of items) {
-    const title = escHtml(it.title || "（無標題）");
+  for (const it of filtered) {
+    const title = highlightText(it.title || "（無標題）", keywords);
     const src = escHtml(it.source || "");
     const t = escHtml(it.display_time || "—");
     const url = it.link || "";
     const sum = (it.summary || "").replace(/\s+/g, " ").trim();
-    const snippet = sum ? escHtml(sum.slice(0, 220)) + (sum.length > 220 ? "…" : "") : "";
+    const snippet = sum
+      ? highlightText(sum.slice(0, 220), keywords) + (sum.length > 220 ? "…" : "")
+      : "";
 
     const li = document.createElement("li");
     li.className = "raw-news-item";
@@ -456,7 +511,7 @@ function processHistoryMarkdown(raw, newsItems, showAll, mergeTime) {
   return hist;
 }
 
-function renderHistoryHtmlFromMd(md) {
+function renderHistoryHtmlFromMd(md, keyword = "") {
   const m = md.match(/^<div class='update-time'>[\s\S]*?<\/div>\s*/);
   let header = "";
   let body = md;
@@ -464,13 +519,14 @@ function renderHistoryHtmlFromMd(md) {
     header = m[0];
     body = md.slice(m[0].length).trim();
   }
-  const bodyHtml = mdToSafeHtml(body);
+  const keys = parseSearchKeywords(keyword);
+  const bodyHtml = mdToSafeHtml(highlightMarkdown(body, keys));
   return `<div class="summary-box">${header}<div class="md-body">${bodyHtml}</div></div>`;
 }
 
-function renderHistoryHtml(raw, newsItems, showAll, mergeTime) {
+function renderHistoryHtml(raw, newsItems, showAll, mergeTime, keyword = "") {
   const md = processHistoryMarkdown(raw, newsItems, showAll, mergeTime);
-  return renderHistoryHtmlFromMd(md);
+  return renderHistoryHtmlFromMd(md, keyword);
 }
 
 function parseSummaryUpdateTime(raw) {
@@ -492,6 +548,25 @@ function loadOverlay() {
 function saveOverlay(items) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items.slice(0, 10)));
+  } catch {
+    /* ignore */
+  }
+}
+
+function loadCustomPresetKeywords() {
+  try {
+    const raw = localStorage.getItem(CUSTOM_PRESET_KEYWORDS_KEY);
+    const parsed = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map((s) => String(s || "").trim()).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
+function saveCustomPresetKeywords(keywords) {
+  try {
+    localStorage.setItem(CUSTOM_PRESET_KEYWORDS_KEY, JSON.stringify(keywords));
   } catch {
     /* ignore */
   }
@@ -546,6 +621,7 @@ function aggregateTrendPlot(df, unit) {
 function drawChart(plotRows, xFmt, latestVal) {
   const el = document.getElementById("chart");
   const empty = document.getElementById("chartEmpty");
+  if (!el || !empty) return;
   if (!plotRows.length) {
     el.innerHTML = "";
     empty.hidden = false;
@@ -602,6 +678,7 @@ function drawChart(plotRows, xFmt, latestVal) {
 
 function updateMetric(latestVal, prevVal) {
   const metric = document.getElementById("metric");
+  if (!metric) return;
   if (latestVal == null) {
     metric.hidden = true;
     return;
@@ -622,12 +699,179 @@ async function main() {
   const btnToggle = document.getElementById("btnToggleNews");
   const btnRefresh = document.getElementById("btnRefresh");
   const btnClearCache = document.getElementById("btnClearCache");
+  const keywordInput = document.getElementById("keywordInput");
+  const btnKeywordSearch = document.getElementById("btnKeywordSearch");
+  const btnKeywordAdd = document.getElementById("btnKeywordAdd");
+  const btnKeywordClear = document.getElementById("btnKeywordClear");
+  const keywordStatus = document.getElementById("keywordStatus");
+  const presetKeywords = document.getElementById("presetKeywords");
 
   let showPriorNews = true;
   let trendsCache = null;
   let manualDisplayTime = null;
+  let activeKeyword = "";
+  let latestRawItems = [];
+  let latestRawDate = "";
+  let latestMergedHistory = [];
+  let latestNewsItems = [];
+  const customPresetKeywords = loadCustomPresetKeywords();
+  let presetKeywordsList = [...PRESET_KEYWORDS, ...customPresetKeywords];
 
   btnToggle.textContent = showPriorNews ? "24HR新聞" : "顯示全部新聞";
+
+  function syncKeywordStatus() {
+    if (!keywordStatus) return;
+    const tokens = parseSearchKeywords(activeKeyword);
+    keywordStatus.textContent = tokens.length
+      ? `目前：關鍵字(AND)「${tokens.join(" + ")}」`
+      : "目前：全部新聞";
+    if (!presetKeywords) return;
+    const chips = presetKeywords.querySelectorAll(".chip-btn");
+    chips.forEach((chip) => {
+      const v = chip.getAttribute("data-keyword") || "";
+      chip.classList.toggle("active", tokens.includes(v));
+    });
+  }
+
+  function renderPresetChips() {
+    if (!presetKeywords) return;
+    presetKeywords.innerHTML = "";
+    for (const kw of presetKeywordsList) {
+      const isCustom = customPresetKeywords.includes(kw);
+      const wrap = document.createElement("div");
+      wrap.className = "chip-wrap";
+
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "chip-btn";
+      b.textContent = kw;
+      b.setAttribute("data-keyword", kw);
+      b.addEventListener("click", () => {
+        activeKeyword = kw;
+        if (keywordInput) keywordInput.value = kw;
+        applyKeywordFilter();
+      });
+      wrap.appendChild(b);
+
+      if (isCustom) {
+        const del = document.createElement("button");
+        del.type = "button";
+        del.className = "chip-del-btn";
+        del.textContent = "x";
+        del.setAttribute("aria-label", `刪除預設關鍵字 ${kw}`);
+        del.title = `刪除 ${kw}`;
+        del.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const idx = customPresetKeywords.findIndex((v) => v === kw);
+          if (idx >= 0) customPresetKeywords.splice(idx, 1);
+          saveCustomPresetKeywords(customPresetKeywords);
+          presetKeywordsList = [...PRESET_KEYWORDS, ...customPresetKeywords];
+          if (activeKeyword === kw) activeKeyword = "";
+          renderPresetChips();
+          applyKeywordFilter();
+          msg.textContent = `已刪除預設關鍵字：${kw}`;
+          msg.hidden = false;
+        });
+        wrap.appendChild(del);
+      }
+
+      presetKeywords.appendChild(wrap);
+    }
+    syncKeywordStatus();
+  }
+
+  function addPresetKeywordFromInput() {
+    const tokens = parseSearchKeywords(keywordInput?.value || "");
+    if (!tokens.length) {
+      msg.textContent = "請先輸入關鍵字再加入預設。";
+      msg.hidden = false;
+      return;
+    }
+    const baseSet = new Set(PRESET_KEYWORDS.map((k) => k.toLowerCase()));
+    const customSet = new Set(customPresetKeywords.map((k) => k.toLowerCase()));
+    let added = 0;
+    for (const kw of tokens) {
+      const norm = kw.toLowerCase();
+      if (baseSet.has(norm) || customSet.has(norm)) continue;
+      customPresetKeywords.push(kw);
+      customSet.add(norm);
+      added += 1;
+    }
+    if (!added) {
+      msg.textContent = "這些關鍵字已在預設清單中。";
+      msg.hidden = false;
+      return;
+    }
+    saveCustomPresetKeywords(customPresetKeywords);
+    presetKeywordsList = [...PRESET_KEYWORDS, ...customPresetKeywords];
+    renderPresetChips();
+    msg.textContent = `已加入 ${added} 個預設關鍵字。`;
+    msg.hidden = false;
+  }
+
+  function applyKeywordFilter() {
+    renderRawNewsSection(latestRawItems, latestRawDate, activeKeyword);
+    renderSummaryList();
+    syncKeywordStatus();
+  }
+
+  function renderSummaryList() {
+    const tokens = parseSearchKeywords(activeKeyword).map((k) => k.toLowerCase());
+    const filteredHistory = tokens.length
+      ? latestMergedHistory.filter((hist) => {
+          const text = String(hist || "").toLowerCase();
+          return tokens.every((kw) => text.includes(kw));
+        })
+      : latestMergedHistory;
+
+    summaryList.innerHTML = "";
+    if (!filteredHistory.length) {
+      summaryList.innerHTML = tokens.length
+        ? `<p class="empty">找不到關鍵字「${activeKeyword}」相關摘要。</p>`
+        : '<p class="empty">目前沒有可顯示的新聞清單。可按「立即更新」，或等待排程寫入 data/history.json。</p>';
+      return;
+    }
+    filteredHistory.forEach((hist, idx) => {
+      const mergeTime = idx === 0 ? manualDisplayTime : null;
+      summaryList.insertAdjacentHTML(
+        "beforeend",
+        renderHistoryHtml(hist, latestNewsItems, showPriorNews, mergeTime, activeKeyword)
+      );
+    });
+  }
+
+  renderPresetChips();
+
+  if (btnKeywordSearch) {
+    btnKeywordSearch.addEventListener("click", () => {
+      activeKeyword = (keywordInput?.value || "").trim();
+      applyKeywordFilter();
+    });
+  }
+
+  if (btnKeywordAdd) {
+    btnKeywordAdd.addEventListener("click", () => {
+      addPresetKeywordFromInput();
+    });
+  }
+
+  if (btnKeywordClear) {
+    btnKeywordClear.addEventListener("click", () => {
+      activeKeyword = "";
+      if (keywordInput) keywordInput.value = "";
+      applyKeywordFilter();
+    });
+  }
+
+  if (keywordInput) {
+    keywordInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        activeKeyword = (keywordInput.value || "").trim();
+        applyKeywordFilter();
+      }
+    });
+  }
 
   async function loadAndRender() {
     let history = [];
@@ -659,8 +903,11 @@ async function main() {
     } catch {
       poolData = [];
     }
-    const rawForDisplay = mergeNewsForDisplay(poolData, todayData, 80);
-    renderRawNewsSection(rawForDisplay, todayData.date || "");
+    const rawForDisplay = mergeNewsForDisplay(poolData, todayData, 120);
+    latestRawItems = rawForDisplay;
+    latestRawDate = todayData.date || "";
+    renderRawNewsSection(latestRawItems, latestRawDate, activeKeyword);
+    syncKeywordStatus();
 
     const overlay = loadOverlay();
     const topServerTs = history.length ? parseSummaryUpdateTime(history[0]) : 0;
@@ -668,20 +915,9 @@ async function main() {
     const mergedFirst = [...freshOverlay, ...history].slice(0, 5);
 
     const newsItems = todayData.news || [];
-
-    summaryList.innerHTML = "";
-    if (!mergedFirst.length) {
-      summaryList.innerHTML =
-        '<p class="empty">目前沒有可顯示的新聞清單。可按「立即更新」，或等待排程寫入 data/history.json。</p>';
-    } else {
-      mergedFirst.forEach((hist, idx) => {
-        const mergeTime = idx === 0 ? manualDisplayTime : null;
-        summaryList.insertAdjacentHTML(
-          "beforeend",
-          renderHistoryHtml(hist, newsItems, showPriorNews, mergeTime)
-        );
-      });
-    }
+    latestMergedHistory = mergedFirst;
+    latestNewsItems = newsItems;
+    renderSummaryList();
 
     const unit = document.querySelector('input[name="unit"]:checked')?.value || "raw";
     let { rows: plotRows, xFmt } = aggregateTrendPlot(trends, unit);

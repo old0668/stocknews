@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI 經濟情報站</title>
   <link rel="stylesheet" href="./app.css" />
-  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
 </head>
@@ -13,7 +12,7 @@
   <div class="page">
     <header class="header">
       <h1>🗞️ 經濟情報站</h1>
-      <p class="hint">一般網頁 + Cloudflare Pages；評論與情緒／信心指數由 <strong>Gemini API</strong> 產生（<code>/api/generate</code>）。下方「最新抓取稿件」顯示 RSS 原始資料（今日累積 + 48h 候選池）。</p>
+      <p class="hint">一般網頁 + Cloudflare Pages。下方「最新抓取稿件」顯示 RSS 原始資料（今日累積 + 48h 候選池），可用關鍵字快速篩選。</p>
       <p id="syncStatus" class="sync-status" aria-live="polite"></p>
     </header>
 
@@ -30,16 +29,17 @@
       </section>
 
       <section class="panel chart-panel">
-        <h2>📈 市場信心走勢</h2>
-        <div id="metric" class="metric" hidden></div>
-        <div class="unit-row">
-          <span class="unit-label">單位</span>
-          <label><input type="radio" name="unit" value="raw" checked /> 原始</label>
-          <label><input type="radio" name="unit" value="hour" /> 小時</label>
-          <label><input type="radio" name="unit" value="day" /> 天</label>
+        <h2>🔎 關鍵字搜尋</h2>
+        <div class="keyword-search">
+          <input id="keywordInput" class="keyword-input" type="text" placeholder="輸入關鍵字（例如：台積電、NVIDIA、Fed）" />
+          <div class="keyword-actions">
+            <button type="button" id="btnKeywordSearch" class="btn btn-primary">搜尋</button>
+            <button type="button" id="btnKeywordAdd" class="btn btn-secondary">加入預設</button>
+            <button type="button" id="btnKeywordClear" class="btn btn-secondary">清除</button>
+          </div>
+          <p id="keywordStatus" class="keyword-status">目前：全部新聞</p>
+          <div id="presetKeywords" class="preset-keywords" aria-label="預設關鍵字"></div>
         </div>
-        <div id="chart" class="chart"></div>
-        <p id="chartEmpty" class="empty">尚無走勢資料。請執行聚合或按「立即更新」。</p>
       </section>
     </div>
 
@@ -52,7 +52,7 @@
       </p>
     </section>
 
-    <footer class="footer">Powered by Gemini（經 Cloudflare 代理）</footer>
+    <footer class="footer">Powered by RSS aggregation</footer>
   </div>
   <script type="module" src="./app.js" defer></script>
 </body>
