@@ -8,7 +8,33 @@ const LAST_ITEMS_FP_KEY = "news0407_last_items_fp";
 const CUSTOM_PRESET_KEYWORDS_KEY = "news0407_custom_preset_keywords";
 /** 向伺服器重新讀取 data/*.json 的間隔（GitHub 約每小時推送新稿，5 分鐘內可跟上部署） */
 const DATA_POLL_MS = 5 * 60 * 1000;
-const PRESET_KEYWORDS = ["台股", "美股", "台積電", "聯發科", "NVIDIA", "Fed", "降息", "財報"];
+const PRESET_KEYWORDS = [
+  "台股新聞",
+  "今日個股新聞",
+  "法說會時程",
+  "除權息參考價",
+  "大盤即時資訊",
+  "盤後分析",
+  "三大法人買超",
+  "融資融券餘額",
+  "EPS 查詢",
+  "營收年增率",
+  "配息政策",
+  "毛利率",
+  "先進封裝",
+  "CoWoS",
+  "矽光子",
+  "AI 伺服器代工",
+  "邊緣運算",
+  "GB200 供應鏈",
+  "重電外銷",
+  "低軌衛星概念股",
+  "BDI",
+  "SCFI",
+  "綠能轉型",
+  "金控獲利公告",
+  "ETF 換股名單",
+];
 
 function nowDisplayStr() {
   const fmt = new Intl.DateTimeFormat("en-CA", {
@@ -292,8 +318,8 @@ function sortTodayNewsSectionNewestFirst(summary) {
   return summary.slice(0, si) + "\n\n" + newBody + summary.slice(ei);
 }
 
-function filterTodayNewsSection(summary, showAll) {
-  if (showAll) return summary;
+function filterTodayNewsSection(summary, maxHours = 24) {
+  if (!maxHours || maxHours <= 0) return summary;
   const start = "#### 今日財經要聞";
   if (!summary.includes(start)) return summary;
   const updateDt = parseUpdateTime(summary) || new Date();
@@ -311,7 +337,7 @@ function filterTodayNewsSection(summary, showAll) {
   const g = (t) => parts.find((p) => p.type === t)?.value;
   const nowStr = `${g("year")}-${g("month")}-${g("day")} ${g("hour")}:${g("minute")}`;
   const now = new Date(nowStr.replace(" ", "T"));
-  const cutoff = now.getTime() - 24 * 3600000;
+  const cutoff = now.getTime() - maxHours * 3600000;
 
   const si = summary.indexOf(start) + start.length;
   let ei = summary.length;
@@ -489,7 +515,7 @@ function mdToSafeHtml(md) {
   });
 }
 
-function processHistoryMarkdown(raw, newsItems, showAll, mergeTime) {
+function processHistoryMarkdown(raw, newsItems, maxHours, mergeTime) {
   let hist = raw;
   if (mergeTime) {
     if (/<div class='update-time'>/.test(hist)) {
@@ -505,7 +531,7 @@ function processHistoryMarkdown(raw, newsItems, showAll, mergeTime) {
   }
   hist = ensureTodayNewsLineBreaks(hist);
   hist = sortTodayNewsSectionNewestFirst(hist);
-  hist = filterTodayNewsSection(hist, showAll);
+  hist = filterTodayNewsSection(hist, maxHours);
   hist = linkifyTodayNewsSection(hist, newsItems);
   hist = colorizeSentimentScoresInTodayNews(hist);
   return hist;
@@ -524,8 +550,8 @@ function renderHistoryHtmlFromMd(md, keyword = "") {
   return `<div class="summary-box">${header}<div class="md-body">${bodyHtml}</div></div>`;
 }
 
-function renderHistoryHtml(raw, newsItems, showAll, mergeTime, keyword = "") {
-  const md = processHistoryMarkdown(raw, newsItems, showAll, mergeTime);
+function renderHistoryHtml(raw, newsItems, maxHours, mergeTime, keyword = "") {
+  const md = processHistoryMarkdown(raw, newsItems, maxHours, mergeTime);
   return renderHistoryHtmlFromMd(md, keyword);
 }
 
@@ -706,7 +732,7 @@ async function main() {
   const keywordStatus = document.getElementById("keywordStatus");
   const presetKeywords = document.getElementById("presetKeywords");
 
-  let showPriorNews = true;
+  let newsWindowHours = 24;
   let trendsCache = null;
   let manualDisplayTime = null;
   let activeKeyword = "";
@@ -717,7 +743,7 @@ async function main() {
   const customPresetKeywords = loadCustomPresetKeywords();
   let presetKeywordsList = [...PRESET_KEYWORDS, ...customPresetKeywords];
 
-  btnToggle.textContent = showPriorNews ? "24HR新聞" : "顯示全部新聞";
+  btnToggle.textContent = "顯示近3日新聞";
 
   function syncKeywordStatus() {
     if (!keywordStatus) return;
@@ -831,13 +857,11 @@ async function main() {
         : '<p class="empty">目前沒有可顯示的新聞清單。可按「立即更新」，或等待排程寫入 data/history.json。</p>';
       return;
     }
-    filteredHistory.forEach((hist, idx) => {
-      const mergeTime = idx === 0 ? manualDisplayTime : null;
-      summaryList.insertAdjacentHTML(
-        "beforeend",
-        renderHistoryHtml(hist, latestNewsItems, showPriorNews, mergeTime, activeKeyword)
-      );
-    });
+    const latestHist = filteredHistory[0];
+    summaryList.insertAdjacentHTML(
+      "beforeend",
+      renderHistoryHtml(latestHist, latestNewsItems, newsWindowHours, manualDisplayTime, activeKeyword)
+    );
   }
 
   renderPresetChips();
@@ -925,10 +949,10 @@ async function main() {
     let summaryConf = null;
     let prevSummaryConf = null;
     if (mergedFirst.length) {
-      const h0md = processHistoryMarkdown(mergedFirst[0], newsItems, showPriorNews, manualDisplayTime);
+      const h0md = processHistoryMarkdown(mergedFirst[0], newsItems, newsWindowHours, manualDisplayTime);
       summaryConf = extractConfidenceIndexForTrend(h0md);
       if (mergedFirst.length > 1) {
-        const h1md = processHistoryMarkdown(mergedFirst[1], newsItems, showPriorNews, null);
+        const h1md = processHistoryMarkdown(mergedFirst[1], newsItems, newsWindowHours, null);
         prevSummaryConf = extractConfidenceIndexForTrend(h1md);
       }
     }
@@ -962,9 +986,9 @@ async function main() {
   }
 
   btnToggle.addEventListener("click", () => {
-    showPriorNews = !showPriorNews;
-    btnToggle.textContent = showPriorNews ? "24HR新聞" : "顯示全部新聞";
-    loadAndRender();
+    newsWindowHours = newsWindowHours === 24 ? 72 : 24;
+    btnToggle.textContent = newsWindowHours === 24 ? "顯示近3日新聞" : "顯示24小時新聞";
+    renderSummaryList();
   });
 
   document.querySelectorAll('input[name="unit"]').forEach((el) => {
@@ -981,7 +1005,7 @@ async function main() {
 
   btnRefresh.addEventListener("click", async () => {
     msg.hidden = true;
-    const refreshIdleText = "立即更新";
+    const refreshIdleText = "更新新聞";
     btnRefresh.textContent = "更新中...";
     let pool = [];
     let todayData = { news: [] };
