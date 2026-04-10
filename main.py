@@ -40,6 +40,22 @@ async def _close_gemini_client(client):
         logger.debug("Gemini client cleanup: %s", e)
 
 
+def _extract_markdown_from_history_entry(entry: str) -> str:
+    """從 history 條目取出與本次 summary 可比對的 Markdown（不含更新時間 div）。"""
+    if not entry or not isinstance(entry, str):
+        return ""
+    marker = "</div>\n\n"
+    i = entry.find(marker)
+    if i == -1:
+        t = entry.strip()
+        return t if t.startswith("####") else ""
+    start = i + len(marker)
+    end = entry.rfind("\n\n---")
+    if end == -1 or end <= start:
+        return entry[start:].strip()
+    return entry[start:end].strip()
+
+
 def load_config(config_path="config/config.yaml"):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     full_config_path = os.path.join(base_dir, config_path)
@@ -111,7 +127,16 @@ async def run_aggregator(force_refresh: bool = False):
                     except Exception:
                         summaries = []
 
-            summaries.insert(0, web_content)
+            new_md = summary.strip()
+            if summaries:
+                old_md = _extract_markdown_from_history_entry(summaries[0])
+                if old_md == new_md:
+                    summaries[0] = web_content
+                    logger.info("清單內文與首則相同，僅更新 🕒 更新時間。")
+                else:
+                    summaries.insert(0, web_content)
+            else:
+                summaries.insert(0, web_content)
             summaries = summaries[:50]
 
             with open(history_path, "w", encoding="utf-8") as f:

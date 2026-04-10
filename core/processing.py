@@ -18,7 +18,6 @@ MAX_TODAY_NEWS_ITEMS = 500
 MAX_TREND_POINTS = 1000
 SUMMARY_ITEMS_LIMIT = 200
 COLLECTION_WINDOW_HOURS = 72
-LAST_SUMMARY_FP_FILE = "data/last_summary_fp.txt"
 
 
 def _project_root() -> str:
@@ -821,26 +820,6 @@ class Processor:
         summary = "\n".join(lines).strip()
         summary = ensure_today_news_line_breaks(summary)
         summary = sort_today_news_section_newest_first(summary)
-
-        fp = hashlib.md5(summary.encode("utf-8")).hexdigest()
-        fp_path = _abs_data(LAST_SUMMARY_FP_FILE)
-        last_fp = ""
-        if os.path.exists(fp_path):
-            try:
-                with open(fp_path, "r", encoding="utf-8") as f:
-                    last_fp = f.read().strip()
-            except Exception:
-                last_fp = ""
-
-        if not has_new_content and not force_refresh and fp == last_fp:
-            logger.info("本時段清單內容與上次相同，略過寫入 history 與走勢。")
-            return None
-
-        try:
-            with open(fp_path, "w", encoding="utf-8") as f:
-                f.write(fp)
-        except Exception as e:
-            logger.warning("寫入 last_summary_fp 失敗：%s", e)
 
         self._notify_channels = bool(has_new_content or force_refresh)
         if has_new_content or force_refresh:
