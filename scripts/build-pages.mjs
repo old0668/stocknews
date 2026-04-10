@@ -33,4 +33,5 @@ if (fs.existsSync(dataSrc)) {
     fs.copyFileSync(path.join(dataSrc, name), path.join(dataDst, name));
   }
 }
+fs.writeFileSync(path.join(distDir, ".nojekyll"), "");
 console.log("Built dist/ with web/ + data/*.json");
