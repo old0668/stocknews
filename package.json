@@ -1,0 +1,13 @@
+{
+  "name": "news-0407-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "pages:dev": "npm run build && npx wrangler pages dev dist",
+    "pages:deploy": "npm run build && npx wrangler pages deploy dist --project-name=news-0407"
+  },
+  "devDependencies": {
+    "wrangler": "^4.80.0"
+  }
+}

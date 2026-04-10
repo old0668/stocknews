@@ -1,0 +1,6 @@
+# Cloudflare Pages：靜態輸出目錄為 dist/（npm run build 會複製 web/ + data/*.json）
+# 本機開發：可直接使用 wrangler pages dev（本專案不需 AI API Key）
+
+name = "news-0407"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "dist"

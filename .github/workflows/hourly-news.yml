@@ -1,0 +1,54 @@
+name: Hourly News Update
+
+on:
+  schedule:
+    - cron: "17 * * * *" # 改成非整點，降低延遲率
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 避免多個任務同時寫入 data/ 導致衝突
+concurrency:
+  group: hourly-news-${{ github.ref }}
+  cancel-in-progress: true # 如果前一個還在跑，直接取消它，跑最新的
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15 # 縮短超時，避免卡死消耗額度
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 獲取完整歷史以利 rebase
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run news aggregator
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          LINE_NOTIFY_TOKEN: ${{ secrets.LINE_NOTIFY_TOKEN }}
+        run: python main.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes under data/ — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): update from news aggregator"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}

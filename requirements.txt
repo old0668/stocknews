@@ -1,0 +1,12 @@
+google-genai
+openai
+pyyaml
+python-dotenv
+feedparser
+httpx
+beautifulsoup4
+python-dateutil
+docx2txt
+openpyxl
+python-pptx
+win10toast; platform_system == "Windows"
