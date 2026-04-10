@@ -756,6 +756,7 @@ async function main() {
   let latestNewsItems = [];
   const customPresetKeywords = loadCustomPresetKeywords();
   let presetKeywordsList = [...PRESET_KEYWORDS, ...customPresetKeywords];
+  const isGithubPagesHost = /(^|\.)github\.io$/i.test(location.hostname);
 
   btnToggle.textContent = "顯示近3日新聞";
 
@@ -1044,6 +1045,20 @@ async function main() {
       btnRefresh.textContent = refreshIdleText;
     };
     btnRefresh.textContent = "更新中...";
+    if (isGithubPagesHost) {
+      try {
+        manualDisplayTime = nowDisplayStr();
+        await loadAndRender();
+        msg.textContent = "已重新載入最新資料（GitHub Pages 不支援即時 /api 產生）。";
+        msg.hidden = false;
+      } catch (e) {
+        msg.textContent = `重新載入失敗：${e.message || e}。`;
+        msg.hidden = false;
+      } finally {
+        resetRefreshButton();
+      }
+      return;
+    }
     let pool = [];
     let todayData = { news: [] };
     try {
