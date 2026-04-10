@@ -55,6 +55,10 @@ body {
   .grid {
     grid-template-columns: 1fr;
   }
+
+  .chart-panel {
+    order: -1;
+  }
 }
 
 .panel h2 {
@@ -187,14 +191,18 @@ body {
   margin: 0.7rem 0 0.45rem;
 }
 
+.keyword-expandable {
+  margin-top: 0.45rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.35);
+}
+
 .keyword-help {
   font-size: 0.82rem;
   color: #cbd5e0;
-  background: rgba(15, 23, 42, 0.45);
-  border: 1px dashed rgba(148, 163, 184, 0.35);
-  border-radius: 8px;
   padding: 0.55rem 0.65rem;
-  margin: 0 0 0.6rem;
+  margin: 0;
 }
 
 .keyword-help p {
@@ -205,6 +213,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
+  padding: 0.55rem 0.65rem 0.65rem;
 }
 
 .chip-wrap {

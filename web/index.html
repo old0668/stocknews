@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>祥老師經濟情報站</title>
+  <title>祥老師新聞情報站</title>
   <link rel="stylesheet" href="./app.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
@@ -11,7 +11,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <h1>🗞️ 祥老師經濟情報站</h1>
+      <h1>🗞️ 祥老師新聞情報站</h1>
     </header>
 
     <div class="grid">
@@ -33,15 +33,17 @@
             <button type="button" id="btnKeywordSearch" class="btn btn-primary">搜尋</button>
             <button type="button" id="btnKeywordAdd" class="btn btn-secondary">加入預設</button>
             <button type="button" id="btnKeywordClear" class="btn btn-secondary">清除</button>
+            <button type="button" id="btnKeywordToggle" class="btn btn-secondary">展開</button>
           </div>
           <p id="keywordStatus" class="keyword-status">目前：全部新聞</p>
-          <div class="keyword-help">
-            <p>操作方式：</p>
-            <p>1) 單一關鍵字：直接輸入後按搜尋。</p>
-            <p>2) 多關鍵字：用 <code>+</code> 串接（AND），例如 <code>台積電 + 財報</code>。</p>
-            <p>3) 可按「加入預設」存成快速按鈕；自訂關鍵字可用 <code>x</code> 刪除。</p>
+          <div id="keywordExpandable" class="keyword-expandable" hidden>
+            <div class="keyword-help">
+              <p>1) 單一關鍵字：直接輸入後按搜尋。</p>
+              <p>2) 多關鍵字：用 <code>+</code> 串接（AND），例如 <code>台積電 + 財報</code>。</p>
+              <p>3) 可按「加入預設」存成快速按鈕；自訂關鍵字可用 <code>x</code> 刪除。</p>
+            </div>
+            <div id="presetKeywords" class="preset-keywords" aria-label="預設關鍵字"></div>
           </div>
-          <div id="presetKeywords" class="preset-keywords" aria-label="預設關鍵字"></div>
         </div>
       </section>
     </div>

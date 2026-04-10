@@ -729,6 +729,8 @@ async function main() {
   const btnKeywordSearch = document.getElementById("btnKeywordSearch");
   const btnKeywordAdd = document.getElementById("btnKeywordAdd");
   const btnKeywordClear = document.getElementById("btnKeywordClear");
+  const btnKeywordToggle = document.getElementById("btnKeywordToggle");
+  const keywordExpandable = document.getElementById("keywordExpandable");
   const keywordStatus = document.getElementById("keywordStatus");
   const presetKeywords = document.getElementById("presetKeywords");
 
@@ -887,6 +889,14 @@ async function main() {
     });
   }
 
+  if (btnKeywordToggle && keywordExpandable) {
+    btnKeywordToggle.addEventListener("click", () => {
+      const willShow = keywordExpandable.hidden;
+      keywordExpandable.hidden = !willShow;
+      btnKeywordToggle.textContent = willShow ? "收合" : "展開";
+    });
+  }
+
   if (keywordInput) {
     keywordInput.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
@@ -1006,6 +1016,10 @@ async function main() {
   btnRefresh.addEventListener("click", async () => {
     msg.hidden = true;
     const refreshIdleText = "更新新聞";
+    const resetRefreshButton = () => {
+      btnRefresh.disabled = false;
+      btnRefresh.textContent = refreshIdleText;
+    };
     btnRefresh.textContent = "更新中...";
     let pool = [];
     let todayData = { news: [] };
@@ -1024,6 +1038,7 @@ async function main() {
     if (!items.length) {
       msg.textContent = "沒有可更新的稿件（請確認 data/recent_news_pool.json 或今日新聞）。";
       msg.hidden = false;
+      resetRefreshButton();
       return;
     }
     const currentFp = fingerprintItems(items);
@@ -1031,6 +1046,7 @@ async function main() {
     if (currentFp && currentFp === lastFp) {
       msg.textContent = "新聞內容未變更，已沿用上次清單。";
       msg.hidden = false;
+      resetRefreshButton();
       return;
     }
     btnRefresh.disabled = true;
@@ -1064,8 +1080,7 @@ async function main() {
       msg.textContent = `更新失敗：${e.message || e}。`;
       msg.hidden = false;
     } finally {
-      btnRefresh.disabled = false;
-      btnRefresh.textContent = refreshIdleText;
+      resetRefreshButton();
     }
   });
 

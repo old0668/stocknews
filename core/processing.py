@@ -14,6 +14,8 @@ load_dotenv(override=True)
 
 logger = logging.getLogger(__name__)
 _TW = ZoneInfo("Asia/Taipei")
+MAX_TODAY_NEWS_ITEMS = 500
+MAX_TREND_POINTS = 1000
 
 
 def _project_root() -> str:
@@ -502,6 +504,14 @@ class Processor:
                         news = data.get("news", [])
                         for it in news:
                             _hydrate_item_dt(it, last_update)
+                        news.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+                        if len(news) > MAX_TODAY_NEWS_ITEMS:
+                            logger.info(
+                                "today_news 載入後裁切：%d -> %d",
+                                len(news),
+                                MAX_TODAY_NEWS_ITEMS,
+                            )
+                            news = news[:MAX_TODAY_NEWS_ITEMS]
                         return news
                     logger.info("檢測到日期變更，重置當日新聞列表。")
                     return []
@@ -513,6 +523,14 @@ class Processor:
     def save_today_news(self):
         try:
             today_str = datetime.now(_TW).strftime("%Y-%m-%d")
+            self.today_news.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+            if len(self.today_news) > MAX_TODAY_NEWS_ITEMS:
+                logger.info(
+                    "today_news 寫入前裁切：%d -> %d",
+                    len(self.today_news),
+                    MAX_TODAY_NEWS_ITEMS,
+                )
+                self.today_news = self.today_news[:MAX_TODAY_NEWS_ITEMS]
             serializable_news = []
             for item in self.today_news:
                 clean_item = {k: v for k, v in item.items() if k != "_dt"}
@@ -617,6 +635,8 @@ class Processor:
                 "news_count": count,
             }
         )
+        if len(trend_data) > MAX_TREND_POINTS:
+            trend_data = trend_data[-MAX_TREND_POINTS:]
 
         try:
             with open(self.trend_file, "w", encoding="utf-8") as f:
