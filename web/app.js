@@ -859,11 +859,13 @@ async function main() {
         : '<p class="empty">目前沒有可顯示的新聞清單。可按「立即更新」，或等待排程寫入 data/history.json。</p>';
       return;
     }
-    const latestHist = filteredHistory[0];
-    summaryList.insertAdjacentHTML(
-      "beforeend",
-      renderHistoryHtml(latestHist, latestNewsItems, newsWindowHours, manualDisplayTime, activeKeyword)
-    );
+    filteredHistory.forEach((hist, idx) => {
+      const mergeTime = idx === 0 ? manualDisplayTime : null;
+      summaryList.insertAdjacentHTML(
+        "beforeend",
+        renderHistoryHtml(hist, latestNewsItems, newsWindowHours, mergeTime, activeKeyword)
+      );
+    });
   }
 
   renderPresetChips();
