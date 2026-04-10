@@ -17,10 +17,12 @@ jobs:
   aggregate:
     runs-on: ubuntu-latest
     timeout-minutes: 15 # 縮短超時，避免卡死消耗額度
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0 # 獲取完整歷史以利 rebase
 
@@ -42,13 +44,24 @@ jobs:
 
       - name: Commit and push data
         run: |
+          set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
+          echo "=== git status (data/) ==="
+          git status --short data/
+          echo "=== git diff --staged --name-only ==="
+          git diff --staged --name-only
           if git diff --staged --quiet; then
+            echo "NO_DATA_CHANGES=1"
             echo "No changes under data/ — nothing to commit."
             exit 0
           fi
+          echo "NO_DATA_CHANGES=0"
           git commit -m "chore(data): update from news aggregator"
+          echo "=== after commit ==="
+          git --no-pager log --oneline -n 1
           git pull --rebase origin ${{ github.ref_name }}
+          echo "=== pushing to branch ==="
+          echo "${{ github.ref_name }}"
           git push origin HEAD:${{ github.ref_name }}
