@@ -2,7 +2,7 @@ name: Hourly News Update
 
 on:
   schedule:
-    - cron: "17 * * * *" # 改成非整點，降低延遲率
+    - cron: "17,47 * * * *" # 改成非整點，降低延遲率
   workflow_dispatch:
 
 permissions:
