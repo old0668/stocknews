@@ -18,6 +18,7 @@ MAX_TODAY_NEWS_ITEMS = 500
 MAX_TREND_POINTS = 1000
 SUMMARY_ITEMS_LIMIT = 200
 COLLECTION_WINDOW_HOURS = 72
+LAST_SUMMARY_FP_FILE = "data/last_summary_fp.txt"
 
 
 def _project_root() -> str:
@@ -477,6 +478,7 @@ class Processor:
 
         self.openai_client = None
         self.gemini_client = None
+        self._notify_channels = True
 
     def load_history(self):
         if os.path.exists(self.history_file):
@@ -608,15 +610,28 @@ class Processor:
         pool = self._recent_pool_snapshot
         if pool is None:
             pool = self.load_recent_pool()
+        cal = datetime.now(_TW).strftime("%Y-%m-%d")
+
+        def _prefer_newer(a: dict, b: dict) -> dict:
+            _hydrate_item_dt(a, cal)
+            _hydrate_item_dt(b, cal)
+            da = a.get("_dt", datetime.min)
+            db = b.get("_dt", datetime.min)
+            return b if db > da else a
+
         by_link: dict = {}
-        for it in pool:
-            if isinstance(it, dict) and it.get("link"):
-                by_link[it["link"]] = it
         for it in self.today_news:
             if isinstance(it, dict) and it.get("link"):
                 by_link[it["link"]] = it
+        for it in pool:
+            if not isinstance(it, dict) or not it.get("link"):
+                continue
+            link = it["link"]
+            if link not in by_link:
+                by_link[link] = it
+            else:
+                by_link[link] = _prefer_newer(by_link[link], it)
         out = list(by_link.values())
-        cal = datetime.now(_TW).strftime("%Y-%m-%d")
         for it in out:
             _hydrate_item_dt(it, cal)
         out.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
@@ -789,10 +804,6 @@ class Processor:
         if not self.today_news and not display_items:
             return "目前沒有相關的新聞內容。"
 
-        if not has_new_content and not force_refresh:
-            logger.info("本時段無新新聞，略過 LLM 與走勢更新。")
-            return None
-
         if force_refresh and not has_new_content:
             logger.info("強制更新：重新產生新聞清單（不使用 AI）。")
 
@@ -810,7 +821,30 @@ class Processor:
         summary = "\n".join(lines).strip()
         summary = ensure_today_news_line_breaks(summary)
         summary = sort_today_news_section_newest_first(summary)
-        self.save_trend(50.0, len(self.today_news))
+
+        fp = hashlib.md5(summary.encode("utf-8")).hexdigest()
+        fp_path = _abs_data(LAST_SUMMARY_FP_FILE)
+        last_fp = ""
+        if os.path.exists(fp_path):
+            try:
+                with open(fp_path, "r", encoding="utf-8") as f:
+                    last_fp = f.read().strip()
+            except Exception:
+                last_fp = ""
+
+        if not has_new_content and not force_refresh and fp == last_fp:
+            logger.info("本時段清單內容與上次相同，略過寫入 history 與走勢。")
+            return None
+
+        try:
+            with open(fp_path, "w", encoding="utf-8") as f:
+                f.write(fp)
+        except Exception as e:
+            logger.warning("寫入 last_summary_fp 失敗：%s", e)
+
+        self._notify_channels = bool(has_new_content or force_refresh)
+        if has_new_content or force_refresh:
+            self.save_trend(50.0, len(self.today_news))
 
         if force_refresh and items:
             self.ensure_link_hashes(items)

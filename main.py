@@ -86,9 +86,12 @@ async def run_aggregator(force_refresh: bool = False):
             logger.info("No new news; LLM and trend file unchanged.")
             return None, filtered_news
 
-        notifier = Notifier()
-        logger.info("Delivering summary to configured channels...")
-        await notifier.notify_all(summary)
+        if getattr(processor, "_notify_channels", True):
+            notifier = Notifier()
+            logger.info("Delivering summary to configured channels...")
+            await notifier.notify_all(summary)
+        else:
+            logger.info("略過 Telegram/LINE：僅同步網頁清單（時間排序或 pool 更新，無全新連結）。")
 
         try:
             import json
