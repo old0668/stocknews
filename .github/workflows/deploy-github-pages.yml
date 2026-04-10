@@ -36,10 +36,21 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     steps:
+      # workflow_run.head_sha = Hourly「開始時」的 commit；該 job 結尾會再 push 一個含 data/ 的新 commit。
+      # 若這裡仍用 head_sha 建置，會永遠打包到「資料更新前」的內容，網站看起來永遠舊稿。
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
-          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'workflow_run' && format('refs/heads/{0}', github.event.workflow_run.head_branch) || github.sha }}
+
+      - name: Align to branch tip (workflow_run only)
+        if: github.event_name == 'workflow_run'
+        run: |
+          git fetch origin "${{ github.event.workflow_run.head_branch }}"
+          git reset --hard "origin/${{ github.event.workflow_run.head_branch }}"
+          echo "HEAD=$(git rev-parse HEAD)"
+          git --no-pager log -1 --oneline
 
       - name: Set up Node.js
         uses: actions/setup-node@v5

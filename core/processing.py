@@ -821,6 +821,14 @@ class Processor:
         summary = ensure_today_news_line_breaks(summary)
         summary = sort_today_news_section_newest_first(summary)
 
+        if display_items:
+            top = display_items[0]
+            logger.info(
+                "摘要清單首則（時間新→舊排序後）：[%s] %s",
+                top.get("display_time") or "?",
+                ((top.get("title") or "").replace("\n", " ").strip()[:80]),
+            )
+
         self._notify_channels = bool(has_new_content or force_refresh)
         if has_new_content or force_refresh:
             self.save_trend(50.0, len(self.today_news))
