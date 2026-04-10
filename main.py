@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 import asyncio
-import yaml
-import os
+import json
 import logging
+import os
 import platform
+import re
+import yaml
+from datetime import datetime
+from typing import Optional
+from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 from core.ingestion import Ingestor
 from core.processing import Processor
@@ -16,6 +21,9 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger(__name__)
+
+# Must match processor summary header (#### today finance headlines).
+TODAY_HEADLINES_HEADER = "#### \u4eca\u65e5\u8ca1\u7d93\u8981\u805e"
 
 
 async def _close_gemini_client(client):
@@ -40,8 +48,29 @@ async def _close_gemini_client(client):
         logger.debug("Gemini client cleanup: %s", e)
 
 
+def _peak_time_in_today_section(summary_md: str, ref_year: int) -> Optional[datetime]:
+    """Latest [MM/DD HH:MM] under today headlines block; None if missing."""
+    if not summary_md or TODAY_HEADLINES_HEADER not in summary_md:
+        return None
+    si = summary_md.index(TODAY_HEADLINES_HEADER) + len(TODAY_HEADLINES_HEADER)
+    ei = len(summary_md)
+    for em in ("\n#### ", "\n---"):
+        p = summary_md.find(em, si)
+        if p != -1:
+            ei = min(ei, p)
+    body = summary_md[si:ei]
+    peaks: list[datetime] = []
+    for m in re.finditer(r"\[(\d{2})/(\d{2})\s+(\d{2}):(\d{2})\]", body):
+        mo, d, h, mi = int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4))
+        try:
+            peaks.append(datetime(ref_year, mo, d, h, mi))
+        except ValueError:
+            continue
+    return max(peaks) if peaks else None
+
+
 def _extract_markdown_from_history_entry(entry: str) -> str:
-    """從 history 條目取出與本次 summary 可比對的 Markdown（不含更新時間 div）。"""
+    """Markdown body of a history entry (without update-time div)."""
     if not entry or not isinstance(entry, str):
         return ""
     marker = "</div>\n\n"
@@ -65,16 +94,16 @@ def load_config(config_path="config/config.yaml"):
 
 async def run_aggregator(force_refresh: bool = False):
     """
-    force_refresh=True：略過 URL 去重，以 48h+關鍵字候選合併今日新聞並強制呼叫 LLM。
+    force_refresh=True: skip URL dedup, merge candidates + today news, force LLM path.
     """
     processor = None
     try:
         if platform.system() in ("Darwin", "Windows"):
-            logger.info("檢測到 %s 環境，正在初始化...", platform.system())
+            logger.info("Detected %s, initializing...", platform.system())
 
         logger.info("Starting News Aggregator Core Logic...")
         if force_refresh:
-            logger.info("強制更新模式已啟用（略過去重，將重新產生摘要）。")
+            logger.info("Force refresh enabled (skip dedup, regenerate summary).")
 
         config = load_config()
 
@@ -107,17 +136,17 @@ async def run_aggregator(force_refresh: bool = False):
             logger.info("Delivering summary to configured channels...")
             await notifier.notify_all(summary)
         else:
-            logger.info("略過 Telegram/LINE：僅同步網頁清單（時間排序或 pool 更新，無全新連結）。")
+            logger.info("Skip Telegram/LINE: web list refresh only (no brand-new links).")
 
         try:
-            import json
-            from datetime import datetime
-            from zoneinfo import ZoneInfo
-
             base_dir = os.path.dirname(os.path.abspath(__file__))
             history_path = os.path.join(base_dir, "data", "history.json")
-            timestamp = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
-            web_content = f"<div class='update-time'>🕒 更新時間：{timestamp}</div>\n\n{summary}\n\n---"
+            tw = ZoneInfo("Asia/Taipei")
+            timestamp = datetime.now(tw).strftime("%Y-%m-%d %H:%M")
+            web_content = (
+                f"<div class='update-time'>\U0001f552 \u66f4\u65b0\u6642\u9593\uff1a{timestamp}</div>\n\n"
+                f"{summary}\n\n---"
+            )
 
             summaries = []
             if os.path.exists(history_path):
@@ -128,20 +157,39 @@ async def run_aggregator(force_refresh: bool = False):
                         summaries = []
 
             new_md = summary.strip()
+            ref_year = datetime.now(tw).year
+            new_peak = _peak_time_in_today_section(new_md, ref_year)
+            history_changed = False
+
             if summaries:
                 old_md = _extract_markdown_from_history_entry(summaries[0])
                 if old_md == new_md:
                     summaries[0] = web_content
-                    logger.info("清單內文與首則相同，僅更新 🕒 更新時間。")
+                    history_changed = True
+                    logger.info("Same headline list as first entry; refresh update time only.")
                 else:
-                    summaries.insert(0, web_content)
+                    old_peak = _peak_time_in_today_section(old_md, ref_year)
+                    if new_peak and old_peak and new_peak < old_peak:
+                        logger.warning(
+                            "New run peak story time %s is older than current history %s "
+                            "(RSS snapshot differs by runner/region); skip history prepend.",
+                            new_peak.strftime("%m/%d %H:%M"),
+                            old_peak.strftime("%m/%d %H:%M"),
+                        )
+                    else:
+                        summaries.insert(0, web_content)
+                        history_changed = True
             else:
                 summaries.insert(0, web_content)
-            summaries = summaries[:50]
+                history_changed = True
 
-            with open(history_path, "w", encoding="utf-8") as f:
-                json.dump(summaries, f, ensure_ascii=False, indent=2)
-            logger.info("Successfully updated %s for web display.", history_path)
+            if history_changed:
+                summaries = summaries[:50]
+                with open(history_path, "w", encoding="utf-8") as f:
+                    json.dump(summaries, f, ensure_ascii=False, indent=2)
+                logger.info("Successfully updated %s for web display.", history_path)
+            elif summaries:
+                logger.info("history.json unchanged (downgrade skipped).")
         except Exception as e:
             logger.error("Error updating web history: %s", e)
 
@@ -159,11 +207,11 @@ async def main():
         print("\n-------------------------\n")
 
     if platform.system() == "Darwin":
-        print("✅ 任務完成！已發送系統通知。")
+        print("\u2705 Task done (macOS).")
 
 
 if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        print("\n使用者中斷執行。")
+        print("\nInterrupted.")
