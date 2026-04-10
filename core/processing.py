@@ -16,6 +16,8 @@ logger = logging.getLogger(__name__)
 _TW = ZoneInfo("Asia/Taipei")
 MAX_TODAY_NEWS_ITEMS = 500
 MAX_TREND_POINTS = 1000
+SUMMARY_ITEMS_LIMIT = 200
+COLLECTION_WINDOW_HOURS = 72
 
 
 def _project_root() -> str:
@@ -584,7 +586,7 @@ class Processor:
             if isinstance(c, dict) and c.get("link"):
                 by_link[c["link"]] = c
         now = datetime.now(_TW).replace(tzinfo=None)
-        cut = now - timedelta(hours=48)
+        cut = now - timedelta(hours=COLLECTION_WINDOW_HOURS)
         merged = []
         cal = datetime.now(_TW).strftime("%Y-%m-%d")
         for it in by_link.values():
@@ -596,7 +598,11 @@ class Processor:
         merged = merged[:300]
         self.save_recent_pool(merged)
         self._recent_pool_snapshot = merged
-        logger.info("recent_news_pool: 已保存 %d 則（48h 內）", len(merged))
+        logger.info(
+            "recent_news_pool: 已保存 %d 則（%dh 內）",
+            len(merged),
+            COLLECTION_WINDOW_HOURS,
+        )
 
     def _items_union_pool_today_news_for_llm(self) -> list:
         pool = self._recent_pool_snapshot
@@ -614,7 +620,7 @@ class Processor:
         for it in out:
             _hydrate_item_dt(it, cal)
         out.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
-        return out[:40]
+        return out[:SUMMARY_ITEMS_LIMIT]
 
     def save_trend(self, avg_sentiment, count):
         trend_data: list = []
@@ -679,12 +685,12 @@ class Processor:
     def filter_by_keywords(self, news_items, skip_dedup=False):
         filtered = []
         now = datetime.now(_TW).replace(tzinfo=None)
-        forty_eight_hours_ago = now - timedelta(hours=48)
+        cutoff_hours_ago = now - timedelta(hours=COLLECTION_WINDOW_HOURS)
         raw_n = len(news_items)
         stat_no_date = stat_old = stat_no_kw = stat_dup = 0
 
         last_pub_file = _abs_data("data/last_pub_time.txt")
-        last_max_dt = forty_eight_hours_ago
+        last_max_dt = cutoff_hours_ago
         if os.path.exists(last_pub_file):
             try:
                 with open(last_pub_file, "r") as f:
@@ -717,7 +723,7 @@ class Processor:
                 stat_no_date += 1
                 continue
 
-            if pub_dt < forty_eight_hours_ago:
+            if pub_dt < cutoff_hours_ago:
                 stat_old += 1
                 continue
 
@@ -741,19 +747,21 @@ class Processor:
 
         if skip_dedup:
             logger.info(
-                "關鍵字篩選: 原始 %d 筆 → 保留 %d 筆（強制模式略過去重；無日期/解析失敗 %d，逾 48h %d，無關鍵字 %d）",
+                "關鍵字篩選: 原始 %d 筆 → 保留 %d 筆（強制模式略過去重；無日期/解析失敗 %d，逾 %dh %d，無關鍵字 %d）",
                 raw_n,
                 len(filtered),
                 stat_no_date,
+                COLLECTION_WINDOW_HOURS,
                 stat_old,
                 stat_no_kw,
             )
         else:
             logger.info(
-                "關鍵字篩選: 原始 %d 筆 → 保留 %d 筆（無日期/解析失敗 %d，逾 48h %d，無關鍵字 %d，去重略過 %d）",
+                "關鍵字篩選: 原始 %d 筆 → 保留 %d 筆（無日期/解析失敗 %d，逾 %dh %d，無關鍵字 %d，去重略過 %d）",
                 raw_n,
                 len(filtered),
                 stat_no_date,
+                COLLECTION_WINDOW_HOURS,
                 stat_old,
                 stat_no_kw,
                 stat_dup,

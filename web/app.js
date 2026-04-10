@@ -6,6 +6,8 @@ const DISPLAY_TZ = "Asia/Taipei";
 const STORAGE_KEY = "news0407_history_overlay";
 const LAST_ITEMS_FP_KEY = "news0407_last_items_fp";
 const CUSTOM_PRESET_KEYWORDS_KEY = "news0407_custom_preset_keywords";
+const SUMMARY_ITEMS_LIMIT = 200;
+const SEARCH_POOL_LIMIT = 1000;
 /** 向伺服器重新讀取 data/*.json 的間隔（GitHub 約每小時推送新稿，5 分鐘內可跟上部署） */
 const DATA_POLL_MS = 5 * 60 * 1000;
 const PRESET_KEYWORDS = [
@@ -74,7 +76,7 @@ function mergeNewsForLlm(poolItems, todayData) {
     const db = parseItemDt(b);
     return db - da;
   });
-  return out.slice(0, 40);
+  return out.slice(0, SUMMARY_ITEMS_LIMIT);
 }
 
 /** 與 merge 邏輯相同，但列出較多則供頁面「最新抓取」區塊顯示 */
@@ -199,6 +201,16 @@ function parseItemDt(item) {
     if (!Number.isNaN(t)) return t;
   }
   return 0;
+}
+
+function filterItemsByHours(items, maxHours) {
+  if (!maxHours || maxHours <= 0) return items;
+  const now = Date.now();
+  const cutoff = now - maxHours * 3600000;
+  return items.filter((it) => {
+    const t = parseItemDt(it);
+    return t === 0 || t >= cutoff;
+  });
 }
 
 function fingerprintItems(items) {
@@ -844,28 +856,37 @@ async function main() {
   }
 
   function renderSummaryList() {
-    const tokens = parseSearchKeywords(activeKeyword).map((k) => k.toLowerCase());
-    const filteredHistory = tokens.length
-      ? latestMergedHistory.filter((hist) => {
-          const text = String(hist || "").toLowerCase();
-          return tokens.every((kw) => text.includes(kw));
+    const tokens = parseSearchKeywords(activeKeyword);
+    const lowerTokens = tokens.map((k) => k.toLowerCase());
+    const windowItems = filterItemsByHours(latestRawItems, newsWindowHours);
+    const matched = lowerTokens.length
+      ? windowItems.filter((it) => {
+          const text = `${it.title || ""} ${it.summary || ""} ${it.source || ""}`.toLowerCase();
+          return lowerTokens.every((kw) => text.includes(kw));
         })
-      : latestMergedHistory;
-
+      : windowItems;
+    const shownItems = lowerTokens.length ? matched : matched.slice(0, SUMMARY_ITEMS_LIMIT);
     summaryList.innerHTML = "";
-    if (!filteredHistory.length) {
-      summaryList.innerHTML = tokens.length
+    if (!shownItems.length) {
+      summaryList.innerHTML = lowerTokens.length
         ? `<p class="empty">找不到關鍵字「${activeKeyword}」相關摘要。</p>`
-        : '<p class="empty">目前沒有可顯示的新聞清單。可按「立即更新」，或等待排程寫入 data/history.json。</p>';
+        : '<p class="empty">目前沒有可顯示的新聞清單。可按「更新新聞」，或等待排程寫入 data/history.json。</p>';
       return;
     }
-    filteredHistory.forEach((hist, idx) => {
-      const mergeTime = idx === 0 ? manualDisplayTime : null;
-      summaryList.insertAdjacentHTML(
-        "beforeend",
-        renderHistoryHtml(hist, latestNewsItems, newsWindowHours, mergeTime, activeKeyword)
-      );
+    const lines = ["#### 今日財經要聞", ""];
+    shownItems.forEach((item) => {
+      const timeInfo = `[${item.display_time || "今日"}]`;
+      const source = item.source ? `（${item.source}）` : "";
+      const title = String(item.title || "（無標題）").replace(/\s+/g, " ").trim();
+      lines.push(`${timeInfo} ${title}${source}`);
+      lines.push("");
     });
+    const mergedTime = manualDisplayTime || nowDisplayStr();
+    const webContent = `<div class='update-time'>🕒 更新時間：${mergedTime}</div>\n\n${lines.join("\n").trim()}\n\n---`;
+    summaryList.insertAdjacentHTML(
+      "beforeend",
+      renderHistoryHtml(webContent, shownItems, newsWindowHours, manualDisplayTime, activeKeyword)
+    );
   }
 
   renderPresetChips();
@@ -939,7 +960,7 @@ async function main() {
     } catch {
       poolData = [];
     }
-    const rawForDisplay = mergeNewsForDisplay(poolData, todayData, 120);
+    const rawForDisplay = mergeNewsForDisplay(poolData, todayData, SEARCH_POOL_LIMIT);
     latestRawItems = rawForDisplay;
     latestRawDate = todayData.date || "";
     renderRawNewsSection(latestRawItems, latestRawDate, activeKeyword);
