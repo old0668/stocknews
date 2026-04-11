@@ -353,3 +353,141 @@ a.news-ext-link:hover {
   padding: 0 0.12em;
   font-weight: 700;
 }
+
+/* -------------------------------------------------------------------------- */
+/* 手機版（≤768px）：觸控目標、輸入框 16px 防 iOS 縮放、版面收斂              */
+/* 對應語意：.page/.panel ≈ container/section/card；.keyword-* ≈ 搜尋區       */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .page {
+    width: 95%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0.75rem 0.5rem 1.5rem;
+  }
+
+  .panel,
+  .summary-box {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.85rem !important;
+  }
+
+  .header h1 {
+    font-size: 1.5rem !important;
+    text-align: center;
+    line-height: 1.25;
+  }
+
+  .panel h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* 關鍵字區：直向堆疊 + 輸入 16px、按鈕 2×2 網格 */
+  .keyword-search {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem !important;
+  }
+
+  input[type="text"],
+  input[type="search"] {
+    font-size: 16px !important; /* 防止 iOS 聚焦時整頁縮放 */
+  }
+
+  .keyword-input {
+    width: 100% !important;
+    margin-bottom: 10px;
+    font-size: 16px !important;
+    min-height: 44px;
+    padding: 0.65rem 0.75rem;
+  }
+
+  .keyword-actions {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 0.5rem;
+  }
+
+  .keyword-actions .btn {
+    width: 100% !important;
+    margin: 0 !important;
+    min-height: 44px;
+    padding: 10px 8px !important;
+    font-size: 0.9rem;
+  }
+
+  /* 最新新聞工具列：兩欄網格 */
+  .toolbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 0.65rem;
+  }
+
+  .toolbar .btn {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 8px;
+  }
+
+  .msg {
+    font-size: 0.88rem;
+    padding: 0.55rem 0.7rem;
+  }
+
+  .summary-box .md-body {
+    font-size: 0.9rem;
+  }
+
+  /* 最新抓取列表（對應 .news-item / .news-title / .news-meta 語意） */
+  .raw-news-item {
+    padding: 12px 10px;
+    border-bottom: 1px solid #444;
+    border-radius: 8px;
+  }
+
+  .raw-news-list {
+    max-height: min(60vh, 480px);
+  }
+
+  .raw-news-item .title-link {
+    font-size: 1.1rem !important;
+    line-height: 1.5;
+    display: block;
+  }
+
+  .raw-news-meta-line {
+    font-size: 0.85rem;
+    color: #aaa;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0.4rem;
+  }
+
+  .preset-keywords {
+    gap: 0.35rem;
+  }
+
+  .chip-btn {
+    min-height: 40px;
+    padding: 0.45rem 0.65rem;
+    font-size: 0.8rem;
+  }
+
+  .chip-del-btn {
+    min-width: 44px;
+    min-height: 44px;
+    width: 44px;
+    height: 44px;
+    line-height: 1;
+  }
+
+  /* 若日後在 HTML 加上 class="icon-decoration" 可隱藏裝飾 */
+  .icon-decoration {
+    display: none;
+  }
+}

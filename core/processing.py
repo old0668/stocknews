@@ -28,6 +28,127 @@ def _abs_data(path: str) -> str:
     return path if os.path.isabs(path) else os.path.join(_project_root(), path)
 
 
+def _story_dedupe_key(title: str) -> str:
+    """
+    同一則新聞多個轉載連結時，用標題主體當 key（去掉常見尾綴：媒體名、Google News 括號）。
+    """
+    t = re.sub(r"\s+", " ", (title or "").strip())
+    if not t:
+        return ""
+    t = re.sub(r"\s*（\s*Google\s*News[^）]*）\s*$", "", t, flags=re.IGNORECASE)
+    t = re.sub(r"\s*\(\s*Google\s*News[^)]*\)\s*$", "", t, flags=re.IGNORECASE)
+    if " - " in t:
+        t = t.rsplit(" - ", 1)[0].strip()
+    return t
+
+
+_YEAR_SKIP = frozenset(range(2020, 2031))
+
+
+def _title_big_numbers(title: str) -> set[int]:
+    """標題內整數（排除年份），用於同日同主體事件去重。"""
+    s: set[int] = set()
+    for m in re.finditer(r"\d[\d,]*", title or ""):
+        try:
+            v = int(m.group(0).replace(",", "").replace("，", ""))
+        except ValueError:
+            continue
+        if v in _YEAR_SKIP:
+            continue
+        if v >= 1000:
+            s.add(v)
+    return s
+
+
+def _date_mmdd_for_event(item: dict) -> str:
+    dt = (item.get("display_time") or "").strip()
+    m = re.match(r"(\d{2}/\d{2})", dt)
+    if m:
+        return m.group(1)
+    d = item.get("_dt")
+    if isinstance(d, datetime) and d != datetime.min:
+        return f"{d.month:02d}/{d.day:02d}"
+    return ""
+
+
+# 同日多則快訊若標題皆出現同公司，再配合數字／相似度判斷是否同一事件（啟發式，非 100%）
+_ENTITY_FOR_EVENT_CLUSTER = (
+    "鴻海",
+    "台積電",
+    "聯發科",
+    "大立光",
+    "廣達",
+    "緯創",
+    "英業達",
+    "長榮",
+    "陽明",
+    "萬海",
+)
+
+
+def _share_entity_for_cluster(ta: str, tb: str) -> bool:
+    return any(e in ta and e in tb for e in _ENTITY_FOR_EVENT_CLUSTER)
+
+
+def _same_event_cluster_heuristic(older: dict, newer: dict) -> bool:
+    """
+    判斷較舊的 older 是否與已保留的較新 newer 屬同一事件（可刪 older）。
+    無法處理：標題差異極大、無共同數字與主體詞時。
+    """
+    d_o, d_n = _date_mmdd_for_event(older), _date_mmdd_for_event(newer)
+    if not d_o or d_o != d_n:
+        return False
+    ta, tb = (older.get("title") or ""), (newer.get("title") or "")
+    na, nb = _title_big_numbers(ta), _title_big_numbers(tb)
+    inter = na & nb
+    union = na | nb
+
+    if _share_entity_for_cluster(ta, tb):
+        if inter and max(inter) >= 1000:
+            return True
+        if "陽程" in ta and "陽程" in tb:
+            if ("處分" in ta and "處分" in tb) or ("私募" in ta and "私募" in tb):
+                return True
+        if union and max(union) >= 1000 and (not na or not nb):
+            r = difflib.SequenceMatcher(None, ta, tb).ratio()
+            if r >= 0.12:
+                return True
+        if union and max(union) >= 1000:
+            r = difflib.SequenceMatcher(None, ta, tb).ratio()
+            if r >= 0.28:
+                return True
+
+    r = difflib.SequenceMatcher(None, ta, tb).ratio()
+    if r >= 0.62 and inter:
+        return True
+    return False
+
+
+def _primary_dedupe_key(it: dict) -> str:
+    k = _story_dedupe_key(it.get("title") or "")
+    if len(k) >= 8:
+        return k
+    return (it.get("link") or "").strip() or repr(id(it))
+
+
+def dedupe_news_items_by_story_key(items: list) -> list:
+    """已帶 _dt：先標題主體去重，再以同日＋主體＋數字／相似度做事件級去重（保留最新一則）。"""
+    dict_items = [it for it in items if isinstance(it, dict)]
+    if not dict_items:
+        return []
+    dict_items.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+    kept: list = []
+    for it in dict_items:
+        pk = _primary_dedupe_key(it)
+        if any(_primary_dedupe_key(x) == pk for x in kept):
+            continue
+        if any(_same_event_cluster_heuristic(it, x) for x in kept):
+            continue
+        kept.append(it)
+    kept.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+    return kept
+
+
 def _hydrate_item_dt(item: dict, calendar_date_str: Optional[str]) -> None:
     dt = item.get("_dt")
     if dt is not None and dt != datetime.min:
@@ -526,7 +647,14 @@ class Processor:
     def save_today_news(self):
         try:
             today_str = datetime.now(_TW).strftime("%Y-%m-%d")
+            for it in self.today_news:
+                if isinstance(it, dict):
+                    _hydrate_item_dt(it, today_str)
             self.today_news.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+            n_td = len(self.today_news)
+            self.today_news = dedupe_news_items_by_story_key(self.today_news)
+            if len(self.today_news) < n_td:
+                logger.info("today_news 標題去重：%d -> %d 則", n_td, len(self.today_news))
             if len(self.today_news) > MAX_TODAY_NEWS_ITEMS:
                 logger.info(
                     "today_news 寫入前裁切：%d -> %d",
@@ -596,6 +724,10 @@ class Processor:
             if dt != datetime.min and dt >= cut:
                 merged.append(it)
         merged.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+        n_m = len(merged)
+        merged = dedupe_news_items_by_story_key(merged)
+        if len(merged) < n_m:
+            logger.info("recent_news_pool 標題去重：%d -> %d 則", n_m, len(merged))
         merged = merged[:300]
         self.save_recent_pool(merged)
         self._recent_pool_snapshot = merged
@@ -634,6 +766,10 @@ class Processor:
         for it in out:
             _hydrate_item_dt(it, cal)
         out.sort(key=lambda x: x.get("_dt", datetime.min), reverse=True)
+        n_u = len(out)
+        out = dedupe_news_items_by_story_key(out)
+        if len(out) < n_u:
+            logger.info("摘要合併清單標題去重：%d -> %d 則", n_u, len(out))
         return out[:SUMMARY_ITEMS_LIMIT]
 
     def save_trend(self, avg_sentiment, count):

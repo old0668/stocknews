@@ -61,6 +61,34 @@ async function fetchJson(path) {
   return r.json();
 }
 
+/** 與後端 core/processing._story_dedupe_key 對齊：同一標題多轉載只留一則 */
+function storyDedupeKey(title) {
+  let t = String(title || "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!t) return "";
+  t = t.replace(/\s*（\s*Google\s*News[^）]*）\s*$/i, "");
+  t = t.replace(/\s*\(\s*Google\s*News[^)]*\)\s*$/i, "");
+  const dash = " - ";
+  if (t.includes(dash)) {
+    const idx = t.lastIndexOf(dash);
+    t = t.slice(0, idx).trim();
+  }
+  return t;
+}
+
+function dedupeNewsByStoryKey(items) {
+  if (!items?.length) return [];
+  const sorted = [...items].sort((a, b) => parseItemDt(b) - parseItemDt(a));
+  const seen = new Map();
+  for (const it of sorted) {
+    let k = storyDedupeKey(it?.title);
+    if (k.length < 8) k = (it?.link || "").trim() || k;
+    if (!seen.has(k)) seen.set(k, it);
+  }
+  return Array.from(seen.values()).sort((a, b) => parseItemDt(b) - parseItemDt(a));
+}
+
 function mergeNewsForLlm(poolItems, todayData) {
   const byLink = new Map();
   for (const it of poolItems || []) {
@@ -76,7 +104,7 @@ function mergeNewsForLlm(poolItems, todayData) {
     const db = parseItemDt(b);
     return db - da;
   });
-  return out.slice(0, SUMMARY_ITEMS_LIMIT);
+  return dedupeNewsByStoryKey(out).slice(0, SUMMARY_ITEMS_LIMIT);
 }
 
 /** 與 merge 邏輯相同，但列出較多則供頁面「最新抓取」區塊顯示 */
@@ -91,7 +119,7 @@ function mergeNewsForDisplay(poolItems, todayData, limit = 80) {
   }
   const out = Array.from(byLink.values());
   out.sort((a, b) => parseItemDt(b) - parseItemDt(a));
-  return out.slice(0, limit);
+  return dedupeNewsByStoryKey(out).slice(0, limit);
 }
 
 function escHtml(s) {
