@@ -2,12 +2,76 @@
   "date": "2026-07-13",
   "news": [
     {
+      "source": "Google News Finance",
+      "title": "7月13日 五件財經大事搶先看 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wR0ZnLXpvRGJDbEVwT1JPQ2Jad1pGUmh0b2R6OEtLQlpyQ2ZtR3ZObDJheGxxUkF5UG1uQ1lPWnI5c1UtSEVNTnR2cDdEcVV4c21LVHp4ek5pQ2pfcnJfeVpBY0pwTWhncUF4SDVEVmsyT0NDaWVpbdIBX0FVX3lxTE5Ba1g3R19kRlRFUGlpUFU2OFcySlBIR0RLUkVLcVozOVVZd3VPZEdrX29McE05a3o2RWpraUIxTVl6SFhCVE4yaTNfTzlCeHh3MkhPN1lsQ1QzQ3JMVnZJ?oc=5",
+      "summary": "7月13日 五件財經大事搶先看 經濟日報",
+      "published": "Sun, 12 Jul 2026 18:33:25 GMT",
+      "display_time": "07/12 18:33"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股週報》聚焦台積電法說 關注季線築底 - 卡優新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNMTJKd2plUF9ibGtKdldoRkFCb05HYjhMOEhkc1hhS01tNS1GZFhKSzcyc19oNDZFaDA3LXR2TzFWRzRPNEJpaVJ3WEs1T0pSQ1ZGLXdqckIxUQ?oc=5",
+      "summary": "台股週報》聚焦台積電法說 關注季線築底 卡優新聞網",
+      "published": "Sun, 12 Jul 2026 18:33:16 GMT",
+      "display_time": "07/12 18:33"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "攜手台積電搶攻先進封裝！「它」6月營收飆破293億 目標價曝光 - 三立新聞",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WcnlocW1MNERHTjNKYjFVeTBLT0lZSUR6bzhybVI2Ujh1QTdjcEphU3pfQ3I4OVZHUUlMNGpQb1ZUYnB4Z2xMZ1Vmcw?oc=5",
+      "summary": "攜手台積電搶攻先進封裝！「它」6月營收飆破293億 目標價曝光 三立新聞",
+      "published": "Sun, 12 Jul 2026 18:33:08 GMT",
+      "display_time": "07/12 18:33"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "亞洲股市領導權轉變！AI熱潮疲軟，投資者開始調整策略 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVlo3TUZWTEFMdEVkOE55RktNb3oteUlDYkdsTWlzVUc5cjdhMHlfeTE1cDNwZEY2Yzh3TFRObjJ3ZGZGaFhpRHIydTlpZFlUTDVrakVoYXpabldVOVV0S3FudWFoS3ROd2pmeGVhNWRCN0Q1RkhpcVZuNThQcHFIcEFxdVJfbndrRXhkVFVXMXJZSm5wMENJVG5CQXVscUstT2tjOE5YV2RaQmxWdUtESEgxSWIwazNjWHB3TnJ5TFlEUS1vWTlvSjZKS1otaUU?oc=5",
+      "summary": "亞洲股市領導權轉變！AI熱潮疲軟，投資者開始調整策略 CMoney投資網誌",
+      "published": "Sun, 12 Jul 2026 18:31:53 GMT",
+      "display_time": "07/12 18:31"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "GB系列機櫃全年出8萬台！鴻海、廣達、緯創目標價出爐　這檔最受青睞 - 三立新聞",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxNFBqcXU2N3JvWmJVSGNFTkFDR3RTdDFva0FFWXF4aF9LRmJHWG9SWUJNSHA1YUJUUnoxNElNNDgtbUotVXVNR9IBTEFVX3lxTE9uMTRJT2FjdjROTEI1RUdvYjU0QU1UR0RfbWtSRHZmQzZab0JvMm5oRXBNMHFqTnZFdTdwUm42X09KMlN3cUNNMEZqWkQ?oc=5",
+      "summary": "GB系列機櫃全年出8萬台！鴻海、廣達、緯創目標價出爐　這檔最受青睞 三立新聞",
+      "published": "Sun, 12 Jul 2026 18:00:00 GMT",
+      "display_time": "07/12 18:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "金融共好論壇22日登場／游庭皓：把 AI 當理財助教 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TeGNzQ3FGdkw1dU9LUWRJempaSDA4UTU0Rk5ENGZpMnRPanpfXzlKcWRKZlJrY3M5OWV4ZE1STThya0RzR0pENXB4WGhKQjd1VENCcUc5dVdsZ9IBX0FVX3lxTFBVLWJjMXFXc3MtVG5yM1RESllXdV9XRFRNcWtrOGRaYXF6YWV1NHltZDRpbloxQnNSbVRwX3RnbEhUTklMZUpRcVl3dGFSaUhYUFZVWXFoMDZ0UDBJWXNN?oc=5",
+      "summary": "金融共好論壇22日登場／游庭皓：把 AI 當理財助教 經濟日報",
+      "published": "Sun, 12 Jul 2026 17:49:53 GMT",
+      "display_time": "07/12 17:49"
+    },
+    {
       "source": "Google News Taiwan Market",
       "title": "AI 火熱需求蔓延至成熟製程 台積電掀新一波漲價潮 - 經濟日報",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YVHBzSjk3R1luZ3FveWtSd3dYbWxPdjFtTGVmSFBaa2JROEU0WHVaM3hseFlFUkpaMGd5bEFvMjVzTlJrVWM4VjU1SEU2V014QkluclhSM3E5eWNIVlhwX283Ykh2TnEwQW03RXR2b0JrcTNI0gFfQVVfeXFMTURGX0V2UHlqVy1lUnFXekxpdnBNeFJBdjVSWjlfa3BjLVZJSk9pSG5ZczMyVnJOZmEwbFRESkhkNUg4LW4xdWI4dXFrT2xVdHhNdER4XzdMWmZKTTNBVjA?oc=5",
       "summary": "AI 火熱需求蔓延至成熟製程 台積電掀新一波漲價潮 經濟日報",
       "published": "Sun, 12 Jul 2026 17:35:03 GMT",
       "display_time": "07/12 17:35"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "AI 火熱需求蔓延至成熟製程 台積電掀新一波漲價潮 | 產業熱點 | 產業 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UUGNiUXNKZ2lUNFBUSFRreEJ1N2s2cF85VzB2a1hEM3NlYWhjZ3AtaFZXZ19HcDZzZGl0czA4cTE0ZnVBY3k3Y29kZVRQSjcwMEFaUUFIbzM2UQ?oc=5",
+      "summary": "AI 火熱需求蔓延至成熟製程 台積電掀新一波漲價潮 | 產業熱點 | 產業 經濟日報",
+      "published": "Sun, 12 Jul 2026 17:35:03 GMT",
+      "display_time": "07/12 17:35"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "權王法說 外資提五問 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uamk4dFVMVHlNVzlEeG1qQ1F4WExZbnAzSHVWNDl3YnBFSXplc1ROd3pNd1ExenRyYkZ6TlpvWFVxSzNVbmNySUphYlBPbHZFbDhYZnBhUzVUZ9IBX0FVX3lxTE5TaUN5WXZaa3VaRDhTUEpxUExvb1VJODBnZkFza2M3ekxOSTQwTm9CV20wVE9vaHRpbGh6M1V2X0w2X2U0VDJBdVBDWDFWRTJKNzV5QkN6RlZjblRsRTBv?oc=5",
+      "summary": "權王法說 外資提五問 經濟日報",
+      "published": "Sun, 12 Jul 2026 17:29:10 GMT",
+      "display_time": "07/12 17:29"
     },
     {
       "source": "Google News Finance",
@@ -82,6 +146,14 @@
       "display_time": "07/12 16:46"
     },
     {
+      "source": "Google News Taiwan Market",
+      "title": "法說財報概念股躍領頭羊 合晶、長華等受關注 | 市場焦點 | 證券 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10Wnk5UU9DNWJPd2N2blB2ZVhPblQzdFB0UmJaUS1MRV9SYUlaaGxQTWVITk1KRVlJRE5Pb0FVYjgyYTBBa0VVbHlCYXFJbmJMQV9WQ2RaTDZXUQ?oc=5",
+      "summary": "法說財報概念股躍領頭羊 合晶、長華等受關注 | 市場焦點 | 證券 經濟日報",
+      "published": "Sun, 12 Jul 2026 16:44:02 GMT",
+      "display_time": "07/12 16:44"
+    },
+    {
       "source": "Google News Finance",
       "title": "聯合報黑白集／股市漲停，出生跌停 - 聯合新聞網",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yMUpyMWZ0bmJsbEs5SXdSbWMyR050OWhlLXZLaTd1d0dFdGpmOW9DVlMyNG0tSTRDSm85OUMyTjV0Mk5QQ3NsYTF0MjJ4bndW0gFWQVVfeXFMTlN3Q2ZESUpKM0F2dEhaWEFHSzVhVUczbGstR05IQlJ3Y2lBbDVCN1dsRjNYaGl4U2tzeDdfMllEUm01V01OcmV4NTZTR0NCSzdrSDJFTnc?oc=5",
@@ -104,6 +176,14 @@
       "summary": "炒卡炒到瘋狂！NVIDIA 都出 Trading Card？首發 14 款經典 GPU 與技術收藏卡免費送 Now 新聞",
       "published": "Sun, 12 Jul 2026 16:37:56 GMT",
       "display_time": "07/12 16:37"
+    },
+    {
+      "source": "Google News Global",
+      "title": "北影28／柯煒林「一票之差」錯失影帝！陳玉勳抱不平：演得比劉冠廷好 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOb1RSSmYwdlR5QjFkRlhDQmVJV2Ixa0ptSWt5ME5scjR2Ry1xdXpYTzRSVko1OXdpYkh3b2tkQkd4eWx4a3Bvdlk2X3VNU2NsY3FlTDM3YVFvU2RwelQyZmt1bW5HaHRGQ0x3R1RZNDFXRTNua0ZWZWxjT3VlUFBJMXE0bmNQYlVmaGpFVGt3cE5vNDRaTzVldVdsbUJZWkxOV09WWXhBR3VlRjA3TVVnMGFDbERNMGJ5czNNOWgyRFhRclVzZXhWcjVwd3hUNG5WLXNaVGVxRHVUVTBfcVE0Z1BPdkFzaHRORGtpb09WMnFLRURVWTJLVVFJOVdlTTlGUGluU0FsODNsOUo2Tm1ySDBnNHlfZ0h1cEFDLURzR25vM0JUNUdBaVlXOENPakJFUWRj?oc=5",
+      "summary": "北影28／柯煒林「一票之差」錯失影帝！陳玉勳抱不平：演得比劉冠廷好 Yahoo新聞 台北電影獎／劉冠廷首奪影帝當場call out給孫可芳「電話接起就爆哭」 Yahoo新聞 台北電影獎》一路紅到Netflix！《大濛》奪最佳劇情長片：別忘記是人民支撐國家 自由娛樂 台北電影獎／林怡婷「恨女的逆襲」奪影后！喊名字「茫掉」像喝醉感覺 噓！星聞 北影評審內幕！劉冠廷唱太好1票險勝柯煒林　《陽光》全槓龜僅孫淑媚進入最後討論 鏡週刊Mirror Media",
+      "published": "Sun, 12 Jul 2026 16:30:00 GMT",
+      "display_time": "07/12 16:30"
     },
     {
       "source": "Google News Taiwan Market",
@@ -258,6 +338,134 @@
       "display_time": "07/12 14:17"
     },
     {
+      "source": "Google News Global",
+      "title": "全美議論！美71歲參議員葛理漢驟逝 前一天仍在訪烏、會晤澤倫斯基 - 聯合新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hUWR5cUNIVDdXSEx4c1doaDhOajkwTWxlSVNNcTQydUw0OXdjU2Y3dUp3YTdFYXBlZHhJVjNabGxxMDNSTXJvQm1RX0dZLTJD?oc=5",
+      "summary": "全美議論！美71歲參議員葛理漢驟逝 前一天仍在訪烏、會晤澤倫斯基 聯合新聞網 美重量級友台議員葛瑞姆病逝 賴清德哀痛：台灣失去重要友人 Yahoo新聞 美參議員葛蘭姆辭世 川普、尼坦雅胡及澤倫斯基齊悼念 rti.org.tw 澤倫斯基哀悼美參議員葛蘭姆 感念多次親訪烏克蘭 自由時報 美共和黨重量級參議員葛拉漢逝世享壽71歲 曾從川普批評者變最堅定盟友 news.cnyes.com",
+      "published": "Sun, 12 Jul 2026 14:14:47 GMT",
+      "display_time": "07/12 14:14"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "下週財報季來臨！美國金融巨頭與科技醫療公司齊聚，揭示經濟走向 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNsUk0zLVgzWnUzTW42SU9FZEJKUml3QnBKYmN2TW9kS1kzSXNWNndmdF8xaWxFQ181RHMxVDZ3M0hQWXJjV3RFa2ZPRzZrUVhJS2F6SS1JX3Uyd0dWVDZKOUh5QkVnbUkxazUteE9BbVBtTXRKeVVuT0VSUnlRTlBPeHVNMndYTlJXa2hR?oc=5",
+      "summary": "下週財報季來臨！美國金融巨頭與科技醫療公司齊聚，揭示經濟走向 CMoney投資網誌",
+      "published": "Sun, 12 Jul 2026 14:02:59 GMT",
+      "display_time": "07/12 14:02"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "財經週日趴-台積電7/16法說後直攻5萬點? 0712 - 美洲台灣日報",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xMmhMNnZ1MjhzYVdjbEVBQ1VrUTRuSGRSRFRYcGFvcjRzUk9oZ1BFMzg2V3QwUHNjLWt4NjBtMXZwYlJINnNqdEYxN3NlZEpKUDQ3VDBRNGhleEJnWWNBNHE2NWp5RU5rUnJmYUVXb0xHbnBtdHA4?oc=5",
+      "summary": "財經週日趴-台積電7/16法說後直攻5萬點? 0712 美洲台灣日報",
+      "published": "Sun, 12 Jul 2026 12:48:40 GMT",
+      "display_time": "07/12 12:48"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股高檔驚見洗盤訊號？林昌興點名 主被動ETF「狂砍國巨」換這檔 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNemVNMVliRHZrZVFOd2VyMmgtYzY0Wk9mMFh4d2hhRTZYWkdhTU9oM1UwSXUzYnh3cFJKV2NRZTVHSVZKdTBTZEM1dnJhRmdEMVQwREI5NlFPVzZUM1doOGJUak9pNTVPOW5RZkI2dzVSajh4NEZWbjVSUW9PaFc2Y29hUFpkM0hkVER0Y20yUkt4RlZPdjBnR0ZfZFNnNFpkcW5qVU1TWlVfRUxrVDBHVmVITjBRclFqbl9CeE5YYjJxQVk0UWp0dlB4SW1kYXozSUlYT0pMSnhLVloweVYxTXhha0hjUTIxNGtDd3NRRDhzMWQzM1A3b2x2aWFfUjBoN0UxZW9mRnFKa3V3c0xtcUgzWi1Wd2diTi0zd296SkdSMmpBbFNwNndGcnJWbXhlNFJWS25kbzhOcG1feFhLaFIzS1JZWVg5eGtCV1NWODdQR1JadlhtREw4MmRHOXMyTGk5X2d4dVJkc25qaU9wenU1MmFkSWVySnZ3Xy1pZFRFcE5iS3JHTw?oc=5",
+      "summary": "台股高檔驚見洗盤訊號？林昌興點名 主被動ETF「狂砍國巨」換這檔 Yahoo新聞",
+      "published": "Sun, 12 Jul 2026 19:17:00 GMT",
+      "display_time": "07/12 19:17"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "金融三業5月台股操作互異- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iSElzUzhFb0w3bU9rY0dzUnNaWlY1T0xfZnZOV2RNMjZrZjBNR3FSb0xJU1Y2QVJjS3FCc2NOQVhmSkZ3UUUwOW9SeC1kN25KcXVHc2NWYmszMUo2ck1R?oc=5",
+      "summary": "金融三業5月台股操作互異- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "財報季帶動美股ETF投資升溫- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SWGxxQVBuQ1N1ZXdwYllLNHZrOTNJZ1BCVi0xVE82a3pVNnZHaktKSl9sbUNqaWFiYVV5UC0tZUZXdUdwUkcwcTZ1cHhFR0YzYktrcmt2czFVYVRDOS1B?oc=5",
+      "summary": "財報季帶動美股ETF投資升溫- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股ETF配息潮244億活水湧- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Kb2ZNRHREZkJLdU5EUUlTVzUtN2FyaXl1TlRsS21mV0NMaFpsUWliYnZWc01NSmtMM09maUxkU1BTREFjbG1pblVjYS1KdDh1ZkpSbUxoVlJlbTlpM21R?oc=5",
+      "summary": "台股ETF配息潮244億活水湧- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "多空拉鋸台股月線攻防戰開打- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkVzdYcWpOa0JvYk1RcVotUEwza3o3SFlhZUdtd2EyRGE2UjJReFpqRENtNGhMNW9jRnZsdFN0bmlNM3B1VzFrS3hHcFdFRC1SUWFabGs0WnVRRWdQZlRJ?oc=5",
+      "summary": "多空拉鋸台股月線攻防戰開打- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "公股法人熱錢 轉進台股ETF - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13QnlRWVJJNmhlMWd2TUJGM3VqLUhLS1J1ZjhlcnFPcUFBOGs0LVJDTmxnMWdSV3JwRzE5NWgzZjVlcDczalhNN2c1OVZpOVBEMkZnbXhGVVFQMG5OLVFB?oc=5",
+      "summary": "公股法人熱錢 轉進台股ETF 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "多重利多助攻越南股市看好- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15Q2RkekZ2SjJUZ0RmRC1OR1U5SWtHTm9FSDZwQ2x3Q1ZUOXpHaFpicjBCTkQ3U1lwZkk0Z242MEVRbEdieFNWOFhsNzZUT2dOeDEybHloS1I3d0o2WHlJ?oc=5",
+      "summary": "多重利多助攻越南股市看好- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "15檔外資翻多股有看頭- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCaHhQMGk5MTItNDktN3dQT01jeEU1SURNWjhHRDFzdGdFRU5LSVhpZkllZHMtV3BHTFN5QmJaci1pRk9sd0dyWlhjcUtQcno0eVZWR0l4YmwyQXZvZVdZ?oc=5",
+      "summary": "15檔外資翻多股有看頭- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台積電擴產點火台廠有戲- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDMng3ZlRaeFRYT0w2d3VKY1QxWWcweHNtUDFQeGI1UWM3aXMxN3ZSZUxRSkMxSzhzbDM4VEJLYlBpcEpwSC0xVG8yRi14dnlFZzkxWXoxb3hpZE1ZMDZJ?oc=5",
+      "summary": "台積電擴產點火台廠有戲- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "旭東送件申請上市- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNTEdQVjd1Y3dYZlRUamFKSk0waGdTYkw5UTVfSV8xTW1KR1RpOVQ0dnpRa0Z3Q0xKSldzZG5aSmZFQjZLWHRpSkdDUFpaYk52QVNLUnBqNkw3MkNJcU9V?oc=5",
+      "summary": "旭東送件申請上市- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "費半醞釀反攻法人挺科技股- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0Mkk0SlZ3MFN5OW1RM254UWotb0V5NktlVHUyNlRSZmJOZHY0SktEUEczTUxfRmRuejdHU0lQVGFoWlY4c3FPdzlfMzBTc2ZXeVFwTzF6MUtVMHUyV0Rz?oc=5",
+      "summary": "費半醞釀反攻法人挺科技股- 日報 工商時報",
+      "published": "Sun, 12 Jul 2026 19:00:00 GMT",
+      "display_time": "07/12 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "Catch大錢潮-台股續攻5萬 神山法說成關鍵 0712 - 美洲台灣日報",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94VnpyYlZ0SEhvcVF6V29VZHFpeDBjWmwwZ2Z5TDFmTHpZOFZ2ak90MUNwWnpIQjhCbW5fZnB6WThfVDhGeFFmSFptS0NXajFFN3FKcnBsZV8tU0JBLUxoNnE0UE02V0NPOG5rODRtUUtock5XaXpR?oc=5",
+      "summary": "Catch大錢潮-台股續攻5萬 神山法說成關鍵 0712 美洲台灣日報",
+      "published": "Sun, 12 Jul 2026 18:46:38 GMT",
+      "display_time": "07/12 18:46"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "全球股市震盪：科技股疲軟，Vodafone與easyJet等巨頭動態引關注 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLQVh2NjliaWpqRHo5V0gtTURzZDRxV1ZIeFFqNF9NZFl6M1RxMUFMZ1hzWUlQSXhoRWxzYmNRYV9kRHNhWmgxaEdzLXVKbHMtblhLQTVLb2V3ODYzcmc1LTQwU2h0bkE?oc=5",
+      "summary": "全球股市震盪：科技股疲軟，Vodafone與easyJet等巨頭動態引關注 CMoney",
+      "published": "Sun, 12 Jul 2026 18:46:33 GMT",
+      "display_time": "07/12 18:46"
+    },
+    {
       "source": "Google News Taiwan Market",
       "title": "台股颱風假完美避開反彈⋯ 新一週坐等台積電營收+法說會 - 桃園電子報",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zNmRRQXZRalkxaGFIcWRESmZvQjZJR0FuR3lDRy1rTkIxNmxHRVh5d1RqLVNBRUVtNUdBcUxDYk9TWlo3dXBqcHE4cmM?oc=5",
@@ -267,35 +475,11 @@
     },
     {
       "source": "Google News Finance",
-      "title": "7月13日 五件財經大事搶先看 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wR0ZnLXpvRGJDbEVwT1JPQ2Jad1pGUmh0b2R6OEtLQlpyQ2ZtR3ZObDJheGxxUkF5UG1uQ1lPWnI5c1UtSEVNTnR2cDdEcVV4c21LVHp4ek5pQ2pfcnJfeVpBY0pwTWhncUF4SDVEVmsyT0NDaWVpbdIBX0FVX3lxTE5Ba1g3R19kRlRFUGlpUFU2OFcySlBIR0RLUkVLcVozOVVZd3VPZEdrX29McE05a3o2RWpraUIxTVl6SFhCVE4yaTNfTzlCeHh3MkhPN1lsQ1QzQ3JMVnZJ?oc=5",
-      "summary": "7月13日 五件財經大事搶先看 經濟日報",
-      "published": "Sun, 12 Jul 2026 18:33:25 GMT",
-      "display_time": "07/12 18:33"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "台股週報》聚焦台積電法說 關注季線築底 - 卡優新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNMTJKd2plUF9ibGtKdldoRkFCb05HYjhMOEhkc1hhS01tNS1GZFhKSzcyc19oNDZFaDA3LXR2TzFWRzRPNEJpaVJ3WEs1T0pSQ1ZGLXdqckIxUQ?oc=5",
-      "summary": "台股週報》聚焦台積電法說 關注季線築底 卡優新聞網",
-      "published": "Sun, 12 Jul 2026 18:33:16 GMT",
-      "display_time": "07/12 18:33"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "攜手台積電搶攻先進封裝！「它」6月營收飆破293億 目標價曝光 - 三立新聞",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WcnlocW1MNERHTjNKYjFVeTBLT0lZSUR6bzhybVI2Ujh1QTdjcEphU3pfQ3I4OVZHUUlMNGpQb1ZUYnB4Z2xMZ1Vmcw?oc=5",
-      "summary": "攜手台積電搶攻先進封裝！「它」6月營收飆破293億 目標價曝光 三立新聞",
-      "published": "Sun, 12 Jul 2026 18:33:08 GMT",
-      "display_time": "07/12 18:33"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "亞洲股市領導權轉變！AI熱潮疲軟，投資者開始調整策略 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVlo3TUZWTEFMdEVkOE55RktNb3oteUlDYkdsTWlzVUc5cjdhMHlfeTE1cDNwZEY2Yzh3TFRObjJ3ZGZGaFhpRHIydTlpZFlUTDVrakVoYXpabldVOVV0S3FudWFoS3ROd2pmeGVhNWRCN0Q1RkhpcVZuNThQcHFIcEFxdVJfbndrRXhkVFVXMXJZSm5wMENJVG5CQXVscUstT2tjOE5YV2RaQmxWdUtESEgxSWIwazNjWHB3TnJ5TFlEUS1vWTlvSjZKS1otaUU?oc=5",
-      "summary": "亞洲股市領導權轉變！AI熱潮疲軟，投資者開始調整策略 CMoney投資網誌",
-      "published": "Sun, 12 Jul 2026 18:31:53 GMT",
-      "display_time": "07/12 18:31"
+      "title": "https://youtu.be/pOvNVLJWWj4?s... - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41am9LUmltZ1JvWWNyUllIYUZkWllGbXB1d1VUOVRFbXNtZWN0ZXRIVnRLcTdtcmxIZ0hQcWZ4UVJtR3JiaktlRTdjSnYwdmU3ZllUV2dEWWg?oc=5",
+      "summary": "https://youtu.be/pOvNVLJWWj4?s... - 股市爆料同學會 CMoney",
+      "published": "Sun, 12 Jul 2026 18:32:09 GMT",
+      "display_time": "07/12 18:32"
     },
     {
       "source": "Google News US Market",
@@ -330,14 +514,6 @@
       "display_time": "07/12 10:03"
     },
     {
-      "source": "Google News Taiwan Market",
-      "title": "GB系列機櫃全年出8萬台！鴻海、廣達、緯創目標價出爐　這檔最受青睞 - 三立新聞",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxNFBqcXU2N3JvWmJVSGNFTkFDR3RTdDFva0FFWXF4aF9LRmJHWG9SWUJNSHA1YUJUUnoxNElNNDgtbUotVXVNR9IBTEFVX3lxTE9uMTRJT2FjdjROTEI1RUdvYjU0QU1UR0RfbWtSRHZmQzZab0JvMm5oRXBNMHFqTnZFdTdwUm42X09KMlN3cUNNMEZqWkQ?oc=5",
-      "summary": "GB系列機櫃全年出8萬台！鴻海、廣達、緯創目標價出爐　這檔最受青睞 三立新聞",
-      "published": "Sun, 12 Jul 2026 18:00:00 GMT",
-      "display_time": "07/12 18:00"
-    },
-    {
       "source": "Google News Global",
       "title": "蔣萬安放颱風假遭綠營攻擊作家翻「高雄放4天」往事嗆雙標- 政治 - 中時新聞網",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzUG5hZUNWc2RhWmlQRHlRUEljYzNUalFCWWVfdEhRa2YteEFkd2FWSE9lRFBRN0kxU2FkVENGYXFySjFCVnlKczdOVnkxdXRWMHJ5SFJxR3dqNVRNV0JZaWM2R0hFNmppUEYyQWhn?oc=5",
@@ -346,44 +522,20 @@
       "display_time": "07/12 09:53"
     },
     {
+      "source": "Google News Taiwan Market",
+      "title": "韓國大熔斷 台股這次跌真的？ - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zUGpDNlRXTGozd3JXZWRqMDk3TGxtWjNOSEZFdDZTMXptTzhPMjRSLUNrRENkX1dlZTdfTDBYQ3Y5amN4NWlJLW1tMVN0UkMybkd0ck9ieDZnQdIBX0FVX3lxTE5sOFpvSk9DRUtBNkYwc1NQaVBxbnZPN0lzSlNIQjNfZk0xaHQwT3M2dEVGQUxzd0M4X2NfMUprMFJqZGtFLVE0bVlqTGJnRzU0VjhTUWhHWXhsR1M5MU9v?oc=5",
+      "summary": "韓國大熔斷 台股這次跌真的？ 經濟日報",
+      "published": "Sun, 12 Jul 2026 17:25:25 GMT",
+      "display_time": "07/12 17:25"
+    },
+    {
       "source": "Google News Finance",
-      "title": "金融共好論壇22日登場／游庭皓：把 AI 當理財助教 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TeGNzQ3FGdkw1dU9LUWRJempaSDA4UTU0Rk5ENGZpMnRPanpfXzlKcWRKZlJrY3M5OWV4ZE1STThya0RzR0pENXB4WGhKQjd1VENCcUc5dVdsZ9IBX0FVX3lxTFBVLWJjMXFXc3MtVG5yM1RESllXdV9XRFRNcWtrOGRaYXF6YWV1NHltZDRpbloxQnNSbVRwX3RnbEhUTklMZUpRcVl3dGFSaUhYUFZVWXFoMDZ0UDBJWXNN?oc=5",
-      "summary": "金融共好論壇22日登場／游庭皓：把 AI 當理財助教 經濟日報",
-      "published": "Sun, 12 Jul 2026 17:49:53 GMT",
-      "display_time": "07/12 17:49"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "AI 火熱需求蔓延至成熟製程 台積電掀新一波漲價潮 | 產業熱點 | 產業 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UUGNiUXNKZ2lUNFBUSFRreEJ1N2s2cF85VzB2a1hEM3NlYWhjZ3AtaFZXZ19HcDZzZGl0czA4cTE0ZnVBY3k3Y29kZVRQSjcwMEFaUUFIbzM2UQ?oc=5",
-      "summary": "AI 火熱需求蔓延至成熟製程 台積電掀新一波漲價潮 | 產業熱點 | 產業 經濟日報",
-      "published": "Sun, 12 Jul 2026 17:35:03 GMT",
-      "display_time": "07/12 17:35"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "權王法說 外資提五問 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uamk4dFVMVHlNVzlEeG1qQ1F4WExZbnAzSHVWNDl3YnBFSXplc1ROd3pNd1ExenRyYkZ6TlpvWFVxSzNVbmNySUphYlBPbHZFbDhYZnBhUzVUZ9IBX0FVX3lxTE5TaUN5WXZaa3VaRDhTUEpxUExvb1VJODBnZkFza2M3ekxOSTQwTm9CV20wVE9vaHRpbGh6M1V2X0w2X2U0VDJBdVBDWDFWRTJKNzV5QkN6RlZjblRsRTBv?oc=5",
-      "summary": "權王法說 外資提五問 經濟日報",
-      "published": "Sun, 12 Jul 2026 17:29:10 GMT",
-      "display_time": "07/12 17:29"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "法說財報概念股躍領頭羊 合晶、長華等受關注 | 市場焦點 | 證券 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10Wnk5UU9DNWJPd2N2blB2ZVhPblQzdFB0UmJaUS1MRV9SYUlaaGxQTWVITk1KRVlJRE5Pb0FVYjgyYTBBa0VVbHlCYXFJbmJMQV9WQ2RaTDZXUQ?oc=5",
-      "summary": "法說財報概念股躍領頭羊 合晶、長華等受關注 | 市場焦點 | 證券 經濟日報",
-      "published": "Sun, 12 Jul 2026 16:44:02 GMT",
-      "display_time": "07/12 16:44"
-    },
-    {
-      "source": "Google News Global",
-      "title": "北影28／柯煒林「一票之差」錯失影帝！陳玉勳抱不平：演得比劉冠廷好 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOb1RSSmYwdlR5QjFkRlhDQmVJV2Ixa0ptSWt5ME5scjR2Ry1xdXpYTzRSVko1OXdpYkh3b2tkQkd4eWx4a3Bvdlk2X3VNU2NsY3FlTDM3YVFvU2RwelQyZmt1bW5HaHRGQ0x3R1RZNDFXRTNua0ZWZWxjT3VlUFBJMXE0bmNQYlVmaGpFVGt3cE5vNDRaTzVldVdsbUJZWkxOV09WWXhBR3VlRjA3TVVnMGFDbERNMGJ5czNNOWgyRFhRclVzZXhWcjVwd3hUNG5WLXNaVGVxRHVUVTBfcVE0Z1BPdkFzaHRORGtpb09WMnFLRURVWTJLVVFJOVdlTTlGUGluU0FsODNsOUo2Tm1ySDBnNHlfZ0h1cEFDLURzR25vM0JUNUdBaVlXOENPakJFUWRj?oc=5",
-      "summary": "北影28／柯煒林「一票之差」錯失影帝！陳玉勳抱不平：演得比劉冠廷好 Yahoo新聞 台北電影獎／劉冠廷首奪影帝當場call out給孫可芳「電話接起就爆哭」 Yahoo新聞 台北電影獎》一路紅到Netflix！《大濛》奪最佳劇情長片：別忘記是人民支撐國家 自由娛樂 台北電影獎／林怡婷「恨女的逆襲」奪影后！喊名字「茫掉」像喝醉感覺 噓！星聞 北影評審內幕！劉冠廷唱太好1票險勝柯煒林　《陽光》全槓龜僅孫淑媚進入最後討論 鏡週刊Mirror Media",
-      "published": "Sun, 12 Jul 2026 16:30:00 GMT",
-      "display_time": "07/12 16:30"
+      "title": "主動式台股 ETF 夠力 00982A、00984A等三檔近月繳出正報酬 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KZEhpT1oxRk52NVNLdWJzY0JLZWZWRWVpVVhSWGVTZjJiUDNnUXRKMG1jb1NiVENDZFozci01Zm5wc0tUWVl2cUQ3YWx6aTFyYnBSR2c3TG8?oc=5",
+      "summary": "主動式台股 ETF 夠力 00982A、00984A等三檔近月繳出正報酬 CMoney",
+      "published": "Sun, 12 Jul 2026 16:32:49 GMT",
+      "display_time": "07/12 16:32"
     },
     {
       "source": "Google News Taiwan Market",
@@ -392,30 +544,6 @@
       "summary": "聯發科下半年怎麼衝？Q2營收飛越財測高標AI ASIC月底法說揭謎底- 產業 工商時報",
       "published": "Sun, 12 Jul 2026 07:31:00 GMT",
       "display_time": "07/12 07:31"
-    },
-    {
-      "source": "Google News Global",
-      "title": "全美議論！美71歲參議員葛理漢驟逝 前一天仍在訪烏、會晤澤倫斯基 - 聯合新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hUWR5cUNIVDdXSEx4c1doaDhOajkwTWxlSVNNcTQydUw0OXdjU2Y3dUp3YTdFYXBlZHhJVjNabGxxMDNSTXJvQm1RX0dZLTJD?oc=5",
-      "summary": "全美議論！美71歲參議員葛理漢驟逝 前一天仍在訪烏、會晤澤倫斯基 聯合新聞網 美重量級友台議員葛瑞姆病逝 賴清德哀痛：台灣失去重要友人 Yahoo新聞 美參議員葛蘭姆辭世 川普、尼坦雅胡及澤倫斯基齊悼念 rti.org.tw 澤倫斯基哀悼美參議員葛蘭姆 感念多次親訪烏克蘭 自由時報 美共和黨重量級參議員葛拉漢逝世享壽71歲 曾從川普批評者變最堅定盟友 news.cnyes.com",
-      "published": "Sun, 12 Jul 2026 14:14:47 GMT",
-      "display_time": "07/12 14:14"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "下週財報季來臨！美國金融巨頭與科技醫療公司齊聚，揭示經濟走向 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNsUk0zLVgzWnUzTW42SU9FZEJKUml3QnBKYmN2TW9kS1kzSXNWNndmdF8xaWxFQ181RHMxVDZ3M0hQWXJjV3RFa2ZPRzZrUVhJS2F6SS1JX3Uyd0dWVDZKOUh5QkVnbUkxazUteE9BbVBtTXRKeVVuT0VSUnlRTlBPeHVNMndYTlJXa2hR?oc=5",
-      "summary": "下週財報季來臨！美國金融巨頭與科技醫療公司齊聚，揭示經濟走向 CMoney投資網誌",
-      "published": "Sun, 12 Jul 2026 14:02:59 GMT",
-      "display_time": "07/12 14:02"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "財經週日趴-台積電7/16法說後直攻5萬點? 0712 - 美洲台灣日報",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xMmhMNnZ1MjhzYVdjbEVBQ1VrUTRuSGRSRFRYcGFvcjRzUk9oZ1BFMzg2V3QwUHNjLWt4NjBtMXZwYlJINnNqdEYxN3NlZEpKUDQ3VDBRNGhleEJnWWNBNHE2NWp5RU5rUnJmYUVXb0xHbnBtdHA4?oc=5",
-      "summary": "財經週日趴-台積電7/16法說後直攻5萬點? 0712 美洲台灣日報",
-      "published": "Sun, 12 Jul 2026 12:48:40 GMT",
-      "display_time": "07/12 12:48"
     },
     {
       "source": "Google News Taiwan Market",
@@ -435,17 +563,17 @@
     },
     {
       "source": "Google News Finance",
-      "title": "主動式台股 ETF 夠力 00982A、00984A等三檔近月繳出正報酬 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GOU9kTEE5VWoySDR6TVZtT1BCZXNGa1VjakhCdmtvYUlDVGJ2aUFReWhiQnRWNElMNkRIcmViNERaa3F3ckR3Y0NOOE8ydnhWMHM1NEZxbGowUdIBX0FVX3lxTE9pVlphVVZQenY2Uk1Yamx6NFZEVzJKckh2cTNLeU5VdUJ6b2h6a21adTdDZDNLdUVoX09PYjBXdFNaWTR2RVBRb1hCZVR1V1Z4dXk1OG1fUFo4dUtmZWNF?oc=5",
-      "summary": "主動式台股 ETF 夠力 00982A、00984A等三檔近月繳出正報酬 經濟日報",
-      "published": "Sun, 12 Jul 2026 01:00:00 GMT",
-      "display_time": "07/12 01:00"
-    },
-    {
-      "source": "Google News Finance",
       "title": "台股補漲行情有影 押寶權王法說買盤可期 大盤短線挑戰48K | 市場焦點 | 證券 - 經濟日報",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LSmFyaWVJSVRCX25WdGFrNTlhSm1BWG5WX3ZTUFJCUURZdlYzUXE3czNsQU1fS28zNHdQcFN6R21sX1ctX1FUNHRjZjJrRURDY0kybEdfSjhmdw?oc=5",
       "summary": "台股補漲行情有影 押寶權王法說買盤可期 大盤短線挑戰48K | 市場焦點 | 證券 經濟日報",
+      "published": "Sat, 11 Jul 2026 09:00:00 GMT",
+      "display_time": "07/11 09:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股多頭反攻 營收當靠山 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Bcm9jZng1T3hCWTJNRTBlVVNtMEtRbFdlcFB5X0lTYWFleUZCSVdodGl5NzBKaFYwMThXTFVPM3FOZU15djB6aGhIYTJMeFRGNW40c2lYX29HUdIBX0FVX3lxTE9RQ2FqZkVqRGg0aWhFcTRSV2lXWlp3TTF4ck1WQ0tTNlhJRVR0MWh1aFJ3U1d3ck5YSUpzR0dXcDA3MkhOcmlNNGpqUzdfOU5QMk1ydzJMc0h4aXVDdUM4?oc=5",
+      "summary": "台股多頭反攻 營收當靠山 經濟日報",
       "published": "Sat, 11 Jul 2026 09:00:00 GMT",
       "display_time": "07/11 09:00"
     },
@@ -464,6 +592,14 @@
       "summary": "華爾街等不及了！SK海力士才要登陸美股 選擇權最快兩天後就來了 news.cnyes.com",
       "published": "Fri, 10 Jul 2026 14:30:03 GMT",
       "display_time": "07/10 14:30"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "金融專欄作家示警「下個金融危機已展開」 衝擊會是網路泡沫數倍| 全球財經| 全球 - 聯合新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wMkNGWXpTR19RZVVOM3d5c1ZWUHl4bGtJb3FqN3V6SkVXc0RXc0JfNEhNTlpSMVVDTk93NUFlSENyRl93TWV2MzE1YW9YWWc2?oc=5",
+      "summary": "金融專欄作家示警「下個金融危機已展開」 衝擊會是網路泡沫數倍| 全球財經| 全球 聯合新聞網",
+      "published": "Fri, 10 Jul 2026 14:11:40 GMT",
+      "display_time": "07/10 14:11"
     },
     {
       "source": "Google News US Market",
@@ -512,14 +648,6 @@
       "summary": "台積電財報延後開獎！預計「這時間」進行公布 高盛先喊目標價3000元 Yahoo股市",
       "published": "Fri, 10 Jul 2026 08:45:00 GMT",
       "display_time": "07/10 08:45"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "金融專欄作家示警「下個金融危機已展開」 衝擊會是網路泡沫數倍| 全球財經| 全球 - 聯合新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wMkNGWXpTR19RZVVOM3d5c1ZWUHl4bGtJb3FqN3V6SkVXc0RXc0JfNEhNTlpSMVVDTk93NUFlSENyRl93TWV2MzE1YW9YWWc2?oc=5",
-      "summary": "金融專欄作家示警「下個金融危機已展開」 衝擊會是網路泡沫數倍| 全球財經| 全球 聯合新聞網",
-      "published": "Fri, 10 Jul 2026 14:11:40 GMT",
-      "display_time": "07/10 14:11"
     }
   ]
 }
