@@ -1,10 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T23:32:22.866398+08:00",
-    "average_sentiment": 50.0,
-    "news_count": 500
-  },
-  {
     "timestamp": "2026-05-16T01:16:44.955149+08:00",
     "average_sentiment": 50.0,
     "news_count": 35
@@ -4996,6 +4991,11 @@
   },
   {
     "timestamp": "2026-08-13T19:12:45.707931+08:00",
+    "average_sentiment": 50.0,
+    "news_count": 500
+  },
+  {
+    "timestamp": "2026-08-13T20:02:12.762437+08:00",
     "average_sentiment": 50.0,
     "news_count": 500
   }
