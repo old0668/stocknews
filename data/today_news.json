@@ -2,12 +2,436 @@
   "date": "2026-09-30",
   "news": [
     {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】AMD短暂破兆美元，英特爾的CPU市場正在流失 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVV5cWRzQWpSd3F1REZZcFVuVHBEU2plWGdyckhPVnpuVWkzT05KOFFTbUpnRVYxeUdSQjlaeE5RQUN4bHRZZGl3MmltRGxUUUdfQVd1enN5QjBmekViaHMwTkhFSEw3ZVBiZXJpOUpfc2xsX2tnbGJ6YWFnNm9NLXpwQkthaE42OG0zMzFn?oc=5",
+      "summary": "【美股巨頭】AMD短暂破兆美元，英特爾的CPU市場正在流失 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:29:40 GMT",
+      "display_time": "09/29 22:29"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "【美股巨頭】Anthropic燒掉420億還要IPO，谷歌的護城河還剩多寬？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRk5VT2tSQ21YZHVzR2hRYjA5ZzJ4bnppclBNZHdtRlRUNkNoa0FUVWFCV1hxQUNzUzE3ZjdndjMwMlpIUkxNMVBIamt2WXZ5VzNXZThjZk1OTE1hSkt3Z1ZMN2lWMHlqdFFobVJsTXR3YmRSLVhOekwxSVE0cG50Z1BOWEZjNmt2aDdxbER3?oc=5",
+      "summary": "【美股巨頭】Anthropic燒掉420億還要IPO，谷歌的護城河還剩多寬？ CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:26:47 GMT",
+      "display_time": "09/29 22:26"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】AI海嘯要來了？亞馬遜聯手13巨頭，搶在裁員潮前佈局 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnh3aXM0UG1JaC1pWDdhV0F0UF9TWGUydHpmZkp1YkVreDd3S2NvWFZDcnZpenpuYU5hYjJiNW9fS0lZa1dmYlRMcXkxVjhUWjMtMXpZbG13MXhRUFNHTDdMWGxwVzk0dUFBQW9wOE00aXlFMzh0dnRhd2lNd1hrVWNRZzMxX0ZQZGRwbzBn?oc=5",
+      "summary": "【美股巨頭】AI海嘯要來了？亞馬遜聯手13巨頭，搶在裁員潮前佈局 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:24:09 GMT",
+      "display_time": "09/29 22:24"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】AMD短暂跌破兆元市值，82億美元買下李飛飛能撐住嗎？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMDBnSHhFOFdtSkRaU2hMaDV5UDcwaTRkV0k1cVdTUXQ0YlNDV0ZsRHE0eDVUb1dOMk5DdDNBUnBDWENtTTJwWjRPcFRqRDVKUE54VHhGTTdJXzNLTTIxUWNnTURzN19hNTAwUi1OOG1DVWlxTnMzQWdwQlFyQjdTY01kakF3UFZQemtzcFh3?oc=5",
+      "summary": "【美股巨頭】AMD短暂跌破兆元市值，82億美元買下李飛飛能撐住嗎？ CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:21:49 GMT",
+      "display_time": "09/29 22:21"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "2409 友達 - 友達逆勢而上，外資狂買- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40bzVmRnRLa2VYeXRubXItVFBOS1hPNXd1YkRSaG91ZkJ2by1CX2ZwZU5lbHh4WTFSdVlMTlRkLUlUSS1MMGNrb29FbVNXbXBqMXM4NlQ1SnA?oc=5",
+      "summary": "2409 友達 - 友達逆勢而上，外資狂買- 股市爆料同學會 CMoney",
+      "published": "Tue, 29 Sep 2026 22:21:08 GMT",
+      "display_time": "09/29 22:21"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】AI代理人搶佔手機入口，蘋果守得住嗎？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQTBHY0VCSTlIWDdMdV9wQ2l5T3JEWWZYZTJMRE8xQVVCWnhTZUZPTmRUYzVmY2dCS2hadkNBWmI1Q2ZPYlRGR2FqS0w3UF8tNnBYUDZObHZ4dVFzZzVZNmVDYjRoY2ZEWVliaEtjaDlaR1NVYVBzdjJoOEg2VlFISXJlal9Zb1FTaHFzNWRR?oc=5",
+      "summary": "【美股巨頭】AI代理人搶佔手機入口，蘋果守得住嗎？ CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:19:08 GMT",
+      "display_time": "09/29 22:19"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "外資狂砍632億引爆中秋變盤！國家隊進場護航，IC設計供應鏈浮現變數-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYm5hOWFEVWtBYV9kVURMN2NhMkJGeWdRT0Y4VDhJY3I5Qkx0OWVrN3V0TGpYa3EtTk1mRE5YYllhOGlkQXJnYzVrUlNmSXNNNG1zV2Fyb3pieXh1ck1RM0hIakZvdm5iSno1Sk1NU3U0SndqVUpON1hhYlk1WjBXVE5B?oc=5",
+      "summary": "外資狂砍632億引爆中秋變盤！國家隊進場護航，IC設計供應鏈浮現變數-財經焦點情報站 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:15:00 GMT",
+      "display_time": "09/29 22:15"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】英特爾被Cramer點名「符合當下」，CPU需求爆發誰先吃到？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTUteVZPYV9EMndOUi1ETzR0bXJYVW5KWjZTT2pJdHRrZUZtb3lpUGpUMDY1OGI3REFjWktJUERzT2xZb2FVLTMzN2FNRmVUWTBsWkExd045ZUtTYUNLaXpMV01xVU01b2xFSUhXSzQ0NFp4SHM4NE1JTE9FNHhDQ2J4VEhrQnBlRHJ2ZWln?oc=5",
+      "summary": "【美股巨頭】英特爾被Cramer點名「符合當下」，CPU需求爆發誰先吃到？ CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:13:01 GMT",
+      "display_time": "09/29 22:13"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】Anthropic燒掉420億、谷歌被歐盟逼開門-CMoney 研究員 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOenc4aGFMWS1jOTE5NnpfY3dDcU5ETlpVRDRicWowT3RuTDFkNDZveXEtb0xIa0xSM2s0cHVTX1hEaHBKc1JjQWdVVWx2NkJlUGpBNFhqQWtLYW56cUI1NTFmQWJteDhIdmNOb2RDcEdlOE1RYUJaWWNXMkV1MnVBc1kxMWdtTER3U0JZT0lR?oc=5",
+      "summary": "【美股巨頭】Anthropic燒掉420億、谷歌被歐盟逼開門-CMoney 研究員 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:10:32 GMT",
+      "display_time": "09/29 22:10"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美股兩樣情！三大指數皆墨 「這指數」卻逆勢大漲1.32% - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPZzE4c19Ic1BnWUZyS2txVldmRFpNV2M0RTRkdEJWYUxhUTJ1QVFhOGhFdmFVWTYtY2pSS180WVNTQlpfNTZ3NjM4eHhhSG5BYWFRdk45RkcxUkhPQ3UyVFV4bDZOb3o5bVowamFZTGk3UHhGcjlhWk5EbVlteDN0aUJITXdqbEdKc1ZjVUUzam9fMGY1NzUxZDR1UlhMaHlfdDJhVlBsN1JZRmhDaTUyT2JybUpheU9nZmxEY2dnUFA1SDNLcm9rZnFpUXNFOE9DcDFhS3FMTG4xOWFsVTVhekdSTzlraWxSa2lXUi01UkJrQ09lU3IwNWVTcGhCR2NjdVFtOS16MEoxSi1DQmpTMWtHYWs0Nk1uWVJmTXRoY0xIV2hadlFXeEl2cWtjazJqM1ROSHljVFo3VExJTmo4V0hkZ1JIX3Rj?oc=5",
+      "summary": "美股兩樣情！三大指數皆墨 「這指數」卻逆勢大漲1.32% Yahoo股市",
+      "published": "Tue, 29 Sep 2026 22:10:26 GMT",
+      "display_time": "09/29 22:10"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】Nasdaq把交易平台搬上AWS，亞馬遜悄悄吃下金融AI基礎建設 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWRBWmUxSjhCQUd0Q0JlOHhoS1VydVZKQ3VvbVVVaGJfN01KdWpTdG55VXZIOUd0bERTaUZkSXlUQUpnWGlhWjRiTlVTZTJkRXd4M2tVaTVXMFo2SWRObG5MZjJ2RFM0UGxocHY5bkI4XzNqanZzZ0l0dGlJWTR0LXpCSWtZdmdRMmNuLTdn?oc=5",
+      "summary": "【美股巨頭】Nasdaq把交易平台搬上AWS，亞馬遜悄悄吃下金融AI基礎建設 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:07:54 GMT",
+      "display_time": "09/29 22:07"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】AMD短暫破兆市值，李飛飛82億美元加入，蘇姿丰還要走多遠？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM0lmNGJkYVZpVmUtaFh3VXlySS05cnFZZ1Q4MGtneFhQRW5NMHloLU1MUU80dkFJOG01REFHOEJqblN6WDUxRnlyV2ZKTXZ3MERpNnkyRjdiZGsxTk56TzdDMmJyUkpvZVFIaVdYN0NzT1JFbHpyMDFBcGlMeER5SC11d255ZFAtdTYzT1BB?oc=5",
+      "summary": "【美股巨頭】AMD短暫破兆市值，李飛飛82億美元加入，蘇姿丰還要走多遠？ CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:05:11 GMT",
+      "display_time": "09/29 22:05"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "短線震盪！外資調節買超「8檔」 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeGktTG5oNnIzRGV6UkstZ2tXVGFkNy1TbFZSZnM0RHlxeDNrT09RaWhtSGtYYm9rM2lfdHRPMklESDVXbzFieDJ0MGphZ2ZzcTVCV29velJQNWotbTlOcy1CR2lTNVVuTV9MQjRDYXVBYTc4SnctazV4TmF6TXZzV2ROSkRXQXBBc2xWMFRBaFlWb19aTXlMZ0h1b3J0NENxUjg5VDJONUJTemdPMTRzdWVpLVNJZHQxc2xQY2tmd0NMcnFXWkFJTjN6bFdmR1N5UGZpUlZVN1RzMkE?oc=5",
+      "summary": "短線震盪！外資調節買超「8檔」 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 22:05:00 GMT",
+      "display_time": "09/29 22:05"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "年賺77元、本益比才16倍！這檔被台積電默默帶旺「低調避風港」蔡明彰也按讚- 上市櫃 - 旺得富理財網",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sRDVCcnJPVEktYmx4YnZPVlRjYmVxbmVoZi1aQmlkdm81RGpScEhUTnpKeERkUmItSm1VcThGNTFkV0hLSF84QmRkTjFOZGxjTmhGcERMeTZNNDNyaG1zTHRtQk5SdDd5X3c?oc=5",
+      "summary": "年賺77元、本益比才16倍！這檔被台積電默默帶旺「低調避風港」蔡明彰也按讚- 上市櫃 旺得富理財網",
+      "published": "Tue, 29 Sep 2026 22:03:38 GMT",
+      "display_time": "09/29 22:03"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】折疊機要來了，但AI意圖爭奪戰先讓蘋果跌2.66% - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY19jdk13SVFoSXQ0WWl4YlpqVTM3Z2NQbFJmV0k5MVJ0amtBczIyZi0xSVBTenA3RHFXTjZ3M3VyNFVXWEtfd19naHE2T3lhWjFZYlVtZ0FHRExKX05BeE9HMV9SaHh6bG1DWjJpWG9oX3lEUGw0UGdkWk5kM2Q4ME9sUlZDLUcwNk8wVC13?oc=5",
+      "summary": "【美股巨頭】折疊機要來了，但AI意圖爭奪戰先讓蘋果跌2.66% CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:02:21 GMT",
+      "display_time": "09/29 22:02"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台指期夜盤漲698點！　美債殖利率24年新高「美股收黑131點」 - ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56TFNfX1pHX0I4ZGNpSmt1eUJZaGZmYkNOR0ItLUFzRWNVelNkVWRfZWRkT0VpeFNKU0xLUDA4emdDdVFTRWVackp3ZFh1TnZhSkHSAVBBVV95cUxNUVVoY1hHUlI2a3ZZc09qSmFpZ2NGX0NlSm1JQjAtenIzUmJUaWVCZkxoUnM3YXM4WF9rcnB2bmUxcFVIcm14aVpaWjFFRmV6Yg?oc=5",
+      "summary": "台指期夜盤漲698點！　美債殖利率24年新高「美股收黑131點」 ETtoday財經雲",
+      "published": "Tue, 29 Sep 2026 22:00:00 GMT",
+      "display_time": "09/29 22:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美債殖利率創2002年以來新高！美股漲跌互見 道瓊跌131點、費半漲163點 - 三立新聞",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50bVFPczdDSm10SWotLWVsZmRpVXRyRklaTVhWQldyOGNzdmdsSFdFcE90WTFaRjFqazNKQ0htZXdhZThjc3ppTTdyVQ?oc=5",
+      "summary": "美債殖利率創2002年以來新高！美股漲跌互見 道瓊跌131點、費半漲163點 三立新聞",
+      "published": "Tue, 29 Sep 2026 21:57:37 GMT",
+      "display_time": "09/29 21:57"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "〈美股盤後〉30年期美債殖利率創24年新高 三大指數續黑 蘋果領跌道瓊 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iYWlRVm43cDVHOW5Gd1lnY3BlUHlQODc1aDFOR04tOGIybHRCRVVSX0Z5ZVczVkFRWnU4TjFDdGsxR3NMNGc1XzlpZC1aVEE?oc=5",
+      "summary": "〈美股盤後〉30年期美債殖利率創24年新高 三大指數續黑 蘋果領跌道瓊 news.cnyes.com",
+      "published": "Tue, 29 Sep 2026 21:55:46 GMT",
+      "display_time": "09/29 21:55"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美股三大指數小幅續跌，日經平均以65,481點迎接30日交易 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10U2NJT0NxUWF1YzJXRjN1Ulh1RkdxcXZlTF9iRnhhMXJNTU1HTDlxZmgtWEpDdlpKOWhyV3V4azZkazBVUTI5aHZoaVJjX3FpWWNuUHl1WWU4RVgyVHBjZDFSMHNobTJBdklQRmNCUHZPWFRqd3N3QnJB?oc=5",
+      "summary": "美股三大指數小幅續跌，日經平均以65,481點迎接30日交易 BigGo 財經",
+      "published": "Tue, 29 Sep 2026 21:55:00 GMT",
+      "display_time": "09/29 21:55"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "油價回落公債殖利率攀升 美股3大指數收低費半漲逾1% - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzZ1k1bm1sT0NXcEZLZFp1Sk01SHBzN0JvdmtHN2VuZXZwRm9JeVNWUGRYeFBSYnU1QjBrUDl6bk5wMkRmazlPRlVuZmNSX1hKUE1MSS02VXp3bloz0gFiQVVfeXFMTnU0bkV6b0UwRHVFVU9uUDF5SFVjZktWazB6aHQzVDJJWW9CRThDSEpLNWZVMDQ2bmkxa0pYQ0tlbV95MzBLR21CUVc0WDdMMjh1ekZld1JwMFhSWFhXUlBSbEE?oc=5",
+      "summary": "油價回落公債殖利率攀升 美股3大指數收低費半漲逾1% 經濟日報",
+      "published": "Tue, 29 Sep 2026 21:54:37 GMT",
+      "display_time": "09/29 21:54"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "是金主也是勁敵！Anthropic上市前攤牌：47%營收經亞馬遜與Google - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGMGRJSnNKeWVGaDd1OW1EVTNjQWRQRTNXQWV1aHlMRFVBVVpRZHJOb2ZxVTc5WFBNSWZnRWlMOGdEQlI1VVlOVU5OcmV4elE?oc=5",
+      "summary": "是金主也是勁敵！Anthropic上市前攤牌：47%營收經亞馬遜與Google news.cnyes.com",
+      "published": "Tue, 29 Sep 2026 21:51:56 GMT",
+      "display_time": "09/29 21:51"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "TWA00 加權指數- 川普擬宣布南韓投資「阿拉斯加天然氣540億美元」 - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RT3RfM2g4TF9FTjc5R1N1MGh0RmVud09RTk5wc3U1R1pNZTVTTG11MVNkeDJCaDV4TVZUQmg5UFVyVXFvSmltNkhhMVlwZzh4UERVV3lTeDg?oc=5",
+      "summary": "TWA00 加權指數- 川普擬宣布南韓投資「阿拉斯加天然氣540億美元」 - 股市爆料同學會 CMoney",
+      "published": "Tue, 29 Sep 2026 21:40:28 GMT",
+      "display_time": "09/29 21:40"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "美聯儲威廉姆斯打壓加息預期，美股下跌，美國2年期國債收益率走低 - tw.tradingview.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53T1pQSU5MUmJZQkdTb01HcUN4bmVOOHAtLVc4a3lwVGx0NUZHT2ZkQUI4NU5PaW91amNtc20wVkFBYjgyOE0xTFQ3R2xxMUVFVjRqaEw5OEd6M2o0Ry1jR0w2V1N2QXgtUnJmSW5OXzZlNFpFZjFR?oc=5",
+      "summary": "美聯儲威廉姆斯打壓加息預期，美股下跌，美國2年期國債收益率走低 tw.tradingview.com",
+      "published": "Tue, 29 Sep 2026 21:35:47 GMT",
+      "display_time": "09/29 21:35"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "TWA00 加權指數 - 早安，各位大大，帥哥美眉們。 - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MdmUtWm5kVHZMZm9nc0ZRZHc4ZUtNcVNpMlVGcTBLMXRxM2FfdVh4dDNtMEdNNUVjdlVYTHRHSGtoQ0Q2bzdoWHdDaTdoSlVJSnpLSlhJeFE?oc=5",
+      "summary": "TWA00 加權指數 - 早安，各位大大，帥哥美眉們。 - 股市爆料同學會 CMoney",
+      "published": "Tue, 29 Sep 2026 21:34:13 GMT",
+      "display_time": "09/29 21:34"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "盤勢分析》強勢整理 短線提防大幅波動 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvNVYtUmRxR0pkUFE4UU9iUG9VRTllcWNhZm9La09NSXplZ1NOT3otMEtOMjV2Q0N2bzNvX0ZXcjJ5QTgzcEN1eVhYbGZ2SHB2Ni1ucWRR0gFbQVVfeXFMT0x5SHBla2llRFlidVNxR052MncxVWJKVXQ3eGkzT05KYnd1RHA0d2tVeldsdUJIWmhnMDhDVzFfb2ZiTWNaNHZ3S2JlQ1VjTTdZSkJObmhPSVRTMA?oc=5",
+      "summary": "盤勢分析》強勢整理 短線提防大幅波動 自由財經",
+      "published": "Tue, 29 Sep 2026 21:30:00 GMT",
+      "display_time": "09/29 21:30"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "【盤前】外資連9賣！國家隊砸7718萬護租賃龍頭 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNWGduTFBWN0pzdjN4c09BaHJ5YnBzVDI3WGdaaFUxSGRpd1RZanA0OFpGVzVuZWMxaUZkVGQ5RVpxM3NyRUlVOTZCUTFHZ0RLRm95YzJiNEpiRHhBX0VMQ25jSjJMdEpqd05QbmVTY085NFpHUWdLZ0J1LVZOY2pvaEE2YmdvSmoxT1lwWjJFSHdvT3VoZm1KUU42VXd1aHJENjFnX1pZZW9WWEl6bmw0VURqMmpMT0gxWHY4Q0Q1bzVLUmJHZXVWc21lM0xtQTRxR0NNa2RPUDhmRTZJM0dvdkJrWi05UVdPU1Zvd2RIV1pkRFNFVk8wT1NqOWtkQzdfMkFmQ1EtUDFPNkh5TUlIX3RQTG1JS3BjWUJqbg?oc=5",
+      "summary": "【盤前】外資連9賣！國家隊砸7718萬護租賃龍頭 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 21:15:00 GMT",
+      "display_time": "09/29 21:15"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "〈台股盤前要聞〉中秋後失守4萬8、亞馬遜參與金像電私募 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bd3RFRHQ5Q05zaERJS2lreFVMX00tOHVaOVJjQ2lESEZHeWJYWnZleVV4bENJN0ZQWEZRYUpKQXdLbUMyN0FVMWI1bHlDcXc?oc=5",
+      "summary": "〈台股盤前要聞〉中秋後失守4萬8、亞馬遜參與金像電私募 news.cnyes.com",
+      "published": "Tue, 29 Sep 2026 21:11:23 GMT",
+      "display_time": "09/29 21:11"
+    },
+    {
+      "source": "CNBC Finance",
+      "title": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not for U.S.",
+      "link": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
+      "summary": "CEO Jim Farley's warning comes on the heels of a high-profile visit last week by Chinese President Xi Jinping with President Donald Trump",
+      "published": "Tue, 29 Sep 2026 21:08:05 GMT",
+      "display_time": "09/29 21:08"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台積電雨露均霑！「35檔」Q4金秋 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT29jd1l1YWg4VG1HQ1dxUERyZEVvSkU0R1Qxd0RzUUk5WGJ0ZTlkSUZLOGJfY2lGVnBaSERqWU1hRWo3R2FzYVJQMW84V1hydUJScXdkNWN0Q3hnSEs1ZUl3QWc3WnVxN2FlZWE2b1lmMmI1ZTRKc3QyVW1pdjlZam1KclluVHR6VUt4TkI2bjdoQmg4cDR6aXd0VFN3RVBwejVpbjNRRkYzRjB5emxBVzZaZ0ZYcjB2Z0N1SDZPR2NVdmlqc2JtN1RjZnZyRkl1YVpB?oc=5",
+      "summary": "台積電雨露均霑！「35檔」Q4金秋 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 21:05:00 GMT",
+      "display_time": "09/29 21:05"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "TWA00 加權指數- 總經趨勢景氣好熱連亮九個紅燈國發會估9月燈號繼續紅通... - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zTHp0OUdMeXN4TUVTZk51bnNUT2tfaDlEV193M25MX2tPbHRvUm9Fd2FmRy1vMzVzR2Exa0Z0SU9LT1dKWEdmMXk5UWVUdmxfU3UwVUtFZ1Y?oc=5",
+      "summary": "TWA00 加權指數- 總經趨勢景氣好熱連亮九個紅燈國發會估9月燈號繼續紅通... - 股市爆料同學會 CMoney",
+      "published": "Tue, 29 Sep 2026 20:31:54 GMT",
+      "display_time": "09/29 20:31"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "不只0050！台股攻高帶飛12檔 3檔新兵也創天價 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMjk4SWcxdWZFbXlhWTMyNjR4RTU4aGpaUGZQQnhOY2VrT1hrRTZJWGtNZW1CaWtPbWh1dmJLZUdZN3E4cVZuZHo2T2EwbEVpNm9tVzZDeV9KY3hsMlN6bUVsN0VqOWRTbGZHelEySWlLTmZ5eUQ2dUFWclhUSDN4cWdCMmVRaFphczJOY0pCSFlCRlBsejkzaGZsWkNOamI4cmxjWmRTWjgxNjVndTZfd0NqckxXNHJHX3VhWmYzbHZhMHlRcHhxM0s4eE9BRWdXV1VNb0tlemxReHlYb2ZfenFSdk5waWVCWWtETjVoQmFKb2dpcHo4QnVzY0R4TlpKSkpVSzRnLVVFTHFGVzhBZmpWM3phaGF0SnNsZmpxaw?oc=5",
+      "summary": "不只0050！台股攻高帶飛12檔 3檔新兵也創天價 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 20:25:00 GMT",
+      "display_time": "09/29 20:25"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "9月30日 五件財經大事搶先看 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZVDcwWWVFcXJSbkJ5MDVGTGhWSXE0NWFlUURvR1R6Yjk0azJfUW9ObXljTW9TdElvVFZoQ0k5dEhjcUFTVW14NzgtcUJIWDc4M1ZFOU5icUg5QdIBX0FVX3lxTFBrX0dwR0FJOWpvempVaFU0U2s5RGhxc1lkaW1KOWU1ZzBuNFpmUzUtWFNoTEkzRTBiU2xYbFplbmFFM2Z0ZE5vS1pjTHJseVA0Mm9WMlhWeWNQMjdMOFRV?oc=5",
+      "summary": "9月30日 五件財經大事搶先看 經濟日報",
+      "published": "Tue, 29 Sep 2026 20:24:49 GMT",
+      "display_time": "09/29 20:24"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "主動式台股ETF 投資新顯學- 投資理財- 工商時報 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43Q3pwVWxaclU0dDFfVFRIaXVNZVFlN01ldmRyZWowUXM5TDZTUnlKRjNJMEhaYWlVcG9xM09IS2tIOG9YODJTbF9KMlhFSGdmTHBsTUpQWE1NdHZEdldiLTZmX0d2RTJBMVhR?oc=5",
+      "summary": "主動式台股ETF 投資新顯學- 投資理財- 工商時報 中時新聞網",
+      "published": "Tue, 29 Sep 2026 20:10:00 GMT",
+      "display_time": "09/29 20:10"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股震盪法人：AI支撐Q4唱旺- 投資理財- 工商時報 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13WlhiVkxaUzJIWTVyLUdicUFOaklkU3VkVnN6RXdhTGw4c1RfZmoxZkV5THJxLW0yX3h6R0IteDhPdklVbnhuM1NEM1J1UDdnc2pvV24xbEhmWG9GVFplb2RxdjZ6ckxfaGZz?oc=5",
+      "summary": "台股震盪法人：AI支撐Q4唱旺- 投資理財- 工商時報 中時新聞網",
+      "published": "Tue, 29 Sep 2026 20:10:00 GMT",
+      "display_time": "09/29 20:10"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台股失守48K 科技股處初升段末期 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1UTFpV3A4MzE0Z1RHUHRUamRFdlIycXJWclhEWUdYWlVBMTU5Q2tHMmZCY2hwdzduWERNNHdhc3YyS2htdzZEQ3dXMGJDaV92SjdFRjI3N2FteGlJQ192X0ZjVzc5RDBYTy0w?oc=5",
+      "summary": "台股失守48K 科技股處初升段末期 中時新聞網",
+      "published": "Tue, 29 Sep 2026 20:10:00 GMT",
+      "display_time": "09/29 20:10"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "法人指路！輝達狠砸1500億護盤！「這檔ETF」穩抓AI長線紅利 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPT0dwUlZDeHJ2eFJUWXpkdEV2QlNJYzRfNFowb3V3OWhOX2NKakdyOEtuUnZ3NkIwYWRIdGtjYnRoZlNTMlZIdHhLSGw0bUhZSkFtb0YxOVlmODVTN2xjT0tPeUhqakp5dDQxVmg2N19FekNhT0txR3k1NmozbUNsUFEydktoendwNjJNWFhGSERZS19Fbk1ZX2tiZy1Genc0a0Vfc09kWFBvNWtYVk8wRVk5dExtQlllajZENEZyWG5qU29wcjhNY0tucXItckM5VnlDYktvRVViNnBSeWtROWY2c0JOWkpYcnY5Mm1idkh6VjBlR1VrcnFoNEdraHFROWlSZFp5YlM5Q0loazFjdktaeThJM1NJMVNXRFNobnZjelZ1bkxXZERvRVNCenh1ZjVDN20wR0wxWVY3ZG5tUVBZZUMzcHM?oc=5",
+      "summary": "法人指路！輝達狠砸1500億護盤！「這檔ETF」穩抓AI長線紅利 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 20:05:00 GMT",
+      "display_time": "09/29 20:05"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "美股三大指数涨跌不一：Meta（META）上涨3.11%，Apple（AAPL）下跌2.74% - tw.tradingview.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnM29jN2lHU1BjYzc1dkhaVm9xTUg1anNEaVdxMlJZcTNwMk5Pc3BKblJGLUxaUWF4RlR2TXVzQ2tQZlZ3U0hKMkRpMUQ0RTNNeXFNTmxicFpka2xFc29pckd5LVNyZw?oc=5",
+      "summary": "美股三大指数涨跌不一：Meta（META）上涨3.11%，Apple（AAPL）下跌2.74% tw.tradingview.com",
+      "published": "Tue, 29 Sep 2026 20:01:00 GMT",
+      "display_time": "09/29 20:01"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "3大境外金融中心賺爆！前7月飆5年同期新高 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNNUhESUlUNzN4Y2pGQnJoOFdEUVB5V0gxVUFoQ1RsWW5BcC1RMWlEcmc2aXRFUFdVSThzMV9TU2VKTmNUdjBuT3AwV0Fmb0lxQVRfMEVYNDJEVzNjbDZMNjc5UUQ3QzUyMWVfWElmZlZidk1VbHFYRnFVZnlrRVJ1LWV5LUl5VFdJODRzcTRMeEQ1c0t2SlFPSGZqSEhYSFNBRDJHanRHYl9jelVqZzlpb3Q5c0pNN05td0lfU09ZN2MwbUQ0TXJWZE1sS1V4a041T2tzY1dTdTBELWRzdi1tcWROcGxWbE0yUWNXTEJFOGRuZ2JTek5tbmZBUmdDaUxYYVJUTThEdkpBUjI1Q2pBZFp2aDdhM3JFTWRDWWxOay1WRkNO?oc=5",
+      "summary": "3大境外金融中心賺爆！前7月飆5年同期新高 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 19:46:23 GMT",
+      "display_time": "09/29 19:46"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "騰勢獲准上櫃！資本市場新兵來勢洶洶 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPTzRBNXB3VFpWeWtGdjdmRnRnZGJ3WnhWdDhMaFhEUHJvMHQyaFI5eS1fQmlQdWhnbnFDc1czc3M5cThkTm5uRnAtNVV3a214dlIzalBFQ3pKOUdvRzZ0cVBkdW5zYkZOUmN4d0NscUJ4c1l3V0oyY0p0Q3BVMjBHemJUdkdpdEtFZkJYdTJSWTZGN21iRGZfR2JCdVo3XzNOcmpHOV9sMVdKX2dfRDNtOFMzbEF5dHZLWVRHbGVSN2g3d0FSX24zWjBKVk1LN0VUZW4yRXgyUjJacHUtLUpWdFIxSXZOYWMtN1Y5aVpONGFubnhJX3ZVOWxWelNGcERLQkZyY3VKVXJUUFVyaTJPSm9WWU4?oc=5",
+      "summary": "騰勢獲准上櫃！資本市場新兵來勢洶洶 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 19:35:00 GMT",
+      "display_time": "09/29 19:35"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "克雷默警告：美股高股息殖利率如今是危險訊號，而非安全保證 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZUVNUDl5cFB0OG5rX0VDWFlXaDNQUG9tVTlyY3kwQjdPZFRicjlIb1ZCaDlwQjkyRXYyc0M1NW1CNzFfS1kyZkpXdDJpRTBneERWT0NXRV9SRlB6b0c3TVVwOUEzNTV0dV9HdVlQR2dCZGgwTkkwcWxB?oc=5",
+      "summary": "克雷默警告：美股高股息殖利率如今是危險訊號，而非安全保證 BigGo 財經",
+      "published": "Tue, 29 Sep 2026 19:25:00 GMT",
+      "display_time": "09/29 19:25"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "大摩首席美股策略師：美股若回檔10% 將引爆年底最強狂飆走勢 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtRTI5YUpyeW5xODcyaF9qZkxpdzE2aGpFQjdtUHpJdXRtdEE4eGtJOEdEMWx1NDFyRkQyZHEyMkRlQWxfNlUzOFVMTFMtelk?oc=5",
+      "summary": "大摩首席美股策略師：美股若回檔10% 將引爆年底最強狂飆走勢 news.cnyes.com",
+      "published": "Tue, 29 Sep 2026 19:15:47 GMT",
+      "display_time": "09/29 19:15"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "股市助攻 壽險8月獲利衝高 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Ja3BLN0NpMzFUN1FmS0hvZW15QWpvLVJLZWZVbnMxMXVTelJSZEloLW1JUUw4d0tmd0pVblE1ZUp0Q2dNd2o2SnpMaWM3QnI10gFWQVVfeXFMTkVKbldYU2RlcDB2UmQzYmlsMWowWlh5R2FUWFk1ZjNlMmdHcEFmVnAxQWppQlotMDUtYjhIbkxCZWM0V3FwUWE2aEp3STdBWkJrcHZTT2c?oc=5",
+      "summary": "股市助攻 壽險8月獲利衝高 UDN",
+      "published": "Tue, 29 Sep 2026 19:12:16 GMT",
+      "display_time": "09/29 19:12"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "《強勢美股特報》TLN,SFM,OLED,WH等6檔 - 台視全球資訊網",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdG9saWtjOUlHSUlfN3YwTTVaX0hiUVFRTmJLUnV0aG8yOVZJYS1vZmlBNG1aWUFqbmZaX2lMV2tzWXJuX1o3Nk5VNlRoWVp4WGJqZkVudkVfNElUeE5PNUZFdXdwNWx2ZmpJTFVKakdDcXdXQnkyMWpFZURpRUxoS0wxaEg0bEJOYjN1bl85VENmZw?oc=5",
+      "summary": "《強勢美股特報》TLN,SFM,OLED,WH等6檔 台視全球資訊網",
+      "published": "Tue, 29 Sep 2026 19:05:08 GMT",
+      "display_time": "09/29 19:05"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股高檔震盪怎麼買？小資族別只盯0050 達人點名「這3檔ETF」 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOVTZlYUJaZWU2TkRIckJhN3o2Mk5UaDV2YTNrelNIUTFNMGpzS3BKRzNOQldtbzdUckt4YzlkVThBeURKU1RSZ3JvVUMtdlVhWFR0cGtUbGdMSXZtdUVjai1BZGktODFwTF9pbTVURzRLN0QwRzY0aTkwR1NtUVdvSzFxa2ozdWcycjJQXy1aeHREaGR3MWhuclZoai00MXFtOFRpa3JaakFoRVNsMFFpX3M2WnFWcjlWbkw5aElRanVjanV6by1nVW5iX25ybXBoZEM4eERUUjhjam5KdnByZ0JHdVd2aWc4Z2F2UENlOHh6WE1ncWtzaVhnYTNUUDNJNjZreGFkS0NIWUJZenZyd3Z6MzlvVDcwVVRhOEZTS0lmeUJaTHBDaEsyRnZmeUlsT0tKZ1NhXzMyalV5OW9iY0JoTU9iaXdOUmpLS0NVemlGcDZvZzVybFZwbnlLQQ?oc=5",
+      "summary": "台股高檔震盪怎麼買？小資族別只盯0050 達人點名「這3檔ETF」 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 19:05:00 GMT",
+      "display_time": "09/29 19:05"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "群益品牌日大巨蛋推AI金融體驗- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1odDZxTlV4ZUUwcGdnellFNFVWTGV5N045YVpZSWZSTG13QTR6U21WRGF0bEJPWGZvd3ROaENWVV9tcGl3V3RwdUwydTQzVV80em5NOFNaODFkOGd2Y24w?oc=5",
+      "summary": "群益品牌日大巨蛋推AI金融體驗- 日報 工商時報",
+      "published": "Tue, 29 Sep 2026 19:00:00 GMT",
+      "display_time": "09/29 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "2026金融前瞻10年論壇》資誠聯合會計師事務所金融產業服務營運長郭柏如：台灣有機會躍亞太虛擬資產創新樞紐 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SZUVnWjFMMUtfV1hHZFJFdkNNTVVRakhlRVhvWHZlc1ZmTTNOMXQ4ODFfM3VKcWVlaUFOcy1jQzRCajQwOHA5RlVKN3RMdTZPb1FERGhxTHRzc3pFQ2lv?oc=5",
+      "summary": "2026金融前瞻10年論壇》資誠聯合會計師事務所金融產業服務營運長郭柏如：台灣有機會躍亞太虛擬資產創新樞紐 工商時報",
+      "published": "Tue, 29 Sep 2026 19:00:00 GMT",
+      "display_time": "09/29 19:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股資金行情 五策略掌握 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vRGtLR3hqYTJtVXpUN0tRcmVBVkhJaklySGdTM29wdmMtTWQ0YVR2T043MlZmN09YUml3cnNPWEY1RS14YWVoY0pkMlh5R1px0gFWQVVfeXFMTlBZbkk1U2RaOVJMMG1JMUx2QmtsRzd4ZElmNzVGUFcwYUdrdGtnclR3S0pGXzAxYm5ZOHE0VHZRbnFFd1JJUUpEX2tzb1NKTW5ZMnRMRXc?oc=5",
+      "summary": "台股資金行情 五策略掌握 UDN",
+      "published": "Tue, 29 Sep 2026 18:57:08 GMT",
+      "display_time": "09/29 18:57"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "從馬達、整機到智慧工廠 鴻海多線布局串起機器人產業鏈 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFhkSVN5T0VVM29TTUZDNzhSY2NxOW5DRGpGUmdaNkktRVBKTVlyTVJOVzcxdXdYNDVkWXdxTWZ3bXNZd2RTcEtMS1ZWMldhWlJTS19PTXB3alozWlJfYTBhaGw5Q1pQcEhYR0tFU0FFLVBtZW1VWFB2V3FDZG1VQ1dwNnpvLS1MNkVCZ0JB?oc=5",
+      "summary": "從馬達、整機到智慧工廠 鴻海多線布局串起機器人產業鏈 DIGITIMES",
+      "published": "Tue, 29 Sep 2026 18:52:00 GMT",
+      "display_time": "09/29 18:52"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "三外資券商加碼投資台灣 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qUUVyLUdIS0hCMUFvRlR1RjB6eHp5VUFtaklOeGM4MFl3bF94VUZfNGdnck8wQ2RPRmNPT0E4bGJleGZnd2dlNGtPT3Q1XzFa0gFWQVVfeXFMTlprY0ZkX3BrZzZNaWdxVTRLT2J1aW1qQzc3Rm9YYUJ4aEhQOW9lcFRuMEo1bXBDbGJNejdWci1hdFhGZXZNSkhFWC1zQ2J4SzZfSk5lTlE?oc=5",
+      "summary": "三外資券商加碼投資台灣 UDN",
+      "published": "Tue, 29 Sep 2026 18:43:30 GMT",
+      "display_time": "09/29 18:43"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "【即時新聞】AI推升iShares半導體ETF(SOXX)！聯準會官員暗示通膨風險加劇恐再升息 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOWRFMUh0S0Rta3VGclg1UmQ2NjJFTWZlRWhqSjZqd21MeHk4SmdrU0xaVFZhSFNvMTJiTkxRNXBtREhQcmpYam1sWkRRVGdnNFBET0FqaW5JTW1RcE9MZUpiVjF1UzNON3dqMjZzWnJTUU5MbVJZT3NIMWFXQ01ZaDVhZnJnOWU2TW1OOFNta0I?oc=5",
+      "summary": "【即時新聞】AI推升iShares半導體ETF(SOXX)！聯準會官員暗示通膨風險加劇恐再升息 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 18:35:56 GMT",
+      "display_time": "09/29 18:35"
+    },
+    {
       "source": "Google News US Market",
       "title": "【即時新聞】聯準會貨幣政策迎轉變？官員提18個月目標框架，有望大幅收斂市場波動！ - CMoney投資網誌",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONWI1UXdqMllsLUhYV1pGenQ4d2U3cGI3MEg4azIta1FWRUN3Z0kzWk1lUDc2UEJJNUN3OVVyYldUbFdVTXJvYWMxV1kwc0dRZ19JTE5FSXFWWUJ4YzBIbXR6bFlOVF9NeTBfYUhFR25Md25KeWxYTlJpdHhWM29HeGp1eWloU1hBRHcxYWdtQXc?oc=5",
       "summary": "【即時新聞】聯準會貨幣政策迎轉變？官員提18個月目標框架，有望大幅收斂市場波動！ CMoney投資網誌",
       "published": "Tue, 29 Sep 2026 18:34:32 GMT",
       "display_time": "09/29 18:34"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "《巫師3》重製版上市災情頻傳，AMD Radeon 使用者畫面異常滿天飛 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQaTU3SWhFUFpQT3hOLW9lV1RxdElwSkk1TFpoN2ozYzVuV0h6eVhqdlBMUndVY1NOejNoZlVGa0U0LVNMc1lOTG50blBtMG44UWU1ZkJpTXQ0UUc5blM2SVFlZEZDR1hNbUgyVzhFbThmSGpwc2NtcW9R?oc=5",
+      "summary": "《巫師3》重製版上市災情頻傳，AMD Radeon 使用者畫面異常滿天飛 BigGo 財經",
+      "published": "Tue, 29 Sep 2026 18:28:00 GMT",
+      "display_time": "09/29 18:28"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "AI代理頻失控 黃仁勳出手、NVIDIA毫秒級阻斷AI越獄 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkh1aVAtMVNWSmpUNW9OdnhXSjdqejlZSDdNZ1FQZ1ppLXRONjJBSWpvaXIxdWRkeW5kNlVEN0tqUlJzTHFuaVFjNzlyOC1VeFl2ZGdvQ0YweEtWeXlCV2xZLXlPZklpbkVuNDFoRlpQV1BtSUlWaWVGOE1QSjlkcEM1SEExZlZUd052V213?oc=5",
+      "summary": "AI代理頻失控 黃仁勳出手、NVIDIA毫秒級阻斷AI越獄 DIGITIMES",
+      "published": "Tue, 29 Sep 2026 18:27:00 GMT",
+      "display_time": "09/29 18:27"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "科技1分鐘：NVIDIA替AI工廠設備把關-DSX Ready - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWlLanpCaXMyYTJJTTRJanBGb0lId2x1bGtwcFR2Y2lIWlI3ZGFWZnNSZkxwMWZMZHdvcGZ5WVZ6QUx3VGRNQ2JpWEg1N01aaEN3c2VqWGhwVGtXZXJWdG01bVZqWjBYUXdDSzJJS0xYbXdHNVB4T05CT2tyUDRXZ3ZHaDZCZWMwc2xwckxYeVdzOXlTRlFuRw?oc=5",
+      "summary": "科技1分鐘：NVIDIA替AI工廠設備把關-DSX Ready DIGITIMES",
+      "published": "Tue, 29 Sep 2026 18:24:00 GMT",
+      "display_time": "09/29 18:24"
     },
     {
       "source": "CNBC Finance",
@@ -99,11 +523,203 @@
     },
     {
       "source": "Google News Finance",
+      "title": "突破4萬8！台股大漲522點 台積電開盤價曝光 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQOEpFRGI2QjNfYnFZOF80T3p6QmFnN0lJTFdLclA4cVUtZ09nMThhakNuUlpGSGNwLWhPdDBTX1kxcGYtWjc0djRxX2hZTDZoUTNrdDJ2NFBSc2xNRzlxVXk1dTc3RzNHbDZxX2R3ZDZmQ0s1LXZoZzQ4cjBZLXlVcnVHTVJVc1NMazgydmFuMkN0MlhFbmxLNFo0U21RZEczQWFmaDZsVDlnTUNWdUZveXdlcTloVFdJTnhqMkZFcTdQc2hmZFhCVERUYmlpWnQ3R21RazY3LU1LaGxqOUxZWXhrc0UtZVUzQi14MHhtekswc1FMQUdodmpCdGVyMmNGREgtM3hubTEyVkQ1YlJ6UTdrRGhBT0dOLVlJNEtNZVZBbXVI?oc=5",
+      "summary": "突破4萬8！台股大漲522點 台積電開盤價曝光 Yahoo股市",
+      "published": "Wed, 30 Sep 2026 01:32:54 GMT",
+      "display_time": "09/30 01:32"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "聯發科昨重挫7.1％失守5000元！市場瘋傳Google TPU「掉單」 公司駁斥：不實傳言 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mQjdZNHdZZ2k0bWk4aURRVGgtWGl2LVNfb1B0VVZZd3ozSDVuNVVDaWF6dHFBcG8xQmhsMHNJUnNuNWJhM0dEUUh4amlnWHZ2NWfSAVdBVV95cUxOOXJud0ZZQTFOQ2FOTEhlNmJPbGlWZm11QzRhcnh0bGRyaFpKRXJiejFUNmNiTmJWX2pRei01blAwZVNhMGl6aFNOQlZ1VzZ2Rlpodm5fN0U?oc=5",
+      "summary": "聯發科昨重挫7.1％失守5000元！市場瘋傳Google TPU「掉單」 公司駁斥：不實傳言 UDN",
+      "published": "Wed, 30 Sep 2026 01:32:28 GMT",
+      "display_time": "09/30 01:32"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "鴻海員工分紅獎金入帳　表現優異者逾百萬元入袋 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZUUs0bkhPT2FLbF9EVzdfUVZ3aEhrRlBjRWZKQnNyRURNMlJwNmhzdncza3dxM0VLVVJmZm1XN2xOUlBYUjBCeHpzZkJRODlpRTN3ZHlfT240YzV2cnJoZ3ZMSFRaM2FvYnhOZWFHVHJNWnMwM1hn0gFfQVVfeXFMUEE2UDZEdDA0WkpTeDNSaElaR0xNd2FBc2RDNEFyY1BVNnpSYVVFRDlGRnh5SFAyazhNd3NGZlcxSnVCb3hNbndPa2wwT2lWT1FTRHBFRUtVQ3VscG9MR3c?oc=5",
+      "summary": "鴻海員工分紅獎金入帳　表現優異者逾百萬元入袋 經濟日報",
+      "published": "Wed, 30 Sep 2026 01:30:57 GMT",
+      "display_time": "09/30 01:30"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "睡醒入帳百萬！鴻海分紅今日入帳「這類人」拿最多 AI伺服器是發財關鍵 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiswNBVV95cUxQczdoY2Q0T1JnaUFDM1NNMEVsUjNCVGg3VDlLcFk0ZFF5d0hWUHhCckZjUWNKNzlTcHFFUGVWbGNYeS0xZXJCcXpOUWJRSkFyRVlRMWdFT3Jqd2JsbmdEZVIyNG9UVnBEbm0tODdmaGZoZWQ5RlhkZ3hkdDQ3a3EzVmZ1MUx2d09kODJnRXBCWF9PQld1aFlFdFNOUFM0RnBxZUktb2lFSXZrWGpCRFJtQ1BxWERjdkp1ci1pU2NFS2h4bHZ5V0pteEhqUWJ2eDliTnpFa1JCaUxyaG9ERDhKWEp2MEJfZWQ2SEtRY1QxQXZ0c1hNTW96V1VTUUx0Q3lyQUNsdm1RVTZURmE4eVY3YlNxcF9Nbm53OVk2dHNGYTJnS3ZWM1I2QW84Q0ZBSE8xUGs5STR1ZXVfRWU5MmF2X2JjUWVNZXZHYkJKXzJfUzNVWGhGWGJuazh4RnNqZWFNRFV1NTFuWXBZVEo0eFZwd3N3SWxzTi1KQm05R1lXS1RIenJyVmlTb2RxUHlqQnJOX2ZPNVZiR1RtX3BZNUlZSG5OVFJkZm1wbk1ncURyVkJFWXc?oc=5",
+      "summary": "睡醒入帳百萬！鴻海分紅今日入帳「這類人」拿最多 AI伺服器是發財關鍵 Yahoo股市",
+      "published": "Wed, 30 Sep 2026 01:26:54 GMT",
+      "display_time": "09/30 01:26"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "開盤／費半逆勢漲 連動台股開盤漲超500點 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNcUZjb2RBdjZnRS04UTVtQWJLRUtnd0ZjVFNuaGZGTUE5Vk1fN0p1R1VObXFBSURDUzZ1SWNsR1Q1d25QSnEzR05qb2s4QWhCX3dVRkN6S0xlTHdhUnd1VXEwMHlsTHF1ZEtlSFZaVnE1bVJuVUhyUnh0MnlDUGp1aDFJNms3d1dKVmdpTzYtYm9rNjdsN2YzWmFWMFRPUE1kSXpxdkFkcEFEU0JVNE1fbUliZ00xNmJNQzU3Y0V1UExXaTJPUS13Q2QyQ1ZlVVpScU1yX1pidlowSXJJX0JxVnluemJxN1dCZ0dJQlB3VWZsODZrcC1icmE5eVk0YWRqNEp4dzBNZnUwbUhUY0VDZWZtUTZPTDNjOHc?oc=5",
+      "summary": "開盤／費半逆勢漲 連動台股開盤漲超500點 Yahoo新聞",
+      "published": "Wed, 30 Sep 2026 01:26:27 GMT",
+      "display_time": "09/30 01:26"
+    },
+    {
+      "source": "Google News Finance",
       "title": "台股震到怕！它好猛受益人暴增4成 規模狂飆8成奪雙冠 - Yahoo新聞",
       "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQNnJUQ09IZlVXZ2pDME1HWlNiVDNXdVlWNC01MzRVYTBuVVBnNWVlcFFTWW9qeWJHUl9yVngzb0MyYnU0NW5tanFXV2UyRmFuWFJrbGFLQ1lPNEQ0N1J4MGJYMGtOUUJKQ3c2VFBoeDZEMVdDamNEbGtMTzhQVWRBeDB4T29XTlNhX1g5UDRjVEhZV3Z5SEkwWWNYTzJYOFNwaU9FYmREV2hiYWdub0gyZXlobWpDbWNhLWU0LXVKV1hBdHd4Wl85NHRNSDZBRG4xU001bUthX28wbUNHUHQ0S3psclhUSWp2eDREWXNsZHpXZ0M5SkRtM0dIbmRWb2pNSlZkQzRMQVZXX2luYTRxcElHOUNxSVd4N0IzbFlKa1BTNVVJUk00OW9lMGpRNGdieXB2THFTcXlIZDJsdjVyRXp4alkxMmoyU2tCX0JmVzMxMlV5UTU2YjljSjNwQ3VM?oc=5",
       "summary": "台股震到怕！它好猛受益人暴增4成 規模狂飆8成奪雙冠 Yahoo新聞",
       "published": "Tue, 29 Sep 2026 17:26:00 GMT",
       "display_time": "09/29 17:26"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "AI 伺服器供應鏈獲利創高，鴻海發放 117.5 億分紅平均增逾雙位數-財經焦點情報站 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWdvZDU5dVhydkNkc0ZDY21lNVZqOGZ6dWR2NjRTNFVMdkdmaDhsRDlfMU10WE9GU0lNWmdibGhjS0VqZXMySW9Fd1JYZTRHNGVxZ0JqTVpIc1oyd1h6elB4RHZWWVM3cWZBcVFPbEFEY1pnS2d5aU9VLWQzVm9EalJR?oc=5",
+      "summary": "AI 伺服器供應鏈獲利創高，鴻海發放 117.5 億分紅平均增逾雙位數-財經焦點情報站 CMoney投資網誌",
+      "published": "Wed, 30 Sep 2026 01:15:09 GMT",
+      "display_time": "09/30 01:15"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股漲559點！重返48000關卡 「這檔被動」攻漲停 - 東森電視",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BdXBDclkyb043anBSTG1xLTB2X0pKa2ZBT0RPdkpaWGJmcF9RN2hGZG9vNElHQUpFY0F3QkJZU2ZQdEExUW5oRk1iYUtuMUk3Q1VVZnRB?oc=5",
+      "summary": "台股漲559點！重返48000關卡 「這檔被動」攻漲停 東森電視",
+      "published": "Wed, 30 Sep 2026 01:15:00 GMT",
+      "display_time": "09/30 01:15"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股開高重返48K！台積電領軍五大權值股全紅 「這些AI股」同步上攻 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oeVZUT203NnRYd0Z6OU53LVVDTVJUNnpZc2V2dGttMU5PaXFMejN4Skl5YVZlZnZ3dGN0MXl3M2R3aVVCaHF5bldaWUVzMVhN0gFWQVVfeXFMUFozdEUwVG1ZWHlGeGJCU3JRTWt3RGZfY0c1Wmk4eWJrZmUxNjJqWjlSS1UtQmZ0VEtMbTQ3dmdiS1cxbTgwVU5tanJrS3MtSU5ib0o2Z1E?oc=5",
+      "summary": "台股開高重返48K！台積電領軍五大權值股全紅 「這些AI股」同步上攻 UDN",
+      "published": "Wed, 30 Sep 2026 01:14:45 GMT",
+      "display_time": "09/30 01:14"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "9／30群益早安｜全球財經時事深度解說- 證券 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnNW9TUjBycm40cFpLdFFUaDFLTVQwQmZvTnFtb2F6bGZSOTJBZ2NDU1lvVEpPX29mWFFob1l2T0F1ZEhka1pFSTVPZk9jN1Z3WWlKMkJuczRTVVRzWUxZ?oc=5",
+      "summary": "9／30群益早安｜全球財經時事深度解說- 證券 工商時報",
+      "published": "Wed, 30 Sep 2026 01:14:00 GMT",
+      "display_time": "09/30 01:14"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "權值股五雄全回神！台股上漲500點重返4萬8再戰新高 - 鏡報",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ON0hJbVJPSS1lNmUwR1hjdFp5NTJ4Mzg2VkUzajlNZmZ1c1BUc0t2c1hKRzNXZTBiUTk0T0JDQUVfMFI4SnVSaFlTQ1luQlBPdkE?oc=5",
+      "summary": "權值股五雄全回神！台股上漲500點重返4萬8再戰新高 鏡報",
+      "published": "Wed, 30 Sep 2026 01:14:00 GMT",
+      "display_time": "09/30 01:14"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股開盤漲135.53點 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN1R6T2VlOGVkQ0Jyd0RLci1SU3FwdkFfRG9NSU5tN09OX1Qzd3Q4NXZrT1lNQ09Hb3lFbU1ZSUttQ2xsTVpmN2pwT1hPLWdjLVBIYXFDaEp5eXFVaU5LUDBINDhuRkRPZHdIYUI3M094UmFkLUgySlZpSzkyUm9aRtIBX0FVX3lxTE1VT3Bpdm9qZGt0a1BHSS1iT2FZcHB1amNWMlAyN3FPUFk4anRqR3o1QnZuWUl6cUxCaGxJb2JnZ2dCZ0ZPbzlCR25LRkJ4QjdWcS1WSGctQXBzeXlNb3cw?oc=5",
+      "summary": "台股開盤漲135.53點 經濟日報",
+      "published": "Wed, 30 Sep 2026 01:12:34 GMT",
+      "display_time": "09/30 01:12"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "鴻海員工今早被獎金砸醒！年度分紅入帳，績優員工百萬起跳 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Dai1vVHFtX1lMYVY4bllnVkYzYXRXNl9jQzFSdTdybnJ3amFtNENhTFFPVnF2TngyVHJfUTlCZ0ZzYk5LblU2Y1A2OE8tOTBaMFNMd0Y2emtsTWttWkY0Q2dWM1JnLXNVU1JhSThMekRUWFk?oc=5",
+      "summary": "鴻海員工今早被獎金砸醒！年度分紅入帳，績優員工百萬起跳 TechNews 科技新報",
+      "published": "Wed, 30 Sep 2026 01:10:45 GMT",
+      "display_time": "09/30 01:10"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台股開紅盤一度大漲逾500點、站回4萬8！台積電漲20元 - TVBS新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RWndKZnk4clZmbVB0dl8tenR6b0RLdFlvVlgtVVd1YlBRRS03ZE15ellvUGQ2V1hWMU9rR0RaYXhLRWJiUGJHX3pBMXdXbnc?oc=5",
+      "summary": "台股開紅盤一度大漲逾500點、站回4萬8！台積電漲20元 TVBS新聞網",
+      "published": "Wed, 30 Sep 2026 01:10:00 GMT",
+      "display_time": "09/30 01:10"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "6669 緯穎- 台股多頭反攻😋把握業績成長轉機股- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Kd2hqWWhNdERrc29aYlNreUNHejR5Ymx6WmhHcjNJRFk1cExfcFFWVkh1eFdSXzdIbEIyY2l1UVU2enZLOW10d3UzanY0U2VLVkQ3TzlKQzc?oc=5",
+      "summary": "6669 緯穎- 台股多頭反攻😋把握業績成長轉機股- 股市爆料同學會 CMoney",
+      "published": "Wed, 30 Sep 2026 01:09:14 GMT",
+      "display_time": "09/30 01:09"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股早盤漲逾500點 台積電漲25元 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcDJMSlhGTWlHS2l4X2pVY3NkTi1mdlhGTkdydVoxUG83UXZZem1EMkZwLUhIallWZlV0X0U1ekhsZVNRV0dadW1CUFoyS2tPZ1k2NWdtSzNyTHRJNzRwTEFnc0FCazdwR1ctV2NaRmtURHl4QlVaSW5OMEF0b2p4YmtDNmd2cmdCMlJzTnJVNGo0YXRGc0lXanFXYXRKZWI3YXY3VldTb180MXkyWW0weTR6VjNkT1ZKMzJ3MG9tY3JaSXlIRi0xMzdqSFIwLUFfSFhSVS15ckY0VTRvVmFFOGk3clVncjM2RGFr?oc=5",
+      "summary": "台股早盤漲逾500點 台積電漲25元 Yahoo新聞",
+      "published": "Wed, 30 Sep 2026 01:08:17 GMT",
+      "display_time": "09/30 01:08"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "早盤快訊》無懼美股走低！台股開盤飆漲逾500點，站回4.8萬點 | 下班經濟學 | 財經 - Storm.mg",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5xOFNRVnk5QVZXX2w3ZG9MVVJEc2RkM2FqMlgzc214VkRMQ05GTWY5VWswOWZJTEtlRFMwTEdpWDZRU0NUaWZvTmMxWDl0QQ?oc=5",
+      "summary": "早盤快訊》無懼美股走低！台股開盤飆漲逾500點，站回4.8萬點 | 下班經濟學 | 財經 Storm.mg",
+      "published": "Wed, 30 Sep 2026 01:08:03 GMT",
+      "display_time": "09/30 01:08"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【當沖樂1】誰是台股沖浪王？群創日均量26萬張奪冠 南亞科「吸金」3兆元 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQamRMY2l5eG0zakZ1aDZWaWVMNExMY1h5LUZ2RUhZR2RWVVpib0dTWmlTSTNweVpRSURQbGZxYzdPVVBGWjVrd1YtQUoyTTJpcGc3LUxhZ0ljclAybC0tT1RRaDYwaEV6cmtXTXF5QkZFcEdGSy1DSUg5VTFtdG5MUU5GdmQ0eU5nZ3Nmb0R6VTJ3ZDBTT05CRm80RDloN212WkRSOTg4dUx4RTVKUjl6ZUsyWXRyRDdMRzJEaUpFQ3JhM3dDSWJTZUJKSWtmSDJSS0V2TlZydGhuOUNfTzlQems1S3JUQm9ZSFNnS3h0c0VHcFlYTnJ4QnplU1BCX0RwUUdPU2hkeXc3SGNTbkNDbXVIcVo4cHc2bTBBMDk0SGRJazNEQ2drNHFYNzAtamV0SEpaeE9zeWhHQVFPV3U1eklVTl9YNVVXWG9lQ2F5c1BKdGVOTmVQanBjdWFFVmFDbTc3Z0gzNl9iazgyWXg5TXkxWXhMYXZIZWpiOHVRSnFQdFZlNkk0U0Z1WWs1ajJyZjhHV3FQZnRQVkVUUXFjZmZySnhTRU4zU3BiZVJ3TloxUVFFMk5NN1BrU2IxQnVZRWgwQnNVUDVsV0ZZOFhGMmtBcGltUQ?oc=5",
+      "summary": "【當沖樂1】誰是台股沖浪王？群創日均量26萬張奪冠 南亞科「吸金」3兆元 Yahoo股市",
+      "published": "Wed, 30 Sep 2026 01:07:56 GMT",
+      "display_time": "09/30 01:07"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "美債殖利率飆數十年新高 美股三大指數承壓全面收黑 | 民視新聞網 - LINE TODAY",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zc0w3dFR2RVJMYjVIckNiQUdfWUpsd3QySTdVMVZFMzFvMTQtVk45U1lHa1JzekRxTjQtOWUzX1pyMkNHSEJ2X0xNQ1FBSVE3czlHRmZn?oc=5",
+      "summary": "美債殖利率飆數十年新高 美股三大指數承壓全面收黑 | 民視新聞網 LINE TODAY",
+      "published": "Tue, 29 Sep 2026 17:07:55 GMT",
+      "display_time": "09/29 17:07"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美債殖利率高位然隨Fed官員放鴿 股市跌幅收斂 - esunbank.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvUWw3Zm1rZnNvVDhVT1ZfMmVlLVFvZ290aE5sWk1ac3AyS3BvSFctaW1ZUWZIR29kOFM5bUs5TnJkeGp2YldpalVoV3Vub21PQ3hrSERFTDlhMHNac0ZDRGlvVDhERXFtNEVaMDM2bVZZemVvZk82bVUzcw?oc=5",
+      "summary": "美債殖利率高位然隨Fed官員放鴿 股市跌幅收斂 esunbank.com",
+      "published": "Wed, 30 Sep 2026 01:06:55 GMT",
+      "display_time": "09/30 01:06"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "美股連二黑晶片股逆勢走強 美油重挫近4%跌破90美元 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uVHR2YWhQbVBBRWpiOWJQdmxQWWUwX2kxUkRydlNUYzFtUnZKVlR5X1BVSkNqdEZXQXlSOTNvOVhmMkU2eEMzMHFyUFd2a2FqdXNia0hhSHlvREh4UVFKdUJZWVFzOERzWHR1aVRUY0tOT0FNeklEOUFn?oc=5",
+      "summary": "美股連二黑晶片股逆勢走強 美油重挫近4%跌破90美元 BigGo 財經",
+      "published": "Wed, 30 Sep 2026 01:06:00 GMT",
+      "display_time": "09/30 01:06"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台股開盤勁揚579點 台積電開漲20元助攻 - 壹蘋新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdk1lOGY5U0VJS0ZVWGk4bmRINE9xenAyV2NENDRMclREdWJuanZfQzYyWGxZSE1ZQWNOdTBxRjJ3RjZrVnhxWWNVRjBCU015a19uZi1JTGpwd2kzbDRIa1FmN0EzODFVVGVGbnZmdFp2dl93UlhhX003Yl91Z0RVanBn?oc=5",
+      "summary": "台股開盤勁揚579點 台積電開漲20元助攻 壹蘋新聞網",
+      "published": "Wed, 30 Sep 2026 01:05:00 GMT",
+      "display_time": "09/30 01:05"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "33K申購抽抽樂開跑！「矽光子分析巨頭」增資啟動 510個機會搶起來 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxPN2ktYU5wWm5WYTRKRE50QXVWdXNOLVBmamNhb2pETFl1TmhHVUZHUFZHUWhROS02blNndklXOTZVZ1gzelpJVjB3ZlZVdFRkMjhNMVlrLW1ZRWl0Y05jNU5RU3IyYmpQR2xna2xwbGdpMF8tT0dJS0NOVEMwZUtXbXQ4VjFqRjBTSUNkVEpOV0R1M2tHT2praG95MlM4RjhmMU9SSG4xN0JFU2tFT2NuZDdUX1dnVFNmQThveFItNUhsSTM1dDg5NURMNnJzdWFBR0VlZlc2R0MxemJiUk14eTdSdU5mbWlhVE9jeXR1T1pKODNCWGFfR0FCRFNwNWZnU0NGTFlpcnhpWFZhYmIyVG55VW1YT0pYT0tiU2txNVRPV3N4M1VvMkd3TEp6dlFpZ19WTldlTmNka3Z5aEY0NGJxWmJJdEduU2dfYXYyU0hDYTBRa1JsRlRaWG1ubHlLZlFFUUJ5amJweEpEeF9tYjhKR1dwVFJ2RktEN2JncURZU1diczV3?oc=5",
+      "summary": "33K申購抽抽樂開跑！「矽光子分析巨頭」增資啟動 510個機會搶起來 Yahoo股市",
+      "published": "Wed, 30 Sep 2026 01:03:55 GMT",
+      "display_time": "09/30 01:03"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股儀表版隆重登場 利用這方法判斷行情是否超跌 | 行家心法 | 理財 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSNVBYbDhHZWhVNDQxZ1lsT2VvYzBLcF9zM2lqZDFONTkzLXl5YnRqQ0MtZ2xYTUZod1A1cUcwcGlsZ2dQRVVIa3cwXzkzNkx2Z3BHUEVscDBMa29p?oc=5",
+      "summary": "台股儀表版隆重登場 利用這方法判斷行情是否超跌 | 行家心法 | 理財 經濟日報",
+      "published": "Wed, 30 Sep 2026 01:02:54 GMT",
+      "display_time": "09/30 01:02"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "AMAT 應用材料- 🔥5.25%殖利率壓盤！費半卻逆漲1.32%🚀 - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrbE04ZGtUbHVRdXFESDFRdks0ZFZMYXI0OFFvcU1BbExWUkVySXNQZWs0SXcwRm5GTmg2aUFwU2V0YVJ5ZVNSNklsWWVFeExFOFF0NFJoOFU?oc=5",
+      "summary": "AMAT 應用材料- 🔥5.25%殖利率壓盤！費半卻逆漲1.32%🚀 - 股市爆料同學會 CMoney",
+      "published": "Wed, 30 Sep 2026 01:02:45 GMT",
+      "display_time": "09/30 01:02"
     },
     {
       "source": "Google News Finance",
@@ -112,6 +728,30 @@
       "summary": "《強勢美股特報》DUOL,SMTC,DOCN,VVV等10檔 ttv.com.tw",
       "published": "Tue, 29 Sep 2026 17:01:28 GMT",
       "display_time": "09/29 17:01"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "聯準會升息預期與能源價格施壓 歐元兌美元創三個月新低 - 商傳媒",
+      "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQRXBYUENLbWVkU0ZjR0poM0J4Uk5VdVBaUHlSckVlWUVlUFhyejRsMTk0SzR1akVjWXpOZERHdkhzbFdQanVoc0wtTmNnTmdhM1FCeW9zcUFQMlpfOHpWSjB5aGNqNDVGX1B0NGxsQVg3bzdKS2xTN1ctcGJUUHBMSnhoSW9CQmZIVFkxMjR6YW9Fa3Jhc3V2eFY3YlAxeVVQamQyem1rakowTERZLTVUX2xSTUNOSkxES045NGdXNDBBVzVDelRwcVFLV1phbVFoOWRON2UwSzNEa21RN24weVVvVWVJZE9VaFVxWTJraS1WTWRjbmxGT2I4LW81UW15dGJqeWZOalNEWFNmQV95QlFaM3UtWE9OVFA5cjlLYzhxNjVJZjVtUFpOMU41ekxyc3h5OWlIQjhJWmE0ODVEVEtkSTdIeFRoSVAtY1lQYmppeFJMZGlWMllpLVlQYkNzLUtqakprZ2FxbTBORDJoMzEyT1NrRjhPZEJyTjlKdGt5TGk5TEpZ?oc=5",
+      "summary": "聯準會升息預期與能源價格施壓 歐元兌美元創三個月新低 商傳媒",
+      "published": "Wed, 30 Sep 2026 01:00:22 GMT",
+      "display_time": "09/30 01:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美光財報將揭曉 韓國股市緊盯記憶體景氣與HBM4動能 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYQkpmQVNfZVZXWHdxdFhtTUdBRmdjNHdlcnlPVmhnVU9USWFXYzFLSmVLQnpaZWFYa3dlalNMMzBnN29LVWU4THVMeWVLZkE?oc=5",
+      "summary": "美光財報將揭曉 韓國股市緊盯記憶體景氣與HBM4動能 news.cnyes.com",
+      "published": "Wed, 30 Sep 2026 01:00:12 GMT",
+      "display_time": "09/30 01:00"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "川普白宮會輝達等AI巨頭 簽署自律承諾加強安全措施 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNM1c5aTMtX3pEOV9QZHoxMUVKcWRnTnU1VGN5cUNfNUJ4VVd1eWhJRE54QVVBOGxxVjdtenRqZ2UyTDZxNURyZ3VzUzJESUdDdkFGQU1HQlNZQ1Npc1JZd242VHplaWJSTnJXaWVER01ZeEgzOFNLX3haV0JPazBPcmdBU19RSFBGUWdkajdsNGVNbE1VZ0o3QkN3UjZQdWlCVUwwWVBZN0lUZ05KVk81OHVjQXlNWmJkejhVSDJ2T080NEZ5bS12RG50UWg0SmpjcjRFZU90RmRvb0F6MmlTS2xGdmU2LTZXb1dEY253Q2hMYm43VVo3VmtvWXZfLUw4NFAwcnhZck54TkZOSlByUkJyLUtjS21fdnR6NVR3a05zLXlTLVg1TzlHWUNLa1htQmp2OGpCNlExZmZIUWRNZHA2b1lSVk1kY0o0NTZlbFYtWktpSElHWnpJWU9EVlk?oc=5",
+      "summary": "川普白宮會輝達等AI巨頭 簽署自律承諾加強安全措施 Yahoo新聞",
+      "published": "Wed, 30 Sep 2026 00:59:43 GMT",
+      "display_time": "09/30 00:59"
     },
     {
       "source": "Google News Finance",
@@ -123,11 +763,51 @@
     },
     {
       "source": "Google News Taiwan Market",
+      "title": "CCL報價看漲90％...南亞戰250元天花板有戲？2外資喊上「4字頭」原因曝唯一風險是他- 上市櫃 - wantrich.chinatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02UEktR3N3U055TWNKVjBPVGRkbFFiZzNkRThCd0YtVmk2TjZzY3lRNm1GZHZYVWdreDhZYWZBN0JyX1JWMkNia3RnNkpfWWNtNDVSMHNydnNzWUlSeTRfa0VBYzltMmhVbWc?oc=5",
+      "summary": "CCL報價看漲90％...南亞戰250元天花板有戲？2外資喊上「4字頭」原因曝唯一風險是他- 上市櫃 wantrich.chinatimes.com",
+      "published": "Wed, 30 Sep 2026 00:54:04 GMT",
+      "display_time": "09/30 00:54"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股失守4.8萬點！ 台指期夜盤狂拉698點 法人：短線仍有這些變數 - 東森電視",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vdVoybjBNaUM1RkZKSzJXVWozMVpkX2Rid2tXQTFQZkZkLU9CcC12T3NQYXZnTy1pcE00a3huWHZlcHowQlRHcUktVGVaVXFONjB0Q0dqSkpjdw?oc=5",
+      "summary": "台股失守4.8萬點！ 台指期夜盤狂拉698點 法人：短線仍有這些變數 東森電視",
+      "published": "Wed, 30 Sep 2026 00:54:00 GMT",
+      "display_time": "09/30 00:54"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "2344 華邦電- 伺服器零組件缺貨警報- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLZjdqMzRMbjg5eUZaVHJ2UkhhTm1WWkh1eTVoOV83TWJtZmZTSDZhRDVsLTRvZVFSTTZkRlpkRUZuZ0pEY2xkbEN3VmZLUG1fWVVyNlhRU0c?oc=5",
+      "summary": "2344 華邦電- 伺服器零組件缺貨警報- 股市爆料同學會 CMoney",
+      "published": "Wed, 30 Sep 2026 00:52:18 GMT",
+      "display_time": "09/30 00:52"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "股期 背景音:飛機掠過~ https://youtube.c... - 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fQ0g5c1ZDNFlvNU5YdWxFY0VkQWlIYjAxVHl6OTZ1RndYcFhrM2lreXJYdDJsZGJwc05ldlEyLW8zY18wbkhPTkpNSDVzSW1zZjBudEVFUXg?oc=5",
+      "summary": "股期 背景音:飛機掠過~ https://youtube.c... - 股市爆料同學會 CMoney",
+      "published": "Wed, 30 Sep 2026 00:49:25 GMT",
+      "display_time": "09/30 00:49"
+    },
+    {
+      "source": "Google News Taiwan Market",
       "title": "台積電Q3法說10／15舉行　市場聚焦五件事 - ETtoday財經雲",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91eUJ0YVA3dmxmNi1zZFU5WjlmM0FTLWlXU3l3N3lrRTdaN0F6NXd0SmVNUVNpeTVqQ0llNTZSOVFGUHJlYjg1YXpkZEtKWmkwOVHSAVBBVV95cUxPV0hVRkFWUk8tQUE2QzR3LVgwZUd3LTlFbmFMZ2ZDdk9nSThwMThKYXZ3MmhJc0xKTDdONFh1RlN1dVA5eXFSVXNzejJtdmhTXw?oc=5",
       "summary": "台積電Q3法說10／15舉行　市場聚焦五件事 ETtoday財經雲",
       "published": "Tue, 29 Sep 2026 16:46:00 GMT",
       "display_time": "09/29 16:46"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "費半走揚台指期夜盤大漲　台股多空震盪 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83UTdOS1Q0Y0FvOVh6MDVtTXNkZ3VCZTNhdGhpeFF3Xy1MZzlBRkJxUjltLTV1d1FrTFo3cFJ5cjhxMzFVLTBJdjVRSE5oQlFKNDU1UjFsQ2RQQdIBX0FVX3lxTE1WUTlyT1JUYTF5NXVxcl9qTmI0VFk3Wk01b2VnQ19xVDdXVFNTbVlYTjA2UEd1YTNWUTN2X2swX2ZyTkdJejBiaWk0bmZyNzBSNlpfSlIxZVBQblhUWUFZ?oc=5",
+      "summary": "費半走揚台指期夜盤大漲　台股多空震盪 經濟日報",
+      "published": "Wed, 30 Sep 2026 00:45:31 GMT",
+      "display_time": "09/30 00:45"
     },
     {
       "source": "Google News Taiwan Market",
@@ -139,11 +819,107 @@
     },
     {
       "source": "Google News Finance",
+      "title": "美債殖利率飆高衝擊美股 費城半導體獨強逆勢上漲 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQUHhsYWdfUlpFVm5USGR2d1J6UWlDbk9uTE13SEVBSTJLZjNkcEZEXzBKalRSWTZydFRjeXB5WkQwZzZUTksyakJieTlYU3BjV0NtQW1leUxBX0V2WFAySkxzYXFpTjBvR3J1eTRvdDg0RmdhLTZpTFY5ZHNDSUtWYlFYUG8wTDhJa2FvVmpDUmdTd3lFYmtWVWFXakxBaXE4bE9GNUtONFdWc0x0VUppYWR5Z3FKemloZ1Z4ZGNNSC1WcnUyeXNGY0J4OWoxX2hwR1dLZi1XZzR4UzFCaXNRNWtHVGViNzl4eGtRQkludWVZSXZMNGlzWDBvRUdyQ2pIb0gtbWFqQmNwaFhjbHc5SGRmaS1ybEhFZk91SHhYUXYyX1hBUFBaNWc2cEpTN2JCVnRvQmViY0dpUWxoUzBmQlZka01zRWxFcEhsNUFPZlVDVUpPNzZTTDE1dWY?oc=5",
+      "summary": "美債殖利率飆高衝擊美股 費城半導體獨強逆勢上漲 Yahoo新聞",
+      "published": "Wed, 30 Sep 2026 00:43:39 GMT",
+      "display_time": "09/30 00:43"
+    },
+    {
+      "source": "Google News Finance",
       "title": "快訊／美股漲跌互見費半強彈！8月JOLTS職缺大減25萬 台指期大漲644點 - Yahoo新聞",
       "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQSHRZVkRMSEdCUGVudFROQlRDSE5TSXpsUDRWNFd5bUQ5Y21nTUFtYWtDRnp1NE9DR1dHWk5CVnFuZ0xFMDI4NW5KV3Vza1dmOXRYRTU3Rk5nLXNCRFQ5N19qc1hlSHAyTnVVcTN4N1FQa1ZiaGk0cm93dWN0WEhqVnowUHBfWFFBSHBVYzlRV0RsSE5kUmJ1cjZxVUktekcxR0lhdEZMLVdiblJaUXZvd1lOVndVNV90RUpSUjAxVEdBYkpUV3VDZ3FoT2VtRWdfNEJsbDBLSUZBZU52a19TMG5qX0ZmMk9JaHYzNGNLM0hBTklEU2p0Smo2TkxHT3lYeG5KQVRUUHF5OU04MGI2QXFlMWplNGRIR2E0bGJfX2VqeWpRakN4bTZ3SUt6dlJPYVl0ckgtTjFBMWhnQ3VlYWdhcU81V1lQbkFsZjZnSDItVTNqTG5XeHN6d2JHb0s2em5sVGNsUHlBekNMZ0FqWkg2QXBWX1pmejF1RGZCN3lsNm15Tnc?oc=5",
       "summary": "快訊／美股漲跌互見費半強彈！8月JOLTS職缺大減25萬 台指期大漲644點 Yahoo新聞",
       "published": "Tue, 29 Sep 2026 16:38:00 GMT",
       "display_time": "09/29 16:38"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "TWA00 加權指數- 09/30多空控價套牢- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPcWhIZnlrbld3V25VUEdyN0tDSjFvemRENktlUjJMT3JXdEVjY0taMzEzZHc5SFp6VVN3TXQ4OXFMNlNLWHpJTWhCTGI5M1N5bUM3ZDVnMlQ?oc=5",
+      "summary": "TWA00 加權指數- 09/30多空控價套牢- 股市爆料同學會 CMoney",
+      "published": "Wed, 30 Sep 2026 00:35:03 GMT",
+      "display_time": "09/30 00:35"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "游庭皓的財經皓角. . 2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】 開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事 。 參加財經皓角總經訂閱： 新友會員 https://jackalopelin.com 老友會員 https://yutinghao.finance 我的 - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxOV2JVMG9mY2c5aTJ3Z2FSZWpXV2RiX2FWT0dKdGVtOUpBeHh4enJhQnNoZHJGSWF2emc2dVdka2xFS2FYeGFpeFVmNWR3Q3ViVGFOdmtzTHItQk1qYkNDNy03Y19CZmdlVHdFVWY0eThjRm5ZT1ZTeDFWVnpmQjJBWmcwX2FxUVdhSkNucGRxWkJvM1JJSFVfWUdjWjg1UW5iQnlaX2czYjhvMVdSQWRESWgteXZ1aUhBVUtkd3ZabzM5VnNyNW1VUFlmN19QcGNaQm8wMGpDb1VsWVhvSEhHWmtLQ1BacHpKYUs5MXVfSElfcl9Kd0ZQb204V29hVlRCblRCX1hYN2Via3Q0OUJHZEJJdEZJRXJTRjN0Q3RmYXhRQklmQW10MzBtYnhGRTR3TERRYTNCNmN5MlVtZUp0QWpjdTRMbGREX2RhejlGb1pmUHl4SFpVYl9zLTd5X0JmU2RMdllMX3pNbnJHR0dpSlFScjZaZlk0X21STGp3bF9JWmdLUHcyZFhKX3NQTlUwV1RiS21KUUM3VHMzTGItNFZHYTJueUVIOHQxZ3RDSmFLa2F0NXcxcXpEck5QYms0RVZSdHJhLTUwaFFTOFJzTkhHZEFnVGpoT1lHaEszUkZiQQ?oc=5",
+      "summary": "游庭皓的財經皓角. . 2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】 開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事 。 參加財經皓角總經訂閱： 新友會員 https://jackalopelin.com 老友會員 https://yutinghao.finance 我的 facebook.com",
+      "published": "Wed, 30 Sep 2026 00:34:55 GMT",
+      "display_time": "09/30 00:34"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "《美股》收盤速報：油價大跌 費半收高 台指期夜漲700點 - wantrich.chinatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GNWdhRHlfcTVXaFpra1l6TW5zbVVCMzVoNnBfY3lzdEluUURqM0oyQXdRUFlyQjlFclFGMllHSVdmb0Vlb3doME5tanp5ZmhvdXVveFBmOXZ6NzNGMWQ4dHRLbUVGb2pGS3c?oc=5",
+      "summary": "《美股》收盤速報：油價大跌 費半收高 台指期夜漲700點 wantrich.chinatimes.com",
+      "published": "Wed, 30 Sep 2026 00:30:55 GMT",
+      "display_time": "09/30 00:30"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "理財專題／4000億整併只是起點　公股投信國家隊的3道考題 - 鏡週刊Mirror Media",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDUVVaT0dvWEcyX0Q4THV6QzB6UUlCS2c1ZU9GS01qVHk5X2lWVkJTdmdFaUlUYXVheW5ubEFDa2dvTVJaQ09LX2FRU1hMRWF5eWxCMDV4S1VuczY4REHSAWNBVV95cUxQVlJqY1VNSzJRRWNKNnNwa0lXd0xSRUtndlAyVFkzZG10QWRrT0l1UWVKNndzbDF6aENZc0l4NFg0Sk5wXzN3U2VtZXMyZF9UUGtDTXgyZjIyVjcybF9Bc19ILWc?oc=5",
+      "summary": "理財專題／4000億整併只是起點　公股投信國家隊的3道考題 鏡週刊Mirror Media",
+      "published": "Wed, 30 Sep 2026 00:30:00 GMT",
+      "display_time": "09/30 00:30"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "鴻海員工一早香醒了 百萬分紅獎金今入袋 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wTjRnZHpGWDczWU1VbXhUWmFJUm0wb25VY1ZDTk4xRXozMFluV0FaOGlZVlBhdmZrYXQzWTI0U2hVMHhuZE02OXVMYXhJeXFRUFNXZlk0eTZ0Z9IBX0FVX3lxTFBoMmEtaE5nLVM3QTRkbEx6SUJoV08wNXhpanhqY2RrenFIVTBPbWNScmJjU1NCQkNDVzh5Rm4tUmJ6STBUSFd6dHNNalV1YkItNzZEOXF6ZEp1REl2SGE0?oc=5",
+      "summary": "鴻海員工一早香醒了 百萬分紅獎金今入袋 經濟日報",
+      "published": "Wed, 30 Sep 2026 00:29:15 GMT",
+      "display_time": "09/30 00:29"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "永豐金證券登紐約時代廣場 Nasdaq Tower 全面開放世界級美股毫秒報價 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWNmRyMno5OVFvR1FTRzBMb0hEOGdXOXgwQ0JQejFoZ2lxYVJNUWhTYWlZOS1pZ0h0WVp1VkhiU1JubEJzanBOd010MDlKZnls0gFWQVVfeXFMUHBFT3V5OUEwclhTcHdUOVZORFlVOWthWVd5VFp5TFJzN0VMaHdONFhHVlZfSVpWX0NDcTdoS0t2R2xpVnNiZ0RMY3p2UUZFdG9fbGRZY1E?oc=5",
+      "summary": "永豐金證券登紐約時代廣場 Nasdaq Tower 全面開放世界級美股毫秒報價 UDN",
+      "published": "Wed, 30 Sep 2026 00:29:03 GMT",
+      "display_time": "09/30 00:29"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "川普白宮會輝達等AI巨頭簽自律承諾無法律效力| 國際 - 中央社 CNA",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQdG15eXRSRmFPV0hrTTJxQlBlMWszZXVFUHZkRVo4X21UcTNuLWZXZXpVSk01M1VRcC1rNV9zbjVHNXRmRnRLMF9lRDBvZ2xDcHpyeF80Nkh5ZzBBYTgw?oc=5",
+      "summary": "川普白宮會輝達等AI巨頭簽自律承諾無法律效力| 國際 中央社 CNA",
+      "published": "Wed, 30 Sep 2026 00:27:00 GMT",
+      "display_time": "09/30 00:27"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "鴻海人被錢砸醒！豪撒117億元「分紅史上最大包」 個人有望拿破百萬元 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiyANBVV95cUxQbGM3LVZJQlhiZVA5ZHpuVlBCNS05bkdnQ3I0enRCT3MyQVN2a3lJcXhoSUtmeGt2WkNxMU4zdnBpT2VNOGE0emZZZ2xsUHBLMVFXMU5wMU9sQk0yWVNNTUx0ellNeC12OTBjWnBVTURlT0xLUEIzQVdoZEVFQ1I3bmx1Q1ZDOEhUbGxUYjY4X21OYS11bTZ0WjF5eDhDS3A3QlBBZTI3U0dOa0YtVXJBelAzU1ZqSHF0LWV6ODk5aFVGS05uYlRHeUZZLUFZVW9DSUVfVEUycm9KNHBheE1FMERUVWVmYl9Zd2tzREdqeFpEN21KRVhMa2R0bk1meU5WaU9DS29nNDl3bHpzT1RzZUdiNk5ySlExQVAxV1hBR1JQMUU0d3hMd3ZmVnZma0RHSURqQ3lSNTNMRXFHVHJTdzNieFM4NjIzRGg5T2RoY1hoemh0QWNiRllhVS0wNXZ5ZDU1d01MenEzb2dGZ19YZC1XYjE0TlF3YWVuNE4wUF9GRTQ5aXJBQzlmYnlHcXdZT0NzT1g0dkVsaE1yN1hBbWZUZWotQ1NMX05LVmplM1VlSU9NRi1mU2lyZ2ZBWE5YcHBFaFp4NzE?oc=5",
+      "summary": "鴻海人被錢砸醒！豪撒117億元「分紅史上最大包」 個人有望拿破百萬元 Yahoo股市",
+      "published": "Wed, 30 Sep 2026 00:22:36 GMT",
+      "display_time": "09/30 00:22"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "年度分紅來了！AI賺大錢 鴻海員工爽領百萬 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOanp1N1V2RURYdUgydHFOTzk0bFJsWnVrMzdIZTM0RFVfLWtlM1JxN2xGd19JUkxMQWctaXJaZ1E2VWt0YWpkVTFKVFdnUllzbWpOQkFxNnVMaEdKTWVXOHRLTGUxQl9BZ0ppVmFnWl9PVVdPcHAtUGRqSk9mXzdlSFg5eC1Vc2NHek85eWFJZ1FvMU40Vkt1SDBwY09OaXhIX3BZc2tVU3Z6UE5iNGRuZDNUM2l3dWo2SFBXdzlQZ1ZQNlNnN2xqSmtfanpjQ21ZTTBJZmZLdGpVdUZCbUg4dS1DQ0dIenFUbVRscGdFeXpZZW9heGRnclNySUdWMUxPRjI2T19FbTdFZ3Foc1hJYVZOU2lvclZvZDZBMXpMLWVXd19r?oc=5",
+      "summary": "年度分紅來了！AI賺大錢 鴻海員工爽領百萬 Yahoo新聞",
+      "published": "Wed, 30 Sep 2026 00:22:10 GMT",
+      "display_time": "09/30 00:22"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "AI 供應鏈版圖變動：台積電如何應對新競爭與技術趨勢 - 獨家報導",
+      "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQRG1TdEgzcUdiSkNQMmNhQlA5RFNuaDdTSDdGLWJmZ1lnY3pNeGh6ZEFlTk5URDFxQW1aUVpnSW82eXZ5R1FJNWw2Sllkd0kwendybVpNaDdwbzNTMy1fN1VVTEctWjByRUQ1N0c4WC01WVE0bmJLUVpwVVdvcjRLd2NIQzhqcVI3OWw3SERCU3p0V0h1Sjd6N0dxcjlqMzhYT1BXcHRIUTRnT0c2aTlSaGlBazhuV0ZWWEpyV1lpSXlUZVlQOHNHOXJWUFQ2U01CaHJueFkySzNRRzFjOHNkQzRXMXotbG83MWlmMWNmN2ZaNkQyZDNkNGRlVkU5TGdBaXoydlRtWWFlb2I5NUhuT3pVOTRBczRrRGtkVk9VakZTMmU1STBwbUdDNEVrNHp5dnpQSG1XcTk0U2t1LTN0ZmEtV0JtREJJbXROaEZ2YVNuNkk?oc=5",
+      "summary": "AI 供應鏈版圖變動：台積電如何應對新競爭與技術趨勢 獨家報導",
+      "published": "Wed, 30 Sep 2026 00:21:45 GMT",
+      "display_time": "09/30 00:21"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "一早被錢砸醒！鴻海分紅今入帳「員工嗨領百萬元」 靠AI賺翻了 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPcWdPdklDdHRTZC1mSkY3VTl1RnZjcHlsV0NOWVo5cUhLRUlscDZFTXFyOExzMHE3MzJwNlZIaDdVdExja0tiRkZiWEhaNW9XUDBVU29uRjRhRC16aHdVZVhOOGI2NXVtMGV0X3NUalphWm9MS3NoZkJtbDFQcnVOcWJJRjBNVjE0b25qZzNHZWxnNHU1eDVpdDdPTENZWUVYNnFhamJicW81YUd1aG9ndnA4cDZXTENYVDlWNnV5SWhqNEhXc25DMy1lSGlHTUItVnhYZTcxR0dId0NTdTFXSlFwN2xXN0FqYkFsU3ZQbXJpRXJob2psSjUzVGpFS3g1SWktZmcyTW9MTkNxNzd5MG1wRDNDcFNLMm9Db0psZ0d0cURKNDBaU3dESGU0X05haUhYYTg1S2liODZKNmFNbzJ4bWR2blZVWWczYTNLZk5HU09QQ0ExNHZkSVU0V1JmOVJKQ2JLN2Y2RHJycUE?oc=5",
+      "summary": "一早被錢砸醒！鴻海分紅今入帳「員工嗨領百萬元」 靠AI賺翻了 Yahoo新聞",
+      "published": "Wed, 30 Sep 2026 00:21:24 GMT",
+      "display_time": "09/30 00:21"
     },
     {
       "source": "Google News Taiwan Market",
@@ -162,11 +938,27 @@
       "display_time": "09/29 16:07"
     },
     {
+      "source": "Google News US Market",
+      "title": "聯準會35歷史上從未在選舉前的10月升息！瑞銀：這次可能也一樣 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43SlJveXl5SWh0WFFvUk1QOGF5cnNoUl9XZ1Q3OGlCZDUwLWZvd3Y2QWt0VURVZXhLWE1JZm83LW4ydnUtOGZuN3dyMjN5bHM?oc=5",
+      "summary": "聯準會35歷史上從未在選舉前的10月升息！瑞銀：這次可能也一樣 news.cnyes.com",
+      "published": "Wed, 30 Sep 2026 00:06:10 GMT",
+      "display_time": "09/30 00:06"
+    },
+    {
       "source": "Google News Taiwan Market",
       "title": "【台股09/30日盤前分析】 - 台灣好新聞",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVWZieWVsdEl5WWRPRmNsZHhkbWFySTlyQjNhcGlYbnNYbkh6OVhqbXVQSVp2SVNGaUVQV0lmeWhXZ0lNVUJVdGRtcUNGNGh6SXVlbXhEcU85dWprRlZQMkRacV9aNm5uZTJodWVET2MyOFVnRGU3bTZBUW5zbXlzamltMkp5eVh3WFZKa3dPQzRfalN4TWp2UHN5OEUtUXlMZnNla192azV5YnpGaDEzeU40T0gxTmZCNURTMVFhNi1sR28?oc=5",
       "summary": "【台股09/30日盤前分析】 台灣好新聞",
       "published": "Tue, 29 Sep 2026 16:01:12 GMT",
+      "display_time": "09/29 16:01"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "智慧金融新時代，華南銀行以AI打造下一代智慧銀行 - 天下雜誌",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLaFR4SlA4d1czUFBOMy1GMXFXVXhOTXJQbHdNWFltOXdFbzUxT2NmYzc3UHh4WUo1d0FUdWVwd2ZpNi1xSF9jbERXVWxMUQ?oc=5",
+      "summary": "智慧金融新時代，華南銀行以AI打造下一代智慧銀行 天下雜誌",
+      "published": "Tue, 29 Sep 2026 16:01:00 GMT",
       "display_time": "09/29 16:01"
     },
     {
@@ -186,6 +978,86 @@
       "display_time": "09/29 16:00"
     },
     {
+      "source": "Google News Finance",
+      "title": "美股重點新聞摘要2026年9月30日 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5emN1aXpEajRNOXlueVBMZk85OG1pQ09EUTR0aDVNT0szV1dQVEg5bFdlYXFpRmJ4NGZaRjhxWEVTOE9aWnQ2NGVoeDlYR28?oc=5",
+      "summary": "美股重點新聞摘要2026年9月30日 news.cnyes.com",
+      "published": "Wed, 30 Sep 2026 00:00:05 GMT",
+      "display_time": "09/30 00:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美債殖利率逼近數十年高點，美股小跌、消費信心降至近12年半低點 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54RnA1b0hXalFUbHBPc1ppak93c3VDTUNaNEdoWTY5eEViQTFBa2llYmN6NGN3amg5OGRXYWQ3Rl8zWFA3dkR1U3BZbl8zZmc?oc=5",
+      "summary": "美債殖利率逼近數十年高點，美股小跌、消費信心降至近12年半低點 news.cnyes.com",
+      "published": "Wed, 30 Sep 2026 00:00:04 GMT",
+      "display_time": "09/30 00:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "一早被錢砸醒！鴻海年度分紅今入帳 「史上最大包」戶頭多百萬 - TVBS新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02SWd2R3B6WVB2NXBMcktzOGxNWlpySlRrc2ZtUzR5elZMd1RJU0Z1OUFZUmp0S3VydENIcmg4eVhoU1pkc1pKZndCTE1odw?oc=5",
+      "summary": "一早被錢砸醒！鴻海年度分紅今入帳 「史上最大包」戶頭多百萬 TVBS新聞網",
+      "published": "Wed, 30 Sep 2026 00:00:00 GMT",
+      "display_time": "09/30 00:00"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "外資湧入台灣233億元 三大券商斥百億加碼台股業務 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOTndBYjd6dmplLUxsbDJKeE9XM0RXOW14T1k2MVZESko4V2VWOGZWWnVnN05YdEFHdEd5aUNYbmZVVW1sNjZLS1RyTGpqTU1VN2Q1cU5GdHpnZFFtcWFEMlhGa1p1dkQxelVKWi1jY2I5ZnJQVVRLU0tBb2Yza1J5OWwyY2cwcHo1RTRTRnVobG9FbjdQdURTbUUyS2d5Nm5aU3d6LVlPb0hrVm55MGlUODhZSzRtc2xyNFNZcGpfVzlmZmdVZ3FCR1RoSi1renNPdGd3NDdJSWhaRmN4NmZOZDdBQ3dINE1MNmI2OWg5R3hDYk1LZUQtS1VST09QTkJMU2RrLWc5R2tmcW9rSkF6M0RGU0d5T2VqYmNodDAzUlRnM2U2SG9XMC1HS21jczFfYnpZMFgwa18zU2hNWWdYMC1fQXFQZ29lTlhzSFVEY29JSW1iaDlOaG5OQmc?oc=5",
+      "summary": "外資湧入台灣233億元 三大券商斥百億加碼台股業務 Yahoo股市",
+      "published": "Tue, 29 Sep 2026 23:53:55 GMT",
+      "display_time": "09/29 23:53"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "為什麼突然沒人罵 NVIDIA DLSS 5 了？ - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4cXREaUItMFlXU1ZRM3I4LXJJX096d21yX2FsZ2RsYkNrc21ZdG43RW9EVHNFcFpnM3JQZ2p2aW1MOHJHTzBSeWlqcEhLWjEtdklVS21xQ3pKcWxKVkk4UC1VcWNKNnpOVnVYbmVmQ0RCUQ?oc=5",
+      "summary": "為什麼突然沒人罵 NVIDIA DLSS 5 了？ TechNews 科技新報",
+      "published": "Tue, 29 Sep 2026 23:51:41 GMT",
+      "display_time": "09/29 23:51"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "《台北股市》注意股：30日33檔健策.金居.嘉晶.茂矽.高力.茂迪等- 上市櫃 - wantrich.chinatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX3FNYTYwLUZMd3EybW5fRG9XNkozOUtDYkpzdnVCbHp2bG1DNzI0anIxa0lETk5Hc3J4R1BaeS1oSHFwV3JDeWlWLXRNMlJFb1hxbjFUNUNjVDJaSUxCcUU1Q3ZHS1o4WXc?oc=5",
+      "summary": "《台北股市》注意股：30日33檔健策.金居.嘉晶.茂矽.高力.茂迪等- 上市櫃 wantrich.chinatimes.com",
+      "published": "Tue, 29 Sep 2026 23:50:54 GMT",
+      "display_time": "09/29 23:50"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台積電美國大擴產 台鏈23檔一起旺 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRVhSWVhLM3FvMzdMZGp6U1F6WXBwY0FiRUdYSEFnUmxNYUFYbEctQ2ZTcnNQODhLM1p3NVU3ZWxHWVUxUk56UFE5Umdka2tXZ2dWUk9OWFFYdExIVDBma1Z1cmgySjV1SUtTOGdjZWY4c1Y1eC1qc08xVkFueDZ4cDJSWkstM3gyb1Q4MC1kZ2txNXcxUHhwdmUwZG94MGJLLU5qTGdRTW1HamF5MmoyNzV4X1loU0JGdER0Q3U4cE1MaVkwbU5yUm5xX3lrTGstaFhZY0F6aWx5ZllDajFZc3BoUnI4VjI0TllKVzZobUMxZFdu?oc=5",
+      "summary": "台積電美國大擴產 台鏈23檔一起旺 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 23:50:00 GMT",
+      "display_time": "09/29 23:50"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台股失守48K 科技股處初升段末期- 上市櫃 - wantrich.chinatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85eGwyaWZIZi1CZF85TlNuMWVWX2tRU3lsVm5URnd5clFDNzVnbXBLRFotT0NVR3VKci1iMDdnUlpyd3lCQ2RyVk8tbGM3cThwT3pJc25PR2NIWmFfaXRvSXZua1drbmh4UlE?oc=5",
+      "summary": "台股失守48K 科技股處初升段末期- 上市櫃 wantrich.chinatimes.com",
+      "published": "Tue, 29 Sep 2026 23:48:57 GMT",
+      "display_time": "09/29 23:48"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台積、台塑化攜手拚碳封存- 上市櫃 - wantrich.chinatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QRC1Ub3kzWlJLMkxnVU9TajZDRXdWRHpDVjJwM2FaRzBLQ0w2RmZwUVVTTlU1cGIwT3pabzNDcURmVVh1UmctMGlmMlN2ZkhMNS0zUUNFc2g1X1BIZk1Yd2RqTlZqcnNQUkE?oc=5",
+      "summary": "台積、台塑化攜手拚碳封存- 上市櫃 wantrich.chinatimes.com",
+      "published": "Tue, 29 Sep 2026 23:43:57 GMT",
+      "display_time": "09/29 23:43"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "美國期中選舉恐成AI多頭隱憂！反數據中心情緒升溫 AI股、標普500面臨監管風險 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44bjMyOGhPUGRhOVpMTjU1N2dSUGtVdkJseUwxSnRCTXQwaXYzMnZGNzdrd29pZmdkejJwQnd4bUR1MURISXExNGpNOWJJam8?oc=5",
+      "summary": "美國期中選舉恐成AI多頭隱憂！反數據中心情緒升溫 AI股、標普500面臨監管風險 news.cnyes.com",
+      "published": "Tue, 29 Sep 2026 23:40:47 GMT",
+      "display_time": "09/29 23:40"
+    },
+    {
       "source": "Google News Taiwan Market",
       "title": "AI需求助攻！環球晶8月淨利暴增145% 傳台積電將蓋美國第2園區添想像 - Yahoo股市",
       "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxOV2d0TWlSVVpHMnlJaldtTmFmQ0tDLU5BQnRWanVEamNkTEM3cm9FaUNIcTlyVmJzMExYcUFLVGMtOHlhWThPanJuZ2E3WXhSMTlNQjdBUkZ4dlFOWVY4cnpEZ0wwLUY5b0JtRnpQaE5VMUJieWszak1LQ1o1UzRRcEg0czBRTkJrelFTTEdrQklSQjhmVG41dXJ0TnFpS3Nxa2M5bmxGRW5sOG0yekxQOFFJNWhuUjAxcEpTb1k4QnFtOVBKTDVOMnQzR0pwbm82anlsMmRtSWZZakRVTzY2QXR1ZlpIWVBzX3FFYVV5d2tQbVZYM3JBX19lUTFheEdMekVpYWtPbm5DMURGR3ppbndGVGRlOUxzYVlERXItVTFuNURmY3g0a2FPclQtWVE1OVFFY2QwYVdPVDBiZXBtOUJHd1JnMGdiWVdPY3FRZlR5THhnR3BtS2NEVmQ2X3NDajRMSXV2bmswMnNhUnNkT2RiOEpVelBCMlBhNXVOM3hLYnY5N2dSNTZpSXBQZ1FyS1lpSDRQX1NkT0tBVjJJ?oc=5",
@@ -202,12 +1074,140 @@
       "display_time": "09/29 15:36"
     },
     {
+      "source": "Google News US Market",
+      "title": "美債殖利率續創多年新高 美股三大指數連續第二日收跌 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBPUFdyMzF4b255SU9URTNWZXdOMm1JNmxqeWNtcGRNUUNrSVVmeE5pOU1LTE5naWVvXzVJUTY2MFpMaXpWMUpyWmN3VjBzMi1yczJDRTZTRXNrUmtkazlJQXp2WndQTDFRWDNRU25YVkFGSFc4SUFYS1ZB?oc=5",
+      "summary": "美債殖利率續創多年新高 美股三大指數連續第二日收跌 BigGo 財經",
+      "published": "Tue, 29 Sep 2026 23:35:00 GMT",
+      "display_time": "09/29 23:35"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "【即時新聞】鎖定月配息投資人注意！Amplify XRP 3% Monthly Option Income ETF(XRPM)宣布最新配息，每股將發放0.3114美元 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HNjVZQl9TMWN1eUEzWkVkOE5NQWhObnhPaWdTSDRXdzRSQ3Y0ekU4TkM5VGx2T1MwMDFUWjhiWUpKdS1IRHNWUUtQczdvVFBjTnU0ZmJ2Tkg3dmlEQl85NDVwd1JRZmM?oc=5",
+      "summary": "【即時新聞】鎖定月配息投資人注意！Amplify XRP 3% Monthly Option Income ETF(XRPM)宣布最新配息，每股將發放0.3114美元 CMoney",
+      "published": "Tue, 29 Sep 2026 23:31:45 GMT",
+      "display_time": "09/29 23:31"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "錢鏡你家2／人在國外也設鬧鐘買正2！鐵蛋趁台股回檔加碼 7月進場賺15% - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxPcnNPVWllNTNLYkRpT1prUHpvaFdINldrTHNkd29HQklWN21uMTFBWUw4LS16Z3RjYTZYQ1BLTG1NQnFJYm5TRXV1aVBqVW9zeFFFRHFsNUZBTzlOVWZJcnNaR2VyMl9mX1hGa1ZmcTFwSThTd21UelpmYWN4NVZjZ3ZGN1FVRVlXeHE1T2tmMGwwOUkxQ3pXQlhCWWtiUVRqT2VNWGZfX2pKWWlnOUpuSUhlNGRQckluaU9uSU5SU3FJRWRoN2VQaUhCTHZ2U1hKQmZQN05ITFdnWmJqY0xCREhqbzFXZmJFMUo1U3JyWGM2Z3BldU51ZE93OGZLRVBmVFBURG5MbEdrNzdLelc0ZjdsWmZPbU50Qkc1QkpLTmV5TU41dW5qRFhxRlpjY190NE9UM2FVQ0o0N2Q3ZUdpUG0xd3ZBaWluVm5NVV9PNEk2V0I1a3NtM0Z5VGF4WEZRbkpneGRnT29lX20xODB1S2tBSmlKZkp2akZ1YXZCZW1rWDF0R1ZZYXhvLWVTNUttYUpJdl9uMm1WT0hyb1JQbWJn?oc=5",
+      "summary": "錢鏡你家2／人在國外也設鬧鐘買正2！鐵蛋趁台股回檔加碼 7月進場賺15% Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 23:30:00 GMT",
+      "display_time": "09/29 23:30"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "油價回落、公債殖利率攀升 美股費半漲逾1%、台積電ADR漲0.90％ - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPUjJKS0hNZWZYYnlGNHVYMVhlRlNWY2M1RmRBSzg5RTN4SnBNMWlRNmtReER1OG9kZWo5YUdaN3FwSE00MkMxNENBLWw5VjMwNzdOY1E0Ql94d0E0STNwUTJ1dWd6TUVxTjdqZzZXSFZtZmZRdzRZVkRBLVl3eVJtSkJpYms4UVhuWkNzd2VMMjFUQmRYVFRiakVJaDNCREdYdkZmQjNCckpxeFROYU1PYmRtYUNMNWhqNWhXSGFwRzAzUHZhdDRXYjRHZ1RvUjFjUUJSV25hYkVXMHdPZUFiQTFiOFY3eV9KUlFOMVFjWWVqYmtkUkc3NTNVUjg1WTdhVjNYLTRNdmNHQ24zV2ZwYlhEOHhOX25tTGVNY1c3dzg0VFRzclFtZEVOVzF6OXB1Nk9ZUm1mZWMzSzJrc01Zczk0bG94UVNKYkRkZUpXYlFKZjBUeVRCZFdhMHlXQQ?oc=5",
+      "summary": "油價回落、公債殖利率攀升 美股費半漲逾1%、台積電ADR漲0.90％ Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 23:29:33 GMT",
+      "display_time": "09/29 23:29"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台積電ADR收紅 聯電日月光猛漲逾3% 台指期夜盤大漲近700點 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53SzhHNTUweDEtR1QwajFDMHlVeWpUMHVvVTNRTDI5U1pMUlp5aEhvREJNeUJtTVVyVGVKWGJDYmd5eExPUWhJT3dOUW5ib2J3UVp4X2RCdk5Wd2J50gFiQVVfeXFMT1VIQU1IYWRIRGdKTWFxT0dmdnpkLXBIRTkxNWR4SjBPR253d0d3VldkSmRiLTV1VnNSeWZDaDBGZXBVX08xR3czeVM1WFZfQm1MZnFEaHdkR3dnVE5hMXNyN1E?oc=5",
+      "summary": "台積電ADR收紅 聯電日月光猛漲逾3% 台指期夜盤大漲近700點 經濟日報",
+      "published": "Tue, 29 Sep 2026 23:27:24 GMT",
+      "display_time": "09/29 23:27"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "股價重挫7％外資卻狂喊目標7300元！這「ASIC大廠」TPU拚出貨300萬顆再搶150億美元ASIC大單 - FTNN",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwaXd4dWRWNmVvX1dXbktGOWF6SGtSVnpfbHhSTURSMWY4bXJ0Q29LUkNuQ0lNanJ2djd5VVhaNWFlOUhDQXV6amk5TQ?oc=5",
+      "summary": "股價重挫7％外資卻狂喊目標7300元！這「ASIC大廠」TPU拚出貨300萬顆再搶150億美元ASIC大單 FTNN",
+      "published": "Tue, 29 Sep 2026 23:20:00 GMT",
+      "display_time": "09/29 23:20"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "《美股》殖利率續揚、道瓊軟 光通訊、費半逆漲 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdWlpZ3RCcUpueExkcWNPOW5DcGxoN3lXSFNZcDlDMFQ2akJhVWpfWThzdTJBN0ZOUlAxc0JwWmw3Yi1UVlp0Z2IxU3U1WnUyX05NenV1RXM2N3huQ0ljLUlmZHJRaU55WUJqY1duY19CZ24zTE9ZdGZENmgtUTBMYUxIWVZ3Sl9RN01BN090Z0k?oc=5",
+      "summary": "《美股》殖利率續揚、道瓊軟 光通訊、費半逆漲 MoneyDJ",
+      "published": "Tue, 29 Sep 2026 23:17:00 GMT",
+      "display_time": "09/29 23:17"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "美股三大指數小幅收低 費半反彈逾1% 市場靜待通膨和就業數據 - 世界新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90MlJPZHVhMDZpNXVOUW9tczlHbUVSMkJEcVpfUGQ3SUxXS0V1RnVSeFhhVDkyZkpFUjVVT0V6T0NBUEhiQ3VyQnJWVGxxVHE5Uzkzanc0TWVFQmJhX3ZJSGd30gFnQVVfeXFMUFBpdERhcTlYWFNiRWdJYmVIUWV4bi01UWF5c3FBNXU4T1VJZEtPUnoxbVR2RXVqNzA5cl9ZbUJyRjVOby10OENzdEpQR0xxRXFLQ3pTZUE1QmhxUkZNZFl5c0VHaFg0UQ?oc=5",
+      "summary": "美股三大指數小幅收低 費半反彈逾1% 市場靜待通膨和就業數據 世界新聞網",
+      "published": "Tue, 29 Sep 2026 23:16:09 GMT",
+      "display_time": "09/29 23:16"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "陳立武：台積電是夥伴非競爭對手 不必陷入零和競爭 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kN3VNUjZCVWs4czJ4RjJ1bWpqbktPTVMtRUNVTHozWXRSNzR5VjVQWEZrNDdQektCMEZwUV90X3Bld1VnVWZscjlKZUtRYVE?oc=5",
+      "summary": "陳立武：台積電是夥伴非競爭對手 不必陷入零和競爭 news.cnyes.com",
+      "published": "Tue, 29 Sep 2026 23:13:21 GMT",
+      "display_time": "09/29 23:13"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "快訊／鴻海分紅獎金今入帳　「史上最大包」起床領破百萬 - ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PTUhoUlVRM3BuVEdJRnhGZHRsNktjMnhzbEpaYXMyN05LUnhFdk9MN0xoZUowbzJOalR3OGdJMllFQ0dfU2NMVDZabkQ4Yk0ySVHSAVBBVV95cUxNMlBYdXhkSENkN25GZ1FiSTh1cXBMZWlCSVJQRU44RENlM3RjOTNUMlNpOXVyUGhoaFZlamhqdXJKN3BlYmlKMDNGazF5UmR2eg?oc=5",
+      "summary": "快訊／鴻海分紅獎金今入帳　「史上最大包」起床領破百萬 ETtoday財經雲",
+      "published": "Tue, 29 Sep 2026 23:13:00 GMT",
+      "display_time": "09/29 23:13"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美股收盤／三大指數小幅收低 費半反彈逾1% 市場靜待通膨和就業數據 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83YkUxLUNPTXJERUJPUTBPU0VWenUzSTJlNWMxT0VCWVY4Q3k5UG15dEtoYWdvVzFMc0l5RTBsY1VOYUppNlpjT19XWExDaXlSX0hpSmZJQXFOMzRm0gFiQVVfeXFMUGEyOE1rcno5T1dOcjY5R0IxakRzWlBoYjFOTmpreDVuVHhleng3M1Mzc0VrSG01QWpBZXhSUWx4dXByVE9BMTlldExNbW9FMEttYXg1eUJ0YTB4VXplWlNQRmc?oc=5",
+      "summary": "美股收盤／三大指數小幅收低 費半反彈逾1% 市場靜待通膨和就業數據 經濟日報",
+      "published": "Tue, 29 Sep 2026 23:11:27 GMT",
+      "display_time": "09/29 23:11"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美股收小黑道瓊跌131點 費半、台積電ADR續強 - 壹蘋新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbmY0OFBTbTJzT2tTQVhWSEsyMlB5alJnM0JOUnFRX2FQT3lxZ2lqYzNlc0pGR19GRWVsLV9YVF9qenRkYzV1U3lSd2FqUUZ4c3o2dkNGbklWX2swTWtlMlJkRjEwTzBHX3dsaVZoSkNlVVlDQVo1Y2wtYldTaEVyOHNn?oc=5",
+      "summary": "美股收小黑道瓊跌131點 費半、台積電ADR續強 壹蘋新聞網",
+      "published": "Tue, 29 Sep 2026 23:10:00 GMT",
+      "display_time": "09/29 23:10"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "資金輪動到高價股！聯發科、大立光、創意誰還能再噴？ 分析師點名2檔轉型大黑馬：明年有機會登萬金- 上市櫃 - wantrich.chinatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HNmNlM1dNRWhjQV85MEVMMFJ0Zmlna1U4WjcxLXl2QjlHRGxoYWJGQXlsR0FUaG03ZUI3YlA1TXJfeXNHdTlvb3BCYlotVFhKcUNvdFB0Wms5NC1aSXdfZVlVbE1McTk1T1E?oc=5",
+      "summary": "資金輪動到高價股！聯發科、大立光、創意誰還能再噴？ 分析師點名2檔轉型大黑馬：明年有機會登萬金- 上市櫃 wantrich.chinatimes.com",
+      "published": "Tue, 29 Sep 2026 23:08:46 GMT",
+      "display_time": "09/29 23:08"
+    },
+    {
       "source": "Google News Finance",
       "title": "美股開盤「3大指數上漲」！道瓊小幅回落、費半漲逾1％ - CMoney",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96aGxqaHcxOXNqMlFCbHBKOXBtWWJPb0Q2Tlo4eWNncUcwQTZLbURHejJJdnBPM3VrZHQyY2d4bkNSVWtZTVR5SE0zbm5tZ2dYLVp2OGdlOFk?oc=5",
       "summary": "美股開盤「3大指數上漲」！道瓊小幅回落、費半漲逾1％ CMoney",
       "published": "Tue, 29 Sep 2026 15:06:23 GMT",
       "display_time": "09/29 15:06"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "油價回落、公債殖利率攀升！美股3大指數收低 台積電ADR微揚近1% - 太報 TaiSounds",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0yWkEyOTZUMGJhYXQyMkFvXzhVOVBRaDZWUW5NZWtxUWVoOS1yVGlZUUQxOHJOMHV5SlZQdzd3NEdIZEJaTHlPbzJrbGtOcXZZa29XNjlxaGhTdklh?oc=5",
+      "summary": "油價回落、公債殖利率攀升！美股3大指數收低 台積電ADR微揚近1% 太報 TaiSounds",
+      "published": "Tue, 29 Sep 2026 23:04:39 GMT",
+      "display_time": "09/29 23:04"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股盤勢】殖利率飆5.25%壓大盤，費半逆勢反攻1.3%（2026.09.30） - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZnpYdjEycnNkT3NJVnlTVndsQkQ5ZXFNLXdCRUNqN1pPREZ6dEtXNUItblQ0N0ZRcC1OT2VTOTRCbmtjNHc4SFlUMG9zbkZwdW4tNU1qRV9NYldQZldMVlRhRFFsbVU0SXFkWG1XNjNvVVlIRlVpZ1BaUVN2R2hibzVVdjVNYnhJTjIxY0V3?oc=5",
+      "summary": "【美股盤勢】殖利率飆5.25%壓大盤，費半逆勢反攻1.3%（2026.09.30） CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 23:03:55 GMT",
+      "display_time": "09/29 23:03"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "輝達、英特爾預付鉅款助日商建廠 鞏固先進半導體供應鏈 - 商傳媒",
+      "link": "https://news.google.com/rss/articles/CBMimANBVV95cUxPQmNQYndERGtpRXFwR2FFNHpOVVp0YVV5eGhCSkN1NzBTQ2YwaDNfaVJ6amNGTzFYQXdibWx2aWJaaGlTSW85VjBYVHVyX3NjZWNVMUtMR09TX0NLSEJzS1NfTGQxVkFFU29HcnNuTjNpaGlHYnRySTBTd0dGV1pBNUozazJqVzJqTjAwWHRhTWdWUkxLbDlJZ2dEaDFqallXT0d3SjZid1hlbE9ySTdIWGtTUzFiMDlwd1BmRFJtX3JuUThCLS1KaHU4a0VTOTBQMGtvRjZ5cGVXcGU4VWIzWm5mOEF2WDBoV3BlVURkUGZuNmtLc0VNZ3RaNXpLd0xndklDY21PSE5mWEwwM2IzWFpOSFZlX0VmWnltN25LRjdBM3ByMkwydjJHdnJzMkNvTlRfS2pUS0lQb2xZeDlsYkc1WXVfZ19zSDFua3NRSEpHZVZ2MXdPdjFqSVZoMkFtVjFCOXN6T1NmU1d3MDlwOUZfcEVJSDd3QkpXR0JwQnpRdmVqTUF0NlNFd1VZWUpta2NwdF91cm8?oc=5",
+      "summary": "輝達、英特爾預付鉅款助日商建廠 鞏固先進半導體供應鏈 商傳媒",
+      "published": "Tue, 29 Sep 2026 23:01:22 GMT",
+      "display_time": "09/29 23:01"
     },
     {
       "source": "Google News Global",
@@ -227,11 +1227,99 @@
     },
     {
       "source": "Google News Taiwan Market",
+      "title": "ASIC雙雄重挫逾7％能撿了？ 聯發科、創意2大買點曝 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNUkNUYzNaSjR4dklnNU52QVdNNW83VHhJbGdjcnczZFl6X0xUZnlmR1RuY294LVlZSGNrY1kwUVQ0Zjc4cktKUlh5dE5HUFdCNnFzLUROV21CSzBNeWtSWHJnam5jSFp1bkRVeVZiRVpoaTFaeDktTWIwY3AybE0wZFVQVlhQeDRuMUFZLWl6MGlPMkk2eTFLSEN3OEk3dmt2czk2Q0NWcFhPV2Z2ZWRCb21iNk94ZjVxVnIzUkd6S1BNdUZ4Sm50WG5LZUlpZFVqQmxMb0g1a3NnTlRuSktFbk5xbG02ODV1akZxNXFnQzlyamtyV0d2MEdVMTduVUtjZnQ1bzQ1T05RUkdjdG4zcG5iSHNNS05Pb3ZPV3Z6YUpyZE5feDZqem95NA?oc=5",
+      "summary": "ASIC雙雄重挫逾7％能撿了？ 聯發科、創意2大買點曝 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 23:00:00 GMT",
+      "display_time": "09/29 23:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "慘遭6.7萬股民蛋雕！外資送暖猛砸71億狂搶00403A破67萬張「這檔」擁三星、海力士榮登買超王 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxNWW9Ubi1iZk90TXRpUVlYdDZLbkVGcW83N29hWnRHX09mZzZvajM4cDFNOUFTbk5PYmZmdzg4cHFYQ3hTWno3M2R6b0x4QXo5S21uT050TVVHeUhLOUo2YS1WdmpybDZnXzVTWmhBcDExTi1XQ0YxalZoa1dNQnJzOUhwU0JhdmNtX2FhYVF6cUxGVmwwWjU2OWRlREs5d2NUTTR3VEpPc3lMUmdLWHFROXBWbG9MT3JqMGpHQWMyRkM1YWpQN2hhTlpISHM0eHVPT1d2WWtjVTlKcFp4dk1EaEdOYVdEZTRnSFUxNHBzRzZORVBOQ2pzdW50M1FBeDBrd2hzR3dkaEctN09ZSjBUVC1sbzhFeUlZdFpmZ25WVFNCYkN3TFRraEE1eHpjUVg2QVdRZWFXd1FwZEpOT21iVEFjbE9JSUo3aVQ3eEEzVjdjOUlJU3lBZkR1UU96Yk5JZmNkaVpYYkFDUUpZOGh5THBIQVpnR0hlNG02cm9HU19TTEx5MVUtNUJCWWJfWTVO?oc=5",
+      "summary": "慘遭6.7萬股民蛋雕！外資送暖猛砸71億狂搶00403A破67萬張「這檔」擁三星、海力士榮登買超王 Yahoo股市",
+      "published": "Tue, 29 Sep 2026 23:00:00 GMT",
+      "display_time": "09/29 23:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
       "title": "賣廠題材不滅！友達續迎台積電、英特爾合作迎自營商力挺奪買超王「這檔」迎漲價紅利拚明年量價齊揚 - Yahoo股市",
       "link": "https://news.google.com/rss/articles/CBMi2ARBVV95cUxQeVdQOG5zbjdPanBqN0dMVFo4NjV4TXNPcXlnNW1oeU9tV2dkcmt2aEJWcldmRDFPVkZnbHpkSUhzUzRwRnNGcGtORFo2TjI0c0RIN3NxWjlVcFpsLWE5WlpOak95RHcwaUEtNm9yRWw5VHhvRS11aEFkNUNIMVQ2U25qb3BWNjV0bzdibHVKeFNBcU9Gd2pRZ2pPeS0xQzdPdGhkVU8wQlVJcElUMXVnLXJxNWtDLUdjQjg0Q3QtTlJwdzdwVWNBbGh4Zll6NFNRTXFyMld6MzdJcUNqankxMmtLVjlDc0taQWJwQWtGZEpQeGR1Nk9VdUNzbjQ4UEJGb2wxOTkweHltbTdrQmdqWUFmRVVGWXNYLVk0T3Q4ZmprVzZEdVFmcks1WE02YmNzRUxwWGVCR1M4aWx1RHllZTRmTzQxZlVUbG9sZEFBU2lMSjYyY0RJWG9uMWcyd21SQ0p6dl9XZXpQcDRvTmZJRHJ0QjZVR212RHNvSlZnSTRzS1RUR1ZFdEtNYWNyN3I5bnhZVXlRVVdqbjdaY1A4MzdkNGZHUlNLSEhGZVVZeDZ4UjUtZ2RKOEhxZE1fNUJyRnhrSFc5WkNrVnJ3bWVWalBBWFp6Ynd1cG5wbFFOa2NWT1kyXzI1bTdXSVh0eEo5dXRJbnhyVzNuT2ZCZWppSmdQWkc1N0VSZG9tbno2WEVGbDNLc0lmbTFoZHFHQjNrSk5fbUhRQk4yeDNZVlhERHZjNjFqc1FsVTBjeHlKYUlERlY4ZWhtcDJUZ2tDVms3MklGakZKMnI?oc=5",
       "summary": "賣廠題材不滅！友達續迎台積電、英特爾合作迎自營商力挺奪買超王「這檔」迎漲價紅利拚明年量價齊揚 Yahoo股市",
       "published": "Tue, 29 Sep 2026 14:55:00 GMT",
       "display_time": "09/29 14:55"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "2020-2026台股房市大脫鉤！股市飆破4萬6千點、房市移轉量卻創9年新低專家揭「人造斷點」真相 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiqARBVV95cUxQY19GVjRGYnlVTnE1T1NtSXhUTmFyRU1qUTBjMXNnaVBhaUEtWnpORkVtaWpTNERDbVdGRXJzTmpZaGFYNTdEVFRLOGlxdlVrbHltZVhFSEV6bjJWaHF0MzR1bnA1YzFOOW84Yll2aUs4NTJzR0FrYzJBanRLdWdydzFZZk1yNzI3U01QT2xmeTU2MXlOclpMSVNwbWhWU0tLcW5VaC02cGpqUU96VXRDRThiaVlJbGwtUFZyVTZKNFA4d3d2cGNnQkxIU2dsbkowWHVkMHpIWllUUXZwUFVGaFpNSkJFRVZUOWZXSjliazVHZEIyMFg5aEYyclBzQ0F3SnZ4UDJRckExRHZoQlgta0tpZGtHb2lrZ0ZxLS1MTHp4WlBCOVlhSzhES1BWRmJQeG5lQjFYUFdLMTQtTzc1c2NvQU02dUdNbC0xbXg0TVo4R3RBTlFidUp6VEtKU1hPLXhSQzRYazd4S2lUaG1MSVFzU0RPaDIwQ1lsYXJONmExZS1IX0dURGFqSEN3UzRxUWw2RjRZVEE4RWpmMHdYbk1sQ3hlQlp1Q08xNkZ3d1R4VU0xN2ZoMUdBYXpWUk1DbVlkSWhMWkNQYmVHZFdtYnNnX0VlV3dJcXF2eWJickh2U2IyTTBDZXZaQVgxbllLcDNsUEhnQTZJUWxXUGg3eHJ2RkwwbFBHdXFpYzNFbmt6R3lSZ3F3dWpaRmpjNFJwdWV3LUF1TXc?oc=5",
+      "summary": "2020-2026台股房市大脫鉤！股市飆破4萬6千點、房市移轉量卻創9年新低專家揭「人造斷點」真相 Yahoo股市",
+      "published": "Tue, 29 Sep 2026 22:52:00 GMT",
+      "display_time": "09/29 22:52"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "殖利率飆高衝擊美股！費半獨強逆勢揚 台指期夜盤大漲698點 - 知新聞",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jMlhWWkRRdTVoMzJmSV9CWDFOS0s0YzkyTkVqVzdSY3FucWl1N2dJenJsUWM1UF90enlKZWVvZ0xzSHZBY0RUS2VuVFRIUzVWa3NRRS1PWmRxUzBnOW9DMlNqS0kyVGJ5ZTZMSjYxTQ?oc=5",
+      "summary": "殖利率飆高衝擊美股！費半獨強逆勢揚 台指期夜盤大漲698點 知新聞",
+      "published": "Tue, 29 Sep 2026 22:52:00 GMT",
+      "display_time": "09/29 22:52"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "【美股巨頭】2奈米月產能衝12萬片，台積電超前部署誰最受惠？ - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDFfY29aYkFvMHZfa0ZOdWFLMV9CdjU5MlNnZ0NpYnIza2h4UWI2RHhYR3VZZXhLeTMzazhGSjU1aUZuVnZaSkhUXy0weFRrZjZWS2tiSGRMWkJySzhPWjJRX3lTLUhYVFlPNkhZMjlZZkJqTWhwX00wcjFseTZLSUVOU1NldjR4ZmpxeUhn?oc=5",
+      "summary": "【美股巨頭】2奈米月產能衝12萬片，台積電超前部署誰最受惠？ CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:49:45 GMT",
+      "display_time": "09/29 22:49"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股中秋變盤向下2兇手曝！分析師估台積「這時」再創新高：5類股可買 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxPNjRKUTd1SUphWEdkdTJQeGVxZXlNZEF3cTNvdGZlMl8tUkJkLWRfWjhHX1VXLTBWNzFBQml2M0RCWlk3Nk5KZGRoQnBQYzFwb19RYmJKbEN3RTA3NWdUQWJpYVM2cDhCbzFOQzZjVFFvWGVqWk93alRrazljSU10RllMU0hvYkZEM3l4eDFPajlPZHBRWkJkanMzbER0SDhKbjBMY1UxTm95M254dUdoSTZrRVJaZ0oyeVNiaEdiU1NZX0MwdEtQVjlGZlItRHhHNkk2M3RBVDk3Q3RzN0tBRm9RSW1INDE5eHRhV3J0STlacXdPTFlEYzA4OXJITnF3SVEtbzliUEYwOHhxc0tJZW1TeHU3U1lGQWNTdnZ1YzhwNkZKZU81czRBNVpQVUprVXRERDlyT2ZCQUV3LW5HQnZMeUE3UXR1T3dYWHpvZXdIUnN5YVpBa3Z3VzBFWGhKcFlxWTIwQk5hVkc3aV9SM0pWWFFvVVloTG14LXMyZl9KWDdfbllJSnByX3Jtb1I5UWR5elc1VUxBNHIwNWtz?oc=5",
+      "summary": "台股中秋變盤向下2兇手曝！分析師估台積「這時」再創新高：5類股可買 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 22:46:00 GMT",
+      "display_time": "09/29 22:46"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】美超微跌破42元，Cramer喊讚的不是它 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRFBnNVg1ZG5Obm9BczBaSlByMkhzUnpCd2lsZC0xX2g5NHFHd0hmSlVKelBhdlBrYzFBWTVNTWNvOTkwWWx4Z3ZnaDFYdS0xdF9NNFNIb1QwU0p1SGpBNWxaaGRTMUJpQ2hVaDY2am85U2tuNGtRSHhfRDRlQkNOVTJMMGFIOC0wclVwWHFn?oc=5",
+      "summary": "【美股巨頭】美超微跌破42元，Cramer喊讚的不是它 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:45:10 GMT",
+      "display_time": "09/29 22:45"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "美股｜30年期美債息飆24年新高 蘋果領跌 3大指數連2黑 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjZ2lvc2h6N3RtMVVLZnRiQWRENTBFMmZNRVNyU2ZLbk1WejZ6b3NVVGpvWGg4TkJ2SUZxdUlfX2p5aWo3THdoYU4zSTBvVnRlRDBpSExCaXE2Z1o5UU5r?oc=5",
+      "summary": "美股｜30年期美債息飆24年新高 蘋果領跌 3大指數連2黑 工商時報",
+      "published": "Tue, 29 Sep 2026 22:44:00 GMT",
+      "display_time": "09/29 22:44"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】Burry把空單換成Put，Palantir被點名盯到2027 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN29VNTZHdUdtSGJZbnBmbllXS3RuZVRxSTYyaUVwLXVuOHRVYlZpN3I4NHpSTTVuS0hEZ2JrR0JMNlZrQzA1ZzJuRndma0V1OHREaElGckVNejN0SlZjTDJITVNsSXNFZjRVZDNSTG13ZEdISTNJdnZhdjRzTGR2MklHR1BHam5PbGNlbk13?oc=5",
+      "summary": "【美股巨頭】Burry把空單換成Put，Palantir被點名盯到2027 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:43:00 GMT",
+      "display_time": "09/29 22:43"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "快新聞／星期三開盤噴爆？費半獨強助攻 台指期夜盤狂飆近700點 - 民視財經網",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jQnZMRnJnN2F5cW50SEV4SlRJOWU1ZE5NMHZHbWNORTlTSmZ3QzIwQXY5dTktMmI1TWp5RkVCeXdobWRpRDhFUXVxaS1hRktLNzVCc3NjeVh6ZTFNcC1vQ0diQzVsQQ?oc=5",
+      "summary": "快新聞／星期三開盤噴爆？費半獨強助攻 台指期夜盤狂飆近700點 民視財經網",
+      "published": "Tue, 29 Sep 2026 22:41:21 GMT",
+      "display_time": "09/29 22:41"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "【美股巨頭】史上最大！輝達1,500億買自家股-CMoney 研究員 - CMoney投資網誌",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeE10STZ2WEl2cWZxbkZ0MDZBekhQSG5pU3ZJSmsxQnJWSU5pRVdvTHVjRnBlT19zU2lpZFlrWXUzMFhnRmVGR2JfcUdlNUc1WWRBblpkZU9wR2Z5Z3J3VTJHSHU3bGlCU2dDRXdOZ3dsZldyZnpMSE1DV05PZDNpLVNUY0dicmJDcFVzaVBB?oc=5",
+      "summary": "【美股巨頭】史上最大！輝達1,500億買自家股-CMoney 研究員 CMoney投資網誌",
+      "published": "Tue, 29 Sep 2026 22:40:33 GMT",
+      "display_time": "09/29 22:40"
     },
     {
       "source": "Google News Finance",
@@ -242,12 +1330,36 @@
       "display_time": "09/29 14:40"
     },
     {
+      "source": "Google News Global",
+      "title": "美股收盤》公債殖利率飆高 美股多收黑、台積電ADR漲0.90％ - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NcVQ4Ym43cVVYVEJfUy0zeThjWnMxT182am9UNjhNYmxDQzludGZ0OHFiNmJNRkFCbEtfblVMS2dmZThkVEt1YUdTcWRLQjExbU5ZMEhLUkRKZVIzZ2lV0gFkQVVfeXFMTzdHYzB6Q1RUMHhhWlVjTGlqNlVTLThfVmlGbU5wN3NSemZFd25vRXpZZVV2b3JTNnpjRTlRdTVfT0xSTklwQ0hzQVZkTFlHVDYzWXpteWRpT0hDZmR4ZkVtdllhQg?oc=5",
+      "summary": "美股收盤》公債殖利率飆高 美股多收黑、台積電ADR漲0.90％ 自由財經 賣壓止不住！美國10年期公債殖利率恐衝破6% 投資人要緊張了| 全球財經| 全球 UDN 美國債券殖利率創新高：經濟強勁致漲，投資者免憂 Yahoo股市 〈美股盤後〉30年期美債殖利率創24年新高 三大指數續黑 蘋果領跌道瓊 news.cnyes.com 30年期美債殖利率飆破5.6％！24年新高「這些」壓力恐讓拋售潮延續- 國際 工商時報",
+      "published": "Tue, 29 Sep 2026 22:38:17 GMT",
+      "display_time": "09/29 22:38"
+    },
+    {
       "source": "Google News Taiwan Market",
       "title": "傳台積電將在美國「這大城」設第2園區 國科會主委回應了 - Yahoo股市",
       "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNM3d6bnBfNjc4RWJCSjhqdkNlUFBlRmsxLUhBanlnTExDS3FiYndsQm5NZm5mcXNHU05uNUw3QlJDemZHVEs0NW1jS2RVU0t2RkRGLUxuVkE1SGlCOWd0RzRialp5b0xIcURpRUx4OXJDYnhUWk40bm1velJfb1l2RlJYSG5uS2ZFaDJfRFFFb1NQdlZqYy00YjNfV1d1cnAzOXhwYThKREhDdkZWalBVTnZYeUgyVDFsY3VoaS1VWDdhaXExLVhrOUN1VHUtQXJUUDRjTVZrOVp6cHNTRUJXbUNUZ0FhWm1SR1hvSzJEVER2cTd5SXdEbGQ5WHVRNVloM3QtRGVpeks3R21IczRwbkhRdVphNzZFVDZNV0JrN21wTDFXd2QyeUVqdTNCWkpTbEdqMTEtVFJzMGNvM0VDS242aFdybzZLd3FIcXJVT3RaY2hxbkI1VDVOX1Y4Z1VBTVF5d1FVNDRyaTNIX0dNcHd6dnc?oc=5",
       "summary": "傳台積電將在美國「這大城」設第2園區 國科會主委回應了 Yahoo股市",
       "published": "Tue, 29 Sep 2026 14:37:37 GMT",
       "display_time": "09/29 14:37"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "Nvidia批准1,500億美元庫藏股，黃仁勳：「AI是沒有自我意識的工具」 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rQWYzR3k2ZWlsNjBwckZrSWN0N2ZzSl9WN2ZRbnR2cjBYX3lGTnc1dS1jYTdWd2xlUXZKakVRS0FKVkNfWC1ueTZJUzVnRU5xem9tYnJxd3FQQlBWdEItYWtObW9NRGs1UlRzQWkycnpaeGMxd1gxaXlR?oc=5",
+      "summary": "Nvidia批准1,500億美元庫藏股，黃仁勳：「AI是沒有自我意識的工具」 BigGo 財經",
+      "published": "Tue, 29 Sep 2026 22:35:00 GMT",
+      "display_time": "09/29 22:35"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "油價債市給予喘息空間、但消費信心不足 美股週二開盤平盤遊走 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMimgNBVV95cUxQRDE2RFZYQ1NTOVJOU1pJNThqWTJSMzFUSVBVU3p3NHFQLWEyVXZaOWVZMUtZN0YtV0lnNFM4aVVodTB6bWRVSGpQV2h3S3NjRzFqNjkzcXJJZTMzVjFOUWNKam1iVkptc1p6WVNVcnBfQUtRRWJNQjV5VVBhZU4zbFhEbXJqT2dSS0xmN0ZnckVWYzVVTVQ2czBZT2NsM0VHVHJFTXIyai1IZmswZ1Bkdlc0MXE4YTVpVWVtRnozWlBQeFphYl84V2hBVGlfXzU4MHZmMjJJY2VQSlhQcjlRMUlYOE04UGMzSEpILV9jUGFScm82VW1lSVl4dXdaMTdEUTRzUmlLcHU2RVFvYUpzQVNiNTNxVkFtUnBxOGRHWjlRUGc1ZjJxNjhEbWxWSE9BMVR2Wm5tckZiN0JnMExSTHFmX21yRks4eXk5TXBGY3RTQnI1cHdFbjBMdlFlOHZ2NlFQUG1FNGYxZU9UbDFxUHZQZFVGS0pQWW5nLXE3dzRudjdIQ190Y2pMVERFV2lpR3ItQmpqRVNEdw?oc=5",
+      "summary": "油價債市給予喘息空間、但消費信心不足 美股週二開盤平盤遊走 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 14:33:30 GMT",
+      "display_time": "09/29 14:33"
     },
     {
       "source": "Google News Finance",
@@ -259,59 +1371,11 @@
     },
     {
       "source": "Google News Finance",
-      "title": "【美股巨頭】AMD短暂破兆美元，英特爾的CPU市場正在流失 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVV5cWRzQWpSd3F1REZZcFVuVHBEU2plWGdyckhPVnpuVWkzT05KOFFTbUpnRVYxeUdSQjlaeE5RQUN4bHRZZGl3MmltRGxUUUdfQVd1enN5QjBmekViaHMwTkhFSEw3ZVBiZXJpOUpfc2xsX2tnbGJ6YWFnNm9NLXpwQkthaE42OG0zMzFn?oc=5",
-      "summary": "【美股巨頭】AMD短暂破兆美元，英特爾的CPU市場正在流失 CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:29:40 GMT",
-      "display_time": "09/29 22:29"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "【美股巨頭】Anthropic燒掉420億還要IPO，谷歌的護城河還剩多寬？ - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRk5VT2tSQ21YZHVzR2hRYjA5ZzJ4bnppclBNZHdtRlRUNkNoa0FUVWFCV1hxQUNzUzE3ZjdndjMwMlpIUkxNMVBIamt2WXZ5VzNXZThjZk1OTE1hSkt3Z1ZMN2lWMHlqdFFobVJsTXR3YmRSLVhOekwxSVE0cG50Z1BOWEZjNmt2aDdxbER3?oc=5",
-      "summary": "【美股巨頭】Anthropic燒掉420億還要IPO，谷歌的護城河還剩多寬？ CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:26:47 GMT",
-      "display_time": "09/29 22:26"
-    },
-    {
-      "source": "Google News Finance",
       "title": "美債與油價回落！美股開盤漲跌互見 台指期夜盤大漲609點 - Yahoo新聞",
       "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNWWpwWnFpZ2ljQWxUejBxbm1oTVRwRTBCM2ZkY1Q4UDllbWtubVdjcnVNandZelgzQ3lzYnBuMjNLSUVyYU0wNzVhNlR0Nk1PRlQ3b1dUb0o1OS1HQkFXUkxjQzQ2aTdBREFsMXlzUS04c0lfclNEUDZ0Y2JYQjZQWmIzTTVkOU5jak5yTE8wOTItZXJSZ202ckl2SHlia0JlS25ERHZwbFlGMHJKWFk1OHI3dUVMdzAwTFFucTNka2ZyekJ3VTJBQ1I0eTd0ZDM1cDVFaExqb2JXblRLVXBkeEdTXzhVLXZuZG84b3R4cmx4SHNTdUh3S1Bqc0tZZThoZmIyejhhdWFiYnpKNk9tZlFpOU5hSV9vWTZZZm55WEc5dnRQUVFvU0RkZUExQ3lUX3gwOWg4V1pQc20zZjlMdGZrTmQ1dUhXRmxlV0NuWUlLbDJhNEdwVDJITXJxekx3eHZmbkttVzQ2aXRTaXc?oc=5",
       "summary": "美債與油價回落！美股開盤漲跌互見 台指期夜盤大漲609點 Yahoo新聞",
       "published": "Tue, 29 Sep 2026 14:25:49 GMT",
       "display_time": "09/29 14:25"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "【美股巨頭】AI海嘯要來了？亞馬遜聯手13巨頭，搶在裁員潮前佈局 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnh3aXM0UG1JaC1pWDdhV0F0UF9TWGUydHpmZkp1YkVreDd3S2NvWFZDcnZpenpuYU5hYjJiNW9fS0lZa1dmYlRMcXkxVjhUWjMtMXpZbG13MXhRUFNHTDdMWGxwVzk0dUFBQW9wOE00aXlFMzh0dnRhd2lNd1hrVWNRZzMxX0ZQZGRwbzBn?oc=5",
-      "summary": "【美股巨頭】AI海嘯要來了？亞馬遜聯手13巨頭，搶在裁員潮前佈局 CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:24:09 GMT",
-      "display_time": "09/29 22:24"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "【美股巨頭】AMD短暂跌破兆元市值，82億美元買下李飛飛能撐住嗎？ - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMDBnSHhFOFdtSkRaU2hMaDV5UDcwaTRkV0k1cVdTUXQ0YlNDV0ZsRHE0eDVUb1dOMk5DdDNBUnBDWENtTTJwWjRPcFRqRDVKUE54VHhGTTdJXzNLTTIxUWNnTURzN19hNTAwUi1OOG1DVWlxTnMzQWdwQlFyQjdTY01kakF3UFZQemtzcFh3?oc=5",
-      "summary": "【美股巨頭】AMD短暂跌破兆元市值，82億美元買下李飛飛能撐住嗎？ CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:21:49 GMT",
-      "display_time": "09/29 22:21"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "2409 友達 - 友達逆勢而上，外資狂買- 股市爆料同學會 - CMoney",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40bzVmRnRLa2VYeXRubXItVFBOS1hPNXd1YkRSaG91ZkJ2by1CX2ZwZU5lbHh4WTFSdVlMTlRkLUlUSS1MMGNrb29FbVNXbXBqMXM4NlQ1SnA?oc=5",
-      "summary": "2409 友達 - 友達逆勢而上，外資狂買- 股市爆料同學會 CMoney",
-      "published": "Tue, 29 Sep 2026 22:21:08 GMT",
-      "display_time": "09/29 22:21"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "【美股巨頭】AI代理人搶佔手機入口，蘋果守得住嗎？ - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQTBHY0VCSTlIWDdMdV9wQ2l5T3JEWWZYZTJMRE8xQVVCWnhTZUZPTmRUYzVmY2dCS2hadkNBWmI1Q2ZPYlRGR2FqS0w3UF8tNnBYUDZObHZ4dVFzZzVZNmVDYjRoY2ZEWVliaEtjaDlaR1NVYVBzdjJoOEg2VlFISXJlal9Zb1FTaHFzNWRR?oc=5",
-      "summary": "【美股巨頭】AI代理人搶佔手機入口，蘋果守得住嗎？ CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:19:08 GMT",
-      "display_time": "09/29 22:19"
     },
     {
       "source": "Google News Finance",
@@ -331,27 +1395,11 @@
     },
     {
       "source": "Google News Taiwan Market",
-      "title": "外資狂砍632億引爆中秋變盤！國家隊進場護航，IC設計供應鏈浮現變數-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYm5hOWFEVWtBYV9kVURMN2NhMkJGeWdRT0Y4VDhJY3I5Qkx0OWVrN3V0TGpYa3EtTk1mRE5YYllhOGlkQXJnYzVrUlNmSXNNNG1zV2Fyb3pieXh1ck1RM0hIakZvdm5iSno1Sk1NU3U0SndqVUpON1hhYlk1WjBXVE5B?oc=5",
-      "summary": "外資狂砍632億引爆中秋變盤！國家隊進場護航，IC設計供應鏈浮現變數-財經焦點情報站 CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:15:00 GMT",
-      "display_time": "09/29 22:15"
-    },
-    {
-      "source": "Google News Taiwan Market",
       "title": "TWA00 加權指數- 外資29日買超前十大加碼南亞3萬張再撈面板雙虎- 股市爆料同學會 - CMoney",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DMFYydzljNDhjX05ZOTlSMmp0YWNrNzhKR0szQ3pxTEhTRy0zaHpRRkFFS2ZLaDFleDJlUE1GX1lWUUZHMk16ajRNWjNEM3drQzV5dnRKemU?oc=5",
       "summary": "TWA00 加權指數- 外資29日買超前十大加碼南亞3萬張再撈面板雙虎- 股市爆料同學會 CMoney",
       "published": "Tue, 29 Sep 2026 14:14:36 GMT",
       "display_time": "09/29 14:14"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "【美股巨頭】英特爾被Cramer點名「符合當下」，CPU需求爆發誰先吃到？ - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQTUteVZPYV9EMndOUi1ETzR0bXJYVW5KWjZTT2pJdHRrZUZtb3lpUGpUMDY1OGI3REFjWktJUERzT2xZb2FVLTMzN2FNRmVUWTBsWkExd045ZUtTYUNLaXpMV01xVU01b2xFSUhXSzQ0NFp4SHM4NE1JTE9FNHhDQ2J4VEhrQnBlRHJ2ZWln?oc=5",
-      "summary": "【美股巨頭】英特爾被Cramer點名「符合當下」，CPU需求爆發誰先吃到？ CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:13:01 GMT",
-      "display_time": "09/29 22:13"
     },
     {
       "source": "Google News US Market",
@@ -363,22 +1411,6 @@
     },
     {
       "source": "Google News Finance",
-      "title": "【美股巨頭】Anthropic燒掉420億、谷歌被歐盟逼開門-CMoney 研究員 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOenc4aGFMWS1jOTE5NnpfY3dDcU5ETlpVRDRicWowT3RuTDFkNDZveXEtb0xIa0xSM2s0cHVTX1hEaHBKc1JjQWdVVWx2NkJlUGpBNFhqQWtLYW56cUI1NTFmQWJteDhIdmNOb2RDcEdlOE1RYUJaWWNXMkV1MnVBc1kxMWdtTER3U0JZT0lR?oc=5",
-      "summary": "【美股巨頭】Anthropic燒掉420億、谷歌被歐盟逼開門-CMoney 研究員 CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:10:32 GMT",
-      "display_time": "09/29 22:10"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "美股兩樣情！三大指數皆墨 「這指數」卻逆勢大漲1.32% - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPZzE4c19Ic1BnWUZyS2txVldmRFpNV2M0RTRkdEJWYUxhUTJ1QVFhOGhFdmFVWTYtY2pSS180WVNTQlpfNTZ3NjM4eHhhSG5BYWFRdk45RkcxUkhPQ3UyVFV4bDZOb3o5bVowamFZTGk3UHhGcjlhWk5EbVlteDN0aUJITXdqbEdKc1ZjVUUzam9fMGY1NzUxZDR1UlhMaHlfdDJhVlBsN1JZRmhDaTUyT2JybUpheU9nZmxEY2dnUFA1SDNLcm9rZnFpUXNFOE9DcDFhS3FMTG4xOWFsVTVhekdSTzlraWxSa2lXUi01UkJrQ09lU3IwNWVTcGhCR2NjdVFtOS16MEoxSi1DQmpTMWtHYWs0Nk1uWVJmTXRoY0xIV2hadlFXeEl2cWtjazJqM1ROSHljVFo3VExJTmo4V0hkZ1JIX3Rj?oc=5",
-      "summary": "美股兩樣情！三大指數皆墨 「這指數」卻逆勢大漲1.32% Yahoo股市",
-      "published": "Tue, 29 Sep 2026 22:10:26 GMT",
-      "display_time": "09/29 22:10"
-    },
-    {
-      "source": "Google News Finance",
       "title": "大摩看好AI「賣鏟人」交易！這「12檔」美股潛在漲幅逾40%、最高達260.6% - news.cnyes.com",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JNDVqYkpCQlMxXzNBUkxUSXBkdWg4c1BzZW5zMnNtT2xaWGtKMUlsOWtHTUx6enpIeU5TUlRVVkRTWVpWNXBxakQzZ2VHZVk?oc=5",
       "summary": "大摩看好AI「賣鏟人」交易！這「12檔」美股潛在漲幅逾40%、最高達260.6% news.cnyes.com",
@@ -386,44 +1418,20 @@
       "display_time": "09/29 14:10"
     },
     {
-      "source": "Google News Finance",
-      "title": "【美股巨頭】Nasdaq把交易平台搬上AWS，亞馬遜悄悄吃下金融AI基礎建設 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWRBWmUxSjhCQUd0Q0JlOHhoS1VydVZKQ3VvbVVVaGJfN01KdWpTdG55VXZIOUd0bERTaUZkSXlUQUpnWGlhWjRiTlVTZTJkRXd4M2tVaTVXMFo2SWRObG5MZjJ2RFM0UGxocHY5bkI4XzNqanZzZ0l0dGlJWTR0LXpCSWtZdmdRMmNuLTdn?oc=5",
-      "summary": "【美股巨頭】Nasdaq把交易平台搬上AWS，亞馬遜悄悄吃下金融AI基礎建設 CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:07:54 GMT",
-      "display_time": "09/29 22:07"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "【美股巨頭】AMD短暫破兆市值，李飛飛82億美元加入，蘇姿丰還要走多遠？ - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM0lmNGJkYVZpVmUtaFh3VXlySS05cnFZZ1Q4MGtneFhQRW5NMHloLU1MUU80dkFJOG01REFHOEJqblN6WDUxRnlyV2ZKTXZ3MERpNnkyRjdiZGsxTk56TzdDMmJyUkpvZVFIaVdYN0NzT1JFbHpyMDFBcGlMeER5SC11d255ZFAtdTYzT1BB?oc=5",
-      "summary": "【美股巨頭】AMD短暫破兆市值，李飛飛82億美元加入，蘇姿丰還要走多遠？ CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:05:11 GMT",
-      "display_time": "09/29 22:05"
-    },
-    {
       "source": "Google News Taiwan Market",
-      "title": "短線震盪！外資調節買超「8檔」 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeGktTG5oNnIzRGV6UkstZ2tXVGFkNy1TbFZSZnM0RHlxeDNrT09RaWhtSGtYYm9rM2lfdHRPMklESDVXbzFieDJ0MGphZ2ZzcTVCV29velJQNWotbTlOcy1CR2lTNVVuTV9MQjRDYXVBYTc4SnctazV4TmF6TXZzV2ROSkRXQXBBc2xWMFRBaFlWb19aTXlMZ0h1b3J0NENxUjg5VDJONUJTemdPMTRzdWVpLVNJZHQxc2xQY2tmd0NMcnFXWkFJTjN6bFdmR1N5UGZpUlZVN1RzMkE?oc=5",
-      "summary": "短線震盪！外資調節買超「8檔」 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 22:05:00 GMT",
-      "display_time": "09/29 22:05"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "年賺77元、本益比才16倍！這檔被台積電默默帶旺「低調避風港」蔡明彰也按讚- 上市櫃 - 旺得富理財網",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sRDVCcnJPVEktYmx4YnZPVlRjYmVxbmVoZi1aQmlkdm81RGpScEhUTnpKeERkUmItSm1VcThGNTFkV0hLSF84QmRkTjFOZGxjTmhGcERMeTZNNDNyaG1zTHRtQk5SdDd5X3c?oc=5",
-      "summary": "年賺77元、本益比才16倍！這檔被台積電默默帶旺「低調避風港」蔡明彰也按讚- 上市櫃 旺得富理財網",
-      "published": "Tue, 29 Sep 2026 22:03:38 GMT",
-      "display_time": "09/29 22:03"
+      "title": "台積電在美國！滷肉飯「毫不妥協的台灣美食」軟著陸、拉起台美的橋樑 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqVnlMOVFEZW16ZmpSd0VmdUFlQklabFB6b1B2R3RNZ0t3QzFqcUFJRE1WMXhyMUZYaUVJdVdjQW8tR1duNkxmalBiZF9EVzZCNHdCMmFSQ3ZFc1ZoMERj0gFkQVVfeXFMTlBmdlZzZTNOZWF1S011aTJBSlRoVFVwdTQ2MF84ZDl6aGlUMWd5S2V0bTRDQkRoYVZOcy1lNXpHZkU4RGRaMHZaLWR0RTZwcWs3V0dXQ05iMW1aSXJRYUZvZmVWMg?oc=5",
+      "summary": "台積電在美國！滷肉飯「毫不妥協的台灣美食」軟著陸、拉起台美的橋樑 自由財經",
+      "published": "Tue, 29 Sep 2026 14:05:55 GMT",
+      "display_time": "09/29 14:05"
     },
     {
       "source": "Google News Finance",
-      "title": "【美股巨頭】折疊機要來了，但AI意圖爭奪戰先讓蘋果跌2.66% - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY19jdk13SVFoSXQ0WWl4YlpqVTM3Z2NQbFJmV0k5MVJ0amtBczIyZi0xSVBTenA3RHFXTjZ3M3VyNFVXWEtfd19naHE2T3lhWjFZYlVtZ0FHRExKX05BeE9HMV9SaHh6bG1DWjJpWG9oX3lEUGw0UGdkWk5kM2Q4ME9sUlZDLUcwNk8wVC13?oc=5",
-      "summary": "【美股巨頭】折疊機要來了，但AI意圖爭奪戰先讓蘋果跌2.66% CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 22:02:21 GMT",
-      "display_time": "09/29 22:02"
+      "title": "台股重挫近400點！郭哲榮喊「這波跌假的」：點名這些股有戲 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQSUdMZW1VTDNRMlo3dVBFZ3pYOXlVVUFKXzV2SFc2LThBRFNPY0tOUkVGWURYdldpQVdaTURGRDhwRUlBMi1ycGJJbnFKbUREWG16cW14cWxyMFVJSE5JUGtXNThPdTVQVUxoMF9lbHZ0LWN6OW1fYXN6Tk55UmVOVHc1aGEyN2VQTjVhVmExeVlLN1N5ZExyLXVkUUpMN3dEUHk4RTZqdERvSjJrWDl1SzN5RUYtZ25KUVJ0aG56alFvRTV5ekVHRmxEZ3dSOFpYS19zX1BKMTVQdkFVU1RqNmlKb0plRU1JN1lrc3dBeURmeV9maU9ycDZpVXlYeWd4RHpuLVdGcFlINWY2cWU4UjMxUFhpeVVVOE5PZm9zNkxXTEtZUVR6VXVrU1Bpd05DVjVsY2hvZWxyOEJkdV9yXzM0bkFZTUtvZWVFTnB0NnJBWEdSNGR1UzN0Z2IzNkdhS0FF?oc=5",
+      "summary": "台股重挫近400點！郭哲榮喊「這波跌假的」：點名這些股有戲 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 14:03:00 GMT",
+      "display_time": "09/29 14:03"
     },
     {
       "source": "Google News US Market",
@@ -450,36 +1458,20 @@
       "display_time": "09/29 14:01"
     },
     {
-      "source": "Google News Finance",
-      "title": "台指期夜盤漲698點！　美債殖利率24年新高「美股收黑131點」 - ETtoday財經雲",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56TFNfX1pHX0I4ZGNpSmt1eUJZaGZmYkNOR0ItLUFzRWNVelNkVWRfZWRkT0VpeFNKU0xLUDA4emdDdVFTRWVackp3ZFh1TnZhSkHSAVBBVV95cUxNUVVoY1hHUlI2a3ZZc09qSmFpZ2NGX0NlSm1JQjAtenIzUmJUaWVCZkxoUnM3YXM4WF9rcnB2bmUxcFVIcm14aVpaWjFFRmV6Yg?oc=5",
-      "summary": "台指期夜盤漲698點！　美債殖利率24年新高「美股收黑131點」 ETtoday財經雲",
-      "published": "Tue, 29 Sep 2026 22:00:00 GMT",
-      "display_time": "09/29 22:00"
+      "source": "Google News Global",
+      "title": "伊朗已遞交停戰條件 雷扎伊：川普陷決策「泥淖」 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNejVjY0MyNEdoX3VaVjBkeFctZDBKM2hQTEdFWEZyQ1VseXI2Z29pSzhxekN3ZmFYbHhSM0VDaWM2ZTJiV0xZOVJ2YmoxSGVES2h4TXYwRklld2NrY1BpMHNDcTlMWEM5TEdvUDRtbGIwUlZ5XzVJRV9VUWxrMHpBY3JJOFRObVJIS3F0TkYyQTlXTE5uSUIySDJWbUJITVF1VHpmUWN1NUF0MWRWMkNXSnlPSjI2cExtTUFZcFllNkxBZkt6alFqMmNqU2pxVkZ1eE5IQThoel9HZVhNMGU4Z2VNWFV4TU5abW1pSTF5aWN0R1N2ZFBTUE55akd2VGdqWVdENk1NUFgwc0VLeVJWSzF3MVhoVU9MWFNMQVJ1STJGdGQ4MWVSV3M4U2lvaUhMWVVaWGRxVG5WVlQxa2VvUEEySQ?oc=5",
+      "summary": "伊朗已遞交停戰條件 雷扎伊：川普陷決策「泥淖」 Yahoo股市 卡達居中斡旋跑斷腿但美伊雙方都不讓步 川普恐到選後再算帳？ Yahoo股市 美伊核談判再陷僵局！川普稱伊朗「終究會放棄」、阿聯加速「零荷姆茲」戰略 news.cnyes.com 川普稱美伊戰爭將很快獲勝否認鬆綁制裁解凍資金| 國際 中央社 CNA 核議題分歧 美伊難達成和談 UDN",
+      "published": "Tue, 29 Sep 2026 21:58:27 GMT",
+      "display_time": "09/29 21:58"
     },
     {
       "source": "Google News Finance",
-      "title": "美債殖利率創2002年以來新高！美股漲跌互見 道瓊跌131點、費半漲163點 - 三立新聞",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50bVFPczdDSm10SWotLWVsZmRpVXRyRklaTVhWQldyOGNzdmdsSFdFcE90WTFaRjFqazNKQ0htZXdhZThjc3ppTTdyVQ?oc=5",
-      "summary": "美債殖利率創2002年以來新高！美股漲跌互見 道瓊跌131點、費半漲163點 三立新聞",
-      "published": "Tue, 29 Sep 2026 21:57:37 GMT",
-      "display_time": "09/29 21:57"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "〈美股盤後〉30年期美債殖利率創24年新高 三大指數續黑 蘋果領跌道瓊 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iYWlRVm43cDVHOW5Gd1lnY3BlUHlQODc1aDFOR04tOGIybHRCRVVSX0Z5ZVczVkFRWnU4TjFDdGsxR3NMNGc1XzlpZC1aVEE?oc=5",
-      "summary": "〈美股盤後〉30年期美債殖利率創24年新高 三大指數續黑 蘋果領跌道瓊 news.cnyes.com",
-      "published": "Tue, 29 Sep 2026 21:55:46 GMT",
-      "display_time": "09/29 21:55"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "美股三大指數小幅續跌，日經平均以65,481點迎接30日交易 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10U2NJT0NxUWF1YzJXRjN1Ulh1RkdxcXZlTF9iRnhhMXJNTU1HTDlxZmgtWEpDdlpKOWhyV3V4azZkazBVUTI5aHZoaVJjX3FpWWNuUHl1WWU4RVgyVHBjZDFSMHNobTJBdklQRmNCUHZPWFRqd3N3QnJB?oc=5",
-      "summary": "美股三大指數小幅續跌，日經平均以65,481點迎接30日交易 BigGo 財經",
-      "published": "Tue, 29 Sep 2026 21:55:00 GMT",
-      "display_time": "09/29 21:55"
+      "title": "美股平盤震盪！費半強勢漲逾200點 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOc21jeHRrMnhRM2JJQk91T3V2THpoRGkyVGVKZEFWblVDSEpUaTFUNWhsZDZnRGtrSXFkT1g0LXFuNkNmazJpdHpGeDBDdW9SY2F5MkpkTmg1S090QVFDMTB3a3FaekdSS0VRb2NkRWNnMXlpVllvOVhNM3hYdjlLcjFNYndWTVVHdzBQaVJMZjVXSi01b2d1czkzM2NFSGJzTkZvVHh6WXJZSXo0SXhaT3ctMnp2d2NjOHR1OG96dEtXSDlwaEtqV3RYOUI2VTZYeHgzendjREE2WGQ4X3NqMGpDb3pISG1Jb1prVUpGTmhxblM2?oc=5",
+      "summary": "美股平盤震盪！費半強勢漲逾200點 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 13:58:16 GMT",
+      "display_time": "09/29 13:58"
     },
     {
       "source": "Google News Finance",
@@ -488,22 +1480,6 @@
       "summary": "美股早盤／油價下跌、科技股回神！費半攀漲1.7% 市場關注AI午餐會| 全球財經| 全球 UDN",
       "published": "Tue, 29 Sep 2026 13:54:39 GMT",
       "display_time": "09/29 13:54"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "油價回落公債殖利率攀升 美股3大指數收低費半漲逾1% - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzZ1k1bm1sT0NXcEZLZFp1Sk01SHBzN0JvdmtHN2VuZXZwRm9JeVNWUGRYeFBSYnU1QjBrUDl6bk5wMkRmazlPRlVuZmNSX1hKUE1MSS02VXp3bloz0gFiQVVfeXFMTnU0bkV6b0UwRHVFVU9uUDF5SFVjZktWazB6aHQzVDJJWW9CRThDSEpLNWZVMDQ2bmkxa0pYQ0tlbV95MzBLR21CUVc0WDdMMjh1ekZld1JwMFhSWFhXUlBSbEE?oc=5",
-      "summary": "油價回落公債殖利率攀升 美股3大指數收低費半漲逾1% 經濟日報",
-      "published": "Tue, 29 Sep 2026 21:54:37 GMT",
-      "display_time": "09/29 21:54"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "是金主也是勁敵！Anthropic上市前攤牌：47%營收經亞馬遜與Google - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGMGRJSnNKeWVGaDd1OW1EVTNjQWRQRTNXQWV1aHlMRFVBVVpRZHJOb2ZxVTc5WFBNSWZnRWlMOGdEQlI1VVlOVU5OcmV4elE?oc=5",
-      "summary": "是金主也是勁敵！Anthropic上市前攤牌：47%營收經亞馬遜與Google news.cnyes.com",
-      "published": "Tue, 29 Sep 2026 21:51:56 GMT",
-      "display_time": "09/29 21:51"
     },
     {
       "source": "Google News US Market",
@@ -530,36 +1506,12 @@
       "display_time": "09/29 13:44"
     },
     {
-      "source": "Google News Taiwan Market",
-      "title": "TWA00 加權指數- 川普擬宣布南韓投資「阿拉斯加天然氣540億美元」 - 股市爆料同學會 - CMoney",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RT3RfM2g4TF9FTjc5R1N1MGh0RmVud09RTk5wc3U1R1pNZTVTTG11MVNkeDJCaDV4TVZUQmg5UFVyVXFvSmltNkhhMVlwZzh4UERVV3lTeDg?oc=5",
-      "summary": "TWA00 加權指數- 川普擬宣布南韓投資「阿拉斯加天然氣540億美元」 - 股市爆料同學會 CMoney",
-      "published": "Tue, 29 Sep 2026 21:40:28 GMT",
-      "display_time": "09/29 21:40"
-    },
-    {
       "source": "Google News Finance",
       "title": "〈美股早盤〉油價、美債殖利率終於降溫！標普、那指開高喘口氣 - news.cnyes.com",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xenhWNjZuRTZBMUhWMDhCa0UwWGNzRjVUR2tRMlJGc3k3SDFkbWw1VG9mdWwtaTdmOWVDTnV6ZjZRR2szRFU1Z3ZZRlk4MnM?oc=5",
       "summary": "〈美股早盤〉油價、美債殖利率終於降溫！標普、那指開高喘口氣 news.cnyes.com",
       "published": "Tue, 29 Sep 2026 13:39:34 GMT",
       "display_time": "09/29 13:39"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "美聯儲威廉姆斯打壓加息預期，美股下跌，美國2年期國債收益率走低 - tw.tradingview.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53T1pQSU5MUmJZQkdTb01HcUN4bmVOOHAtLVc4a3lwVGx0NUZHT2ZkQUI4NU5PaW91amNtc20wVkFBYjgyOE0xTFQ3R2xxMUVFVjRqaEw5OEd6M2o0Ry1jR0w2V1N2QXgtUnJmSW5OXzZlNFpFZjFR?oc=5",
-      "summary": "美聯儲威廉姆斯打壓加息預期，美股下跌，美國2年期國債收益率走低 tw.tradingview.com",
-      "published": "Tue, 29 Sep 2026 21:35:47 GMT",
-      "display_time": "09/29 21:35"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "TWA00 加權指數 - 早安，各位大大，帥哥美眉們。 - 股市爆料同學會 - CMoney",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MdmUtWm5kVHZMZm9nc0ZRZHc4ZUtNcVNpMlVGcTBLMXRxM2FfdVh4dDNtMEdNNUVjdlVYTHRHSGtoQ0Q2bzdoWHdDaTdoSlVJSnpLSlhJeFE?oc=5",
-      "summary": "TWA00 加權指數 - 早安，各位大大，帥哥美眉們。 - 股市爆料同學會 CMoney",
-      "published": "Tue, 29 Sep 2026 21:34:13 GMT",
-      "display_time": "09/29 21:34"
     },
     {
       "source": "Google News US Market",
@@ -570,44 +1522,28 @@
       "display_time": "09/29 13:30"
     },
     {
-      "source": "Google News Finance",
-      "title": "盤勢分析》強勢整理 短線提防大幅波動 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvNVYtUmRxR0pkUFE4UU9iUG9VRTllcWNhZm9La09NSXplZ1NOT3otMEtOMjV2Q0N2bzNvX0ZXcjJ5QTgzcEN1eVhYbGZ2SHB2Ni1ucWRR0gFbQVVfeXFMT0x5SHBla2llRFlidVNxR052MncxVWJKVXQ3eGkzT05KYnd1RHA0d2tVeldsdUJIWmhnMDhDVzFfb2ZiTWNaNHZ3S2JlQ1VjTTdZSkJObmhPSVRTMA?oc=5",
-      "summary": "盤勢分析》強勢整理 短線提防大幅波動 自由財經",
+      "source": "Google News Taiwan Market",
+      "title": "駁斥掉單鬼故事！ 聯發科：不實傳言 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hRGUyOEsyeXRfWExMUXI3clM2U0dwRy0wWnlrYldVVGJxSEQtanNQQl9uLV9jRzBfWkdZU1YyTnhWMFBEM082OEVWTnAyTUhQczdDSlFB0gFbQVVfeXFMUEI4bXBvMUlzX1dHVVdMQXl5Z0YzMDZPMGFTT1dHOWJDa054MGl4V3JZWGl6SmM1VjRyU3o4ZnRlMEdpMjIxWmEyQmhlUkNDbmF6Q1lHRXN1bGFORQ?oc=5",
+      "summary": "駁斥掉單鬼故事！ 聯發科：不實傳言 自由財經",
       "published": "Tue, 29 Sep 2026 21:30:00 GMT",
       "display_time": "09/29 21:30"
     },
     {
-      "source": "Google News Taiwan Market",
-      "title": "【盤前】外資連9賣！國家隊砸7718萬護租賃龍頭 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNWGduTFBWN0pzdjN4c09BaHJ5YnBzVDI3WGdaaFUxSGRpd1RZanA0OFpGVzVuZWMxaUZkVGQ5RVpxM3NyRUlVOTZCUTFHZ0RLRm95YzJiNEpiRHhBX0VMQ25jSjJMdEpqd05QbmVTY085NFpHUWdLZ0J1LVZOY2pvaEE2YmdvSmoxT1lwWjJFSHdvT3VoZm1KUU42VXd1aHJENjFnX1pZZW9WWEl6bmw0VURqMmpMT0gxWHY4Q0Q1bzVLUmJHZXVWc21lM0xtQTRxR0NNa2RPUDhmRTZJM0dvdkJrWi05UVdPU1Zvd2RIV1pkRFNFVk8wT1NqOWtkQzdfMkFmQ1EtUDFPNkh5TUlIX3RQTG1JS3BjWUJqbg?oc=5",
-      "summary": "【盤前】外資連9賣！國家隊砸7718萬護租賃龍頭 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 21:15:00 GMT",
-      "display_time": "09/29 21:15"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "〈台股盤前要聞〉中秋後失守4萬8、亞馬遜參與金像電私募 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bd3RFRHQ5Q05zaERJS2lreFVMX00tOHVaOVJjQ2lESEZHeWJYWnZleVV4bENJN0ZQWEZRYUpKQXdLbUMyN0FVMWI1bHlDcXc?oc=5",
-      "summary": "〈台股盤前要聞〉中秋後失守4萬8、亞馬遜參與金像電私募 news.cnyes.com",
-      "published": "Tue, 29 Sep 2026 21:11:23 GMT",
-      "display_time": "09/29 21:11"
-    },
-    {
-      "source": "CNBC Finance",
-      "title": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not for U.S.",
-      "link": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
-      "summary": "CEO Jim Farley's warning comes on the heels of a high-profile visit last week by Chinese President Xi Jinping with President Donald Trump",
-      "published": "Tue, 29 Sep 2026 21:08:05 GMT",
-      "display_time": "09/29 21:08"
+      "source": "Google News US Market",
+      "title": "輝達獲利狂奔、估值卻掉隊！14.5倍本益比背後 華爾街在擔心什麼？ - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxObzV4eFJqWFgyQXlxTHd2ZW0wQk9LRFBLdVFYS3ZJdzBxTEVPLU5GaE04Yy1tQzAxWUNVUFRxTk13azctUE5Ya05mYjJ4c2NsaFpERXJLQmFLNUFvMmxXeW01WnFuMEM0YVZYM25zNmVCdmNBb2NJX1hteU1XQ3M2ckU3aTE1RlhydUl3VnotSGUzVDJCSWNDY0k5ajFjWDJEdnpDbmV5REhtalFGdm1PVldVclBINVhUdFdidWVtbHQxenQxUjZDUFZYdjNGU1lyT3VCc09pOC0xTGs5Y2ZxQ3hlZm1fSXpZTjhDNjhaaDUzQm50cE91eS10VTF1ekN3Q3JIUVc3Wld5M0NBSUtycTVwWGpyNl9IRWNxd3M3cVhJeDY1eWVCTkNQNEJ2VkJ1RzFWdkh6WDRFbTJGZkNfWXR5RXhPM29OWWlvLVZESEVOYlUxWmh2cTRSN25zZ0ZPXzNVMEhFM3U0NEZ0d1VNNGJyTTFpWVJOdjhDcmRMVzB6VnF4c2dEajZKTTdXelRi?oc=5",
+      "summary": "輝達獲利狂奔、估值卻掉隊！14.5倍本益比背後 華爾街在擔心什麼？ Yahoo股市",
+      "published": "Tue, 29 Sep 2026 13:20:04 GMT",
+      "display_time": "09/29 13:20"
     },
     {
       "source": "Google News Taiwan Market",
-      "title": "台積電雨露均霑！「35檔」Q4金秋 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT29jd1l1YWg4VG1HQ1dxUERyZEVvSkU0R1Qxd0RzUUk5WGJ0ZTlkSUZLOGJfY2lGVnBaSERqWU1hRWo3R2FzYVJQMW84V1hydUJScXdkNWN0Q3hnSEs1ZUl3QWc3WnVxN2FlZWE2b1lmMmI1ZTRKc3QyVW1pdjlZam1KclluVHR6VUt4TkI2bjdoQmg4cDR6aXd0VFN3RVBwejVpbjNRRkYzRjB5emxBVzZaZ0ZYcjB2Z0N1SDZPR2NVdmlqc2JtN1RjZnZyRkl1YVpB?oc=5",
-      "summary": "台積電雨露均霑！「35檔」Q4金秋 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 21:05:00 GMT",
-      "display_time": "09/29 21:05"
+      "title": "帶領鴻海靈活轉型全球佈局 董座劉揚偉獲獎連連笑不停 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNNE9remRsRlZ3ZGtDN3BkUWxwdWRIQlVxLVRvX1puRlFCdnhFNTRyNjJqS0RXZS02ajRWdnNYVVpJaDk1dDhKTHVKT0d0VkRZdl9nM2kzVmFiUTg3TVkyek5hYnZLa2xpYTlZX29BQzk3TzhxV180aFhOdE9LZU14LU1Lek9iOGJXc1Q2M3JZUTdMUEl4YnR6a1M5UW1kdzlGRWVuNU5aTjI5VFJMXzNpN3FuTURTY2Z1RlgxVmd2Uk1wQlFmQmFsSjZlbkl2M2F0VFlPMmwxaHc3SzlMM1AyVjhUYU9tUnRIMU85MFVTWUFESDFGU2RYMEF3MzVhSmhaN2FrV3RSS2lVR2VBbTJBdUJlSl9xYThJMlRGNUlxV1pVX1lLX1RiUTN6Rmg4S0xKdkt6RFlEbjRieXExZC1lY0kxSTRpeUpWOGRiemh4MklCQ3Q1eXNfYmxpNXFOU05NZjgwclVhS1lOdU5vLTA1VmtZR2k?oc=5",
+      "summary": "帶領鴻海靈活轉型全球佈局 董座劉揚偉獲獎連連笑不停 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 13:20:00 GMT",
+      "display_time": "09/29 13:20"
     },
     {
       "source": "Google News Taiwan Market",
@@ -626,30 +1562,6 @@
       "display_time": "09/29 12:54"
     },
     {
-      "source": "Google News Taiwan Market",
-      "title": "TWA00 加權指數- 總經趨勢景氣好熱連亮九個紅燈國發會估9月燈號繼續紅通... - 股市爆料同學會 - CMoney",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zTHp0OUdMeXN4TUVTZk51bnNUT2tfaDlEV193M25MX2tPbHRvUm9Fd2FmRy1vMzVzR2Exa0Z0SU9LT1dKWEdmMXk5UWVUdmxfU3UwVUtFZ1Y?oc=5",
-      "summary": "TWA00 加權指數- 總經趨勢景氣好熱連亮九個紅燈國發會估9月燈號繼續紅通... - 股市爆料同學會 CMoney",
-      "published": "Tue, 29 Sep 2026 20:31:54 GMT",
-      "display_time": "09/29 20:31"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "不只0050！台股攻高帶飛12檔 3檔新兵也創天價 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMjk4SWcxdWZFbXlhWTMyNjR4RTU4aGpaUGZQQnhOY2VrT1hrRTZJWGtNZW1CaWtPbWh1dmJLZUdZN3E4cVZuZHo2T2EwbEVpNm9tVzZDeV9KY3hsMlN6bUVsN0VqOWRTbGZHelEySWlLTmZ5eUQ2dUFWclhUSDN4cWdCMmVRaFphczJOY0pCSFlCRlBsejkzaGZsWkNOamI4cmxjWmRTWjgxNjVndTZfd0NqckxXNHJHX3VhWmYzbHZhMHlRcHhxM0s4eE9BRWdXV1VNb0tlemxReHlYb2ZfenFSdk5waWVCWWtETjVoQmFKb2dpcHo4QnVzY0R4TlpKSkpVSzRnLVVFTHFGVzhBZmpWM3phaGF0SnNsZmpxaw?oc=5",
-      "summary": "不只0050！台股攻高帶飛12檔 3檔新兵也創天價 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 20:25:00 GMT",
-      "display_time": "09/29 20:25"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "9月30日 五件財經大事搶先看 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZVDcwWWVFcXJSbkJ5MDVGTGhWSXE0NWFlUURvR1R6Yjk0azJfUW9ObXljTW9TdElvVFZoQ0k5dEhjcUFTVW14NzgtcUJIWDc4M1ZFOU5icUg5QdIBX0FVX3lxTFBrX0dwR0FJOWpvempVaFU0U2s5RGhxc1lkaW1KOWU1ZzBuNFpmUzUtWFNoTEkzRTBiU2xYbFplbmFFM2Z0ZE5vS1pjTHJseVA0Mm9WMlhWeWNQMjdMOFRV?oc=5",
-      "summary": "9月30日 五件財經大事搶先看 經濟日報",
-      "published": "Tue, 29 Sep 2026 20:24:49 GMT",
-      "display_time": "09/29 20:24"
-    },
-    {
       "source": "Google News Finance",
       "title": "台股明開紅盤？台指期夜盤「重返48K大關」大漲583點 - Yahoo股市",
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQcjZXUVIzdWVSMEhEXy1SVkNoeHFMbFNQYmFFRkhqR0Y1bFNUV3BPbmR3NTNQTV9YVmFETDFvc2xpZjN1WC1RNk50eUMtemhSUmdTTFZ3dXZhSk1mcktSQkZrTlpORG10Mi1OeUFrNjVnM2ZSS3Juempyc25kbXFpWlNNNko2Q0Nwb2Z4ajdYay15cU41YmtPNThycXNRaEhJNjRUbEplUEt3SmNGVEl0aW9CdFp0d3lwZU03eWtRWll1ZTlZajB2bWV5bVp1MTF3SFFYQ3NsSks0T3FCcFJ2QTNXN3M4aV9TeXZGUFc0ZFRCR2dEVzd4TmVyQjhVM1lzbFZGNzM3RGFpOWhuSF9wUjMtczM1Zi01emV6cW1WTHNUVmdJek9tQ3lSNVdwUkZ1SVFrZkpSMjhfZjJjejhR?oc=5",
@@ -658,68 +1570,20 @@
       "display_time": "09/29 12:20"
     },
     {
-      "source": "Google News Finance",
-      "title": "主動式台股ETF 投資新顯學- 投資理財- 工商時報 - 中時新聞網",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43Q3pwVWxaclU0dDFfVFRIaXVNZVFlN01ldmRyZWowUXM5TDZTUnlKRjNJMEhaYWlVcG9xM09IS2tIOG9YODJTbF9KMlhFSGdmTHBsTUpQWE1NdHZEdldiLTZmX0d2RTJBMVhR?oc=5",
-      "summary": "主動式台股ETF 投資新顯學- 投資理財- 工商時報 中時新聞網",
-      "published": "Tue, 29 Sep 2026 20:10:00 GMT",
-      "display_time": "09/29 20:10"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "台股震盪法人：AI支撐Q4唱旺- 投資理財- 工商時報 - 中時新聞網",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13WlhiVkxaUzJIWTVyLUdicUFOaklkU3VkVnN6RXdhTGw4c1RfZmoxZkV5THJxLW0yX3h6R0IteDhPdklVbnhuM1NEM1J1UDdnc2pvV24xbEhmWG9GVFplb2RxdjZ6ckxfaGZz?oc=5",
-      "summary": "台股震盪法人：AI支撐Q4唱旺- 投資理財- 工商時報 中時新聞網",
-      "published": "Tue, 29 Sep 2026 20:10:00 GMT",
-      "display_time": "09/29 20:10"
-    },
-    {
       "source": "Google News Taiwan Market",
-      "title": "台股失守48K 科技股處初升段末期 - 中時新聞網",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1UTFpV3A4MzE0Z1RHUHRUamRFdlIycXJWclhEWUdYWlVBMTU5Q2tHMmZCY2hwdzduWERNNHdhc3YyS2htdzZEQ3dXMGJDaV92SjdFRjI3N2FteGlJQ192X0ZjVzc5RDBYTy0w?oc=5",
-      "summary": "台股失守48K 科技股處初升段末期 中時新聞網",
+      "title": "不畏雜音外資升聯發科目標價- 財經要聞- 工商時報 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vYVhHMjllbzVrUlllZ0kzdDA3UG55RVo3aklpaFBGbXlMMmF1eDFJcGJiMzVRdDdVcEZQVy1yaUlYaE54ckFwdmxCT0l5eGVsQnh6dVNHQUd4VDRrbS1MSVVoMUQtMmlhYzNJ?oc=5",
+      "summary": "不畏雜音外資升聯發科目標價- 財經要聞- 工商時報 中時新聞網",
       "published": "Tue, 29 Sep 2026 20:10:00 GMT",
       "display_time": "09/29 20:10"
     },
     {
-      "source": "Google News US Market",
-      "title": "法人指路！輝達狠砸1500億護盤！「這檔ETF」穩抓AI長線紅利 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPT0dwUlZDeHJ2eFJUWXpkdEV2QlNJYzRfNFowb3V3OWhOX2NKakdyOEtuUnZ3NkIwYWRIdGtjYnRoZlNTMlZIdHhLSGw0bUhZSkFtb0YxOVlmODVTN2xjT0tPeUhqakp5dDQxVmg2N19FekNhT0txR3k1NmozbUNsUFEydktoendwNjJNWFhGSERZS19Fbk1ZX2tiZy1Genc0a0Vfc09kWFBvNWtYVk8wRVk5dExtQlllajZENEZyWG5qU29wcjhNY0tucXItckM5VnlDYktvRVViNnBSeWtROWY2c0JOWkpYcnY5Mm1idkh6VjBlR1VrcnFoNEdraHFROWlSZFp5YlM5Q0loazFjdktaeThJM1NJMVNXRFNobnZjelZ1bkxXZERvRVNCenh1ZjVDN20wR0wxWVY3ZG5tUVBZZUMzcHM?oc=5",
-      "summary": "法人指路！輝達狠砸1500億護盤！「這檔ETF」穩抓AI長線紅利 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 20:05:00 GMT",
-      "display_time": "09/29 20:05"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "美股三大指数涨跌不一：Meta（META）上涨3.11%，Apple（AAPL）下跌2.74% - tw.tradingview.com",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnM29jN2lHU1BjYzc1dkhaVm9xTUg1anNEaVdxMlJZcTNwMk5Pc3BKblJGLUxaUWF4RlR2TXVzQ2tQZlZ3U0hKMkRpMUQ0RTNNeXFNTmxicFpka2xFc29pckd5LVNyZw?oc=5",
-      "summary": "美股三大指数涨跌不一：Meta（META）上涨3.11%，Apple（AAPL）下跌2.74% tw.tradingview.com",
-      "published": "Tue, 29 Sep 2026 20:01:00 GMT",
-      "display_time": "09/29 20:01"
-    },
-    {
       "source": "Google News Finance",
-      "title": "3大境外金融中心賺爆！前7月飆5年同期新高 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNNUhESUlUNzN4Y2pGQnJoOFdEUVB5V0gxVUFoQ1RsWW5BcC1RMWlEcmc2aXRFUFdVSThzMV9TU2VKTmNUdjBuT3AwV0Fmb0lxQVRfMEVYNDJEVzNjbDZMNjc5UUQ3QzUyMWVfWElmZlZidk1VbHFYRnFVZnlrRVJ1LWV5LUl5VFdJODRzcTRMeEQ1c0t2SlFPSGZqSEhYSFNBRDJHanRHYl9jelVqZzlpb3Q5c0pNN05td0lfU09ZN2MwbUQ0TXJWZE1sS1V4a041T2tzY1dTdTBELWRzdi1tcWROcGxWbE0yUWNXTEJFOGRuZ2JTek5tbmZBUmdDaUxYYVJUTThEdkpBUjI1Q2pBZFp2aDdhM3JFTWRDWWxOay1WRkNO?oc=5",
-      "summary": "3大境外金融中心賺爆！前7月飆5年同期新高 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 19:46:23 GMT",
-      "display_time": "09/29 19:46"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "騰勢獲准上櫃！資本市場新兵來勢洶洶 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPTzRBNXB3VFpWeWtGdjdmRnRnZGJ3WnhWdDhMaFhEUHJvMHQyaFI5eS1fQmlQdWhnbnFDc1czc3M5cThkTm5uRnAtNVV3a214dlIzalBFQ3pKOUdvRzZ0cVBkdW5zYkZOUmN4d0NscUJ4c1l3V0oyY0p0Q3BVMjBHemJUdkdpdEtFZkJYdTJSWTZGN21iRGZfR2JCdVo3XzNOcmpHOV9sMVdKX2dfRDNtOFMzbEF5dHZLWVRHbGVSN2g3d0FSX24zWjBKVk1LN0VUZW4yRXgyUjJacHUtLUpWdFIxSXZOYWMtN1Y5aVpONGFubnhJX3ZVOWxWelNGcERLQkZyY3VKVXJUUFVyaTJPSm9WWU4?oc=5",
-      "summary": "騰勢獲准上櫃！資本市場新兵來勢洶洶 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 19:35:00 GMT",
-      "display_time": "09/29 19:35"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "克雷默警告：美股高股息殖利率如今是危險訊號，而非安全保證 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZUVNUDl5cFB0OG5rX0VDWFlXaDNQUG9tVTlyY3kwQjdPZFRicjlIb1ZCaDlwQjkyRXYyc0M1NW1CNzFfS1kyZkpXdDJpRTBneERWT0NXRV9SRlB6b0c3TVVwOUEzNTV0dV9HdVlQR2dCZGgwTkkwcWxB?oc=5",
-      "summary": "克雷默警告：美股高股息殖利率如今是危險訊號，而非安全保證 BigGo 財經",
-      "published": "Tue, 29 Sep 2026 19:25:00 GMT",
-      "display_time": "09/29 19:25"
+      "title": "法人看台股：把握5萬點最後上車機會 第4季大跌空間有限 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5qbVNreFd1Qy1kelhKdS1wdy1MclZfcHkwZ1FXWkRndlJvdEZzazQxV3pTTnNjeGlXNWFMRlRpVFVydmJCdWxUeklNeGs3ZGNP0gFWQVVfeXFMTXJEX1d0NzJmb1VENFJkdXpEaFpzV2dsd0NZWTN6UXZkNWZNSjBVcjlkUEkwdzh5RWFJdkRrYjh3TFptdDZXZl95bjRONno1cWdkWDZiSGc?oc=5",
+      "summary": "法人看台股：把握5萬點最後上車機會 第4季大跌空間有限 UDN",
+      "published": "Tue, 29 Sep 2026 19:21:16 GMT",
+      "display_time": "09/29 19:21"
     },
     {
       "source": "Google News Global",
@@ -728,38 +1592,6 @@
       "summary": "台積電將赴美國德州設第2園區？ 國科會吳誠文回應了 UDN 傳台積電將在美國「這大城」設第2園區 國科會主委回應了 Yahoo股市 半導體設備鏈強勢| 個股情報| 股市 UDN 台積電在美國！滷肉飯「毫不妥協的台灣美食」軟著陸、拉起台美的橋樑 自由財經 台積電傳將在德州設第2園區　國科會回應了：根留台灣政策不變 ETtoday財經雲",
       "published": "Tue, 29 Sep 2026 11:19:29 GMT",
       "display_time": "09/29 11:19"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "大摩首席美股策略師：美股若回檔10% 將引爆年底最強狂飆走勢 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtRTI5YUpyeW5xODcyaF9qZkxpdzE2aGpFQjdtUHpJdXRtdEE4eGtJOEdEMWx1NDFyRkQyZHEyMkRlQWxfNlUzOFVMTFMtelk?oc=5",
-      "summary": "大摩首席美股策略師：美股若回檔10% 將引爆年底最強狂飆走勢 news.cnyes.com",
-      "published": "Tue, 29 Sep 2026 19:15:47 GMT",
-      "display_time": "09/29 19:15"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "股市助攻 壽險8月獲利衝高 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Ja3BLN0NpMzFUN1FmS0hvZW15QWpvLVJLZWZVbnMxMXVTelJSZEloLW1JUUw4d0tmd0pVblE1ZUp0Q2dNd2o2SnpMaWM3QnI10gFWQVVfeXFMTkVKbldYU2RlcDB2UmQzYmlsMWowWlh5R2FUWFk1ZjNlMmdHcEFmVnAxQWppQlotMDUtYjhIbkxCZWM0V3FwUWE2aEp3STdBWkJrcHZTT2c?oc=5",
-      "summary": "股市助攻 壽險8月獲利衝高 UDN",
-      "published": "Tue, 29 Sep 2026 19:12:16 GMT",
-      "display_time": "09/29 19:12"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "《強勢美股特報》TLN,SFM,OLED,WH等6檔 - 台視全球資訊網",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdG9saWtjOUlHSUlfN3YwTTVaX0hiUVFRTmJLUnV0aG8yOVZJYS1vZmlBNG1aWUFqbmZaX2lMV2tzWXJuX1o3Nk5VNlRoWVp4WGJqZkVudkVfNElUeE5PNUZFdXdwNWx2ZmpJTFVKakdDcXdXQnkyMWpFZURpRUxoS0wxaEg0bEJOYjN1bl85VENmZw?oc=5",
-      "summary": "《強勢美股特報》TLN,SFM,OLED,WH等6檔 台視全球資訊網",
-      "published": "Tue, 29 Sep 2026 19:05:08 GMT",
-      "display_time": "09/29 19:05"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "台股高檔震盪怎麼買？小資族別只盯0050 達人點名「這3檔ETF」 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOVTZlYUJaZWU2TkRIckJhN3o2Mk5UaDV2YTNrelNIUTFNMGpzS3BKRzNOQldtbzdUckt4YzlkVThBeURKU1RSZ3JvVUMtdlVhWFR0cGtUbGdMSXZtdUVjai1BZGktODFwTF9pbTVURzRLN0QwRzY0aTkwR1NtUVdvSzFxa2ozdWcycjJQXy1aeHREaGR3MWhuclZoai00MXFtOFRpa3JaakFoRVNsMFFpX3M2WnFWcjlWbkw5aElRanVjanV6by1nVW5iX25ybXBoZEM4eERUUjhjam5KdnByZ0JHdVd2aWc4Z2F2UENlOHh6WE1ncWtzaVhnYTNUUDNJNjZreGFkS0NIWUJZenZyd3Z6MzlvVDcwVVRhOEZTS0lmeUJaTHBDaEsyRnZmeUlsT0tKZ1NhXzMyalV5OW9iY0JoTU9iaXdOUmpLS0NVemlGcDZvZzVybFZwbnlLQQ?oc=5",
-      "summary": "台股高檔震盪怎麼買？小資族別只盯0050 達人點名「這3檔ETF」 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 19:05:00 GMT",
-      "display_time": "09/29 19:05"
     },
     {
       "source": "Google News Global",
@@ -771,35 +1603,27 @@
     },
     {
       "source": "Google News Finance",
-      "title": "群益品牌日大巨蛋推AI金融體驗- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1odDZxTlV4ZUUwcGdnellFNFVWTGV5N045YVpZSWZSTG13QTR6U21WRGF0bEJPWGZvd3ROaENWVV9tcGl3V3RwdUwydTQzVV80em5NOFNaODFkOGd2Y24w?oc=5",
-      "summary": "群益品牌日大巨蛋推AI金融體驗- 日報 工商時報",
+      "title": "台股失守48K！法人看好第四季「月月漲」攻53K 8大行庫逆勢加碼143.9億 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NWEI3NHBMU2o2R0R3X3lOclFuWXFMUmZIUUhHN3ZFekRTdnRpX1JEMFNHLWU2SGJVU2RQM1FZTmpiaHprSkdQZEkyOTljSTFWT1d6aWdJS0NZVmpKQ1V3?oc=5",
+      "summary": "台股失守48K！法人看好第四季「月月漲」攻53K 8大行庫逆勢加碼143.9億 工商時報",
       "published": "Tue, 29 Sep 2026 19:00:00 GMT",
       "display_time": "09/29 19:00"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "2026金融前瞻10年論壇》資誠聯合會計師事務所金融產業服務營運長郭柏如：台灣有機會躍亞太虛擬資產創新樞紐 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SZUVnWjFMMUtfV1hHZFJFdkNNTVVRakhlRVhvWHZlc1ZmTTNOMXQ4ODFfM3VKcWVlaUFOcy1jQzRCajQwOHA5RlVKN3RMdTZPb1FERGhxTHRzc3pFQ2lv?oc=5",
-      "summary": "2026金融前瞻10年論壇》資誠聯合會計師事務所金融產業服務營運長郭柏如：台灣有機會躍亞太虛擬資產創新樞紐 工商時報",
-      "published": "Tue, 29 Sep 2026 19:00:00 GMT",
-      "display_time": "09/29 19:00"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "台股資金行情 五策略掌握 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vRGtLR3hqYTJtVXpUN0tRcmVBVkhJaklySGdTM29wdmMtTWQ0YVR2T043MlZmN09YUml3cnNPWEY1RS14YWVoY0pkMlh5R1px0gFWQVVfeXFMTlBZbkk1U2RaOVJMMG1JMUx2QmtsRzd4ZElmNzVGUFcwYUdrdGtnclR3S0pGXzAxYm5ZOHE0VHZRbnFFd1JJUUpEX2tzb1NKTW5ZMnRMRXc?oc=5",
-      "summary": "台股資金行情 五策略掌握 UDN",
-      "published": "Tue, 29 Sep 2026 18:57:08 GMT",
-      "display_time": "09/29 18:57"
     },
     {
       "source": "Google News Taiwan Market",
-      "title": "從馬達、整機到智慧工廠 鴻海多線布局串起機器人產業鏈 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFhkSVN5T0VVM29TTUZDNzhSY2NxOW5DRGpGUmdaNkktRVBKTVlyTVJOVzcxdXdYNDVkWXdxTWZ3bXNZd2RTcEtMS1ZWMldhWlJTS19PTXB3alozWlJfYTBhaGw5Q1pQcEhYR0tFU0FFLVBtZW1VWFB2V3FDZG1VQ1dwNnpvLS1MNkVCZ0JB?oc=5",
-      "summary": "從馬達、整機到智慧工廠 鴻海多線布局串起機器人產業鏈 DIGITIMES",
-      "published": "Tue, 29 Sep 2026 18:52:00 GMT",
-      "display_time": "09/29 18:52"
+      "title": "CCL獲利空間還很大！外資升評南亞目標價喊到424元台塑化也翻多2力道助攻- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhS0dMaFFQcUxpZFdtaV9KVm1iMVdpM0Y1Smk5Z0lERW9KTFlKM0RvZHZUNTV0ZVFSeFRhOWh4Y2Y2Rm82cGZiUzBWMGJsOU93Yjd3WlJncDRhYnpCUXJR?oc=5",
+      "summary": "CCL獲利空間還很大！外資升評南亞目標價喊到424元台塑化也翻多2力道助攻- 日報 工商時報",
+      "published": "Tue, 29 Sep 2026 19:00:00 GMT",
+      "display_time": "09/29 19:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "12檔外資加碼股錢景俏- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jeVkxNTRuS0tuUjlyNEVIUFJBTlREZG9lRXlPU0Jna01Kb2dPUGYxZzdtd0hua1JHeXhza1puSzQtang4V0EteUtEYzVJNDVYSjM3T21ZWnlQTldzSVFn?oc=5",
+      "summary": "12檔外資加碼股錢景俏- 日報 工商時報",
+      "published": "Tue, 29 Sep 2026 19:00:00 GMT",
+      "display_time": "09/29 19:00"
     },
     {
       "source": "Google News Taiwan Market",
@@ -810,28 +1634,12 @@
       "display_time": "09/29 10:47"
     },
     {
-      "source": "Google News Taiwan Market",
-      "title": "三外資券商加碼投資台灣 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qUUVyLUdIS0hCMUFvRlR1RjB6eHp5VUFtaklOeGM4MFl3bF94VUZfNGdnck8wQ2RPRmNPT0E4bGJleGZnd2dlNGtPT3Q1XzFa0gFWQVVfeXFMTlprY0ZkX3BrZzZNaWdxVTRLT2J1aW1qQzc3Rm9YYUJ4aEhQOW9lcFRuMEo1bXBDbGJNejdWci1hdFhGZXZNSkhFWC1zQ2J4SzZfSk5lTlE?oc=5",
-      "summary": "三外資券商加碼投資台灣 UDN",
-      "published": "Tue, 29 Sep 2026 18:43:30 GMT",
-      "display_time": "09/29 18:43"
-    },
-    {
       "source": "Google News Global",
       "title": "富崴控台電光天化日強搶風機 台電回嗆：風機是我的 - Yahoo新聞",
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNbjQzbWZMUGNvbGF3Um5nVlFPX05tMG9hQlpfMUdjMTVIQzRUb0tyejJjLW9uNklvY3FLQWhsR1RHWHgyNDVWWEQxenlORHdvTnlwTG9QV29nSXUtZlB3MEVHMGZKV3UzMXZrNkJkeTZDc09FLUdEcmNoOFh4TllUbmt0bU12d2o5Wm1MNnhoNjAtSjItaHM5aGtMNVo3RGsxRFhiVlladVFiNmNBMDFUT1ZELUwwNVl1UjBoQ29ZV1g0TVpCUklKdzJqZ05qTk16RWxHMUY3UnRkang0cG5pSWhMNFNuSUpQTFNjNG9UeEpCWW4wN1dzS1J4bmZPaTJORUEzRGR0MTNHRVgwQUJRZF9Kd0xFSklHRVhIMVFTb3hiUjJmZ05YYUxXNExwTDhjOHNCSFM1Q3dFMFlFMll1RXAtYlpMczFiZVdfMVFJWnI5b1Byb3pUeU1ITlJIQQ?oc=5",
       "summary": "富崴控台電光天化日強搶風機 台電回嗆：風機是我的 Yahoo新聞 翻臉！富崴能源喊「中秋遭國家級洗劫」求大眾主持公道 完整聲明曝光 Yahoo股市 台電、富崴再爆爭議 爭搶風機所有權 UDN 富崴控遭扣近60億資金 台電駁斥：未完工退款即違法 rti.org.tw 離岸二期再爆爭議！富崴控台電奪風機 台電反指違法抵押 | 中央廣播電臺 LINE TODAY",
       "published": "Tue, 29 Sep 2026 10:42:18 GMT",
       "display_time": "09/29 10:42"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "【即時新聞】AI推升iShares半導體ETF(SOXX)！聯準會官員暗示通膨風險加劇恐再升息 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOWRFMUh0S0Rta3VGclg1UmQ2NjJFTWZlRWhqSjZqd21MeHk4SmdrU0xaVFZhSFNvMTJiTkxRNXBtREhQcmpYam1sWkRRVGdnNFBET0FqaW5JTW1RcE9MZUpiVjF1UzNON3dqMjZzWnJTUU5MbVJZT3NIMWFXQ01ZaDVhZnJnOWU2TW1OOFNta0I?oc=5",
-      "summary": "【即時新聞】AI推升iShares半導體ETF(SOXX)！聯準會官員暗示通膨風險加劇恐再升息 CMoney投資網誌",
-      "published": "Tue, 29 Sep 2026 18:35:56 GMT",
-      "display_time": "09/29 18:35"
     },
     {
       "source": "Google News Taiwan Market",
@@ -842,28 +1650,20 @@
       "display_time": "09/29 10:31"
     },
     {
+      "source": "Google News US Market",
+      "title": "穆迪首席再示警：聯準會升息恐引爆企業破產潮 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByak03NG9MZzZyQnpUcERZdGROTWRqYTc0R25CMDBCUWI0M2tPMmg3OFhsWHZZX1R2X25SdTBkOWpOQkNXVS04QzN3SDZCZk9kc003eS1VUkF5cnU0S0Y1cU5lMnBjY3Q5SXBXTzhyN2dfZ3dEQmR1YWdn?oc=5",
+      "summary": "穆迪首席再示警：聯準會升息恐引爆企業破產潮 BigGo 財經",
+      "published": "Tue, 29 Sep 2026 18:18:00 GMT",
+      "display_time": "09/29 18:18"
+    },
+    {
       "source": "Google News Taiwan Market",
-      "title": "《巫師3》重製版上市災情頻傳，AMD Radeon 使用者畫面異常滿天飛 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQaTU3SWhFUFpQT3hOLW9lV1RxdElwSkk1TFpoN2ozYzVuV0h6eVhqdlBMUndVY1NOejNoZlVGa0U0LVNMc1lOTG50blBtMG44UWU1ZkJpTXQ0UUc5blM2SVFlZEZDR1hNbUgyVzhFbThmSGpwc2NtcW9R?oc=5",
-      "summary": "《巫師3》重製版上市災情頻傳，AMD Radeon 使用者畫面異常滿天飛 BigGo 財經",
-      "published": "Tue, 29 Sep 2026 18:28:00 GMT",
-      "display_time": "09/29 18:28"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "AI代理頻失控 黃仁勳出手、NVIDIA毫秒級阻斷AI越獄 - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkh1aVAtMVNWSmpUNW9OdnhXSjdqejlZSDdNZ1FQZ1ppLXRONjJBSWpvaXIxdWRkeW5kNlVEN0tqUlJzTHFuaVFjNzlyOC1VeFl2ZGdvQ0YweEtWeXlCV2xZLXlPZklpbkVuNDFoRlpQV1BtSUlWaWVGOE1QSjlkcEM1SEExZlZUd052V213?oc=5",
-      "summary": "AI代理頻失控 黃仁勳出手、NVIDIA毫秒級阻斷AI越獄 DIGITIMES",
-      "published": "Tue, 29 Sep 2026 18:27:00 GMT",
-      "display_time": "09/29 18:27"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "科技1分鐘：NVIDIA替AI工廠設備把關-DSX Ready - DIGITIMES",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWlLanpCaXMyYTJJTTRJanBGb0lId2x1bGtwcFR2Y2lIWlI3ZGFWZnNSZkxwMWZMZHdvcGZ5WVZ6QUx3VGRNQ2JpWEg1N01aaEN3c2VqWGhwVGtXZXJWdG01bVZqWjBYUXdDSzJJS0xYbXdHNVB4T05CT2tyUDRXZ3ZHaDZCZWMwc2xwckxYeVdzOXlTRlFuRw?oc=5",
-      "summary": "科技1分鐘：NVIDIA替AI工廠設備把關-DSX Ready DIGITIMES",
-      "published": "Tue, 29 Sep 2026 18:24:00 GMT",
-      "display_time": "09/29 18:24"
+      "title": "增2檔關禁閉！6天飆27% 「聯發科小金雞」入列 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRldZNUdRYjRacGlJVURqTkZ4SVZORXotV0lJREdjMnRqVkFTR1hSQVZ0ZzJWdGNTc3QzZTRwTlhOeDRoSEdRZlYxNFA1anlfa1p1bEc0STZNeFd1b0IzZnRMUUdsMEVWR3E3Y2dlb1ZRNmtHSzhvdlIwVWRrS0Nyc0haS2x5d2dNcGNiT2pzcnZtZHlUX0ZwQ2RfSzdNX2ZaVHVPY2xEZVVRbjFFV3Z0XzFMdk9ROERubm1raHBKUENwRzh3aG80WktDZThGNHZiSzFQT2FBR3A4YVphLW5ZSTNGcE1LMUU0UzVZRC1IdVE4cnFsVTdmMlFJZWg1RnVJbnc0TUxpY3dpT3pweGp1Zw?oc=5",
+      "summary": "增2檔關禁閉！6天飆27% 「聯發科小金雞」入列 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 10:13:00 GMT",
+      "display_time": "09/29 10:13"
     },
     {
       "source": "Google News Global",
@@ -872,6 +1672,14 @@
       "summary": "花27元影印中獎千萬元！7-ELEVEN 5家門市開出統一發票1000萬元大獎 自由財經 統一發票7-8月特別獎 幸運兒全家花10元買飲品中千萬 Yahoo新聞 統一發票開獎！115年7、8月中獎號碼出爐，對獎看這裡！ 卡優新聞網 10元買飲料中千萬！全家統一發票11位大獎幸運兒出爐 店舖領獎再加碼 UDN 搭高鐵爽抱20萬！全家「桃園這門市」開出發票頭獎 | 桃園電子報 LINE TODAY",
       "published": "Tue, 29 Sep 2026 10:04:33 GMT",
       "display_time": "09/29 10:04"
+    },
+    {
+      "source": "Google News Global",
+      "title": "川普：誰掌握超級智慧誰就贏 不會有第二名 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uWjh5aHdDeWZXaGJXeE9tVWdkcDJRM0VzZFlpMWhTSjZEQlFWZGhHLUNuMjdzc01CV2dJT2o2T19wTm1aT0I4TWY0X0dPZkFF0gFWQVVfeXFMTldRTFQ4QTlYUWw4N1F5X0xsclloR3dSZm9nWm5PUFdOYkh3NTdCdUI4TGRHSE0xdFQ4SnFteVk4QmVMbU1VRXI2VnhSZUZzWlMwOUxaSmc?oc=5",
+      "summary": "川普：誰掌握超級智慧誰就贏 不會有第二名 UDN 川普宣布簽署「AI憲法」！黃仁勳等巨頭簽字 內容曝光 UDN 黃仁勳、祖克柏、馬斯克齊聚白宮！川普推AI安全協議 擬設委員會監管 Yahoo新聞 嫌「人工」聽起來像假的，川普簽署行政命令 AI 更名為 SI TechNews 科技新報 AI巨頭罕見齊聚白宮！川普：誰掌握SI誰就贏 | NOWNEWS今日新聞 LINE TODAY",
+      "published": "Tue, 29 Sep 2026 17:48:55 GMT",
+      "display_time": "09/29 17:48"
     },
     {
       "source": "Google News Taiwan Market",
@@ -906,20 +1714,20 @@
       "display_time": "09/29 09:22"
     },
     {
-      "source": "Google News US Market",
-      "title": "美債殖利率飆數十年新高 美股三大指數承壓全面收黑 | 民視新聞網 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zc0w3dFR2RVJMYjVIckNiQUdfWUpsd3QySTdVMVZFMzFvMTQtVk45U1lHa1JzekRxTjQtOWUzX1pyMkNHSEJ2X0xNQ1FBSVE3czlHRmZn?oc=5",
-      "summary": "美債殖利率飆數十年新高 美股三大指數承壓全面收黑 | 民視新聞網 LINE TODAY",
-      "published": "Tue, 29 Sep 2026 17:07:55 GMT",
-      "display_time": "09/29 17:07"
-    },
-    {
       "source": "Google News Taiwan Market",
       "title": "外資大賣632億！「3檔ETF」砍最多 網傻眼：誰在買？ - 東森電視",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xU0wtLXMxc2RxTUZfOGszR3pnRnJVWGNZT2lCZXlodVNNZ2ZEQ0JJaE5pUlVGOVJiUGktRnNHanYxbDdBZTZKSXBjQjZWQUk0MDhoOTRn?oc=5",
       "summary": "外資大賣632億！「3檔ETF」砍最多 網傻眼：誰在買？ 東森電視",
       "published": "Tue, 29 Sep 2026 09:07:00 GMT",
       "display_time": "09/29 09:07"
+    },
+    {
+      "source": "Google News Finance",
+      "title": "台股市值躍全球第4 投審會：大摩、小摩、美林砸139億元加碼台灣 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjME5fSVF1WjQ0UjhqOVB0MGxrY0hyekZTTWRrb2ZLTFNVTWdtdnNZcHozRWs4aHV2T0hTVnZZcFoydFRmUk9GRjVsX1RZel9C0gFWQVVfeXFMTlFTakhJaE1mb3p3cjB6ZXNjQ3BuV2NXWTRpS09PRjRsSDRoOVdIYVZMcldHQXVLYW1nb2NtRGdaNW9WNHZjcjg0TkdmLWtiVnN6LWpQb2c?oc=5",
+      "summary": "台股市值躍全球第4 投審會：大摩、小摩、美林砸139億元加碼台灣 UDN",
+      "published": "Tue, 29 Sep 2026 08:57:39 GMT",
+      "display_time": "09/29 08:57"
     },
     {
       "source": "Google News Taiwan Market",
@@ -930,92 +1738,12 @@
       "display_time": "09/29 08:53"
     },
     {
-      "source": "Google News Finance",
-      "title": "智慧金融新時代，華南銀行以AI打造下一代智慧銀行 - 天下雜誌",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLaFR4SlA4d1czUFBOMy1GMXFXVXhOTXJQbHdNWFltOXdFbzUxT2NmYzc3UHh4WUo1d0FUdWVwd2ZpNi1xSF9jbERXVWxMUQ?oc=5",
-      "summary": "智慧金融新時代，華南銀行以AI打造下一代智慧銀行 天下雜誌",
-      "published": "Tue, 29 Sep 2026 16:01:00 GMT",
-      "display_time": "09/29 16:01"
-    },
-    {
-      "source": "Google News Global",
-      "title": "盤後／連假後不見漲勢 台股跌392點戰犯是它 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNTVNMbkpsSF84SnoteFVxa2oyanZ1WTZDSmRaUUNoazFBUXBGTXFZN0FHYjYtZ3I0MTFIaG5DMnJLd3pfWnZzU2FzVzM4WEJuUGFJUllGYV96NFRVRzNRd0dyZW4tWWpWZmE5eV9UZW1JZ3NYSjJFQVBaWEltblhYRzNBcEVRa3RQdlRQSldqNHpwMEV6TGtyN3Q3aFZiZDh0NDVSYklZQUw5NlJ6c1h4NUx0eWc0SlRjbW1UOW5uelBDZG53WXprMFFvM05MUEFKdWprRzRCSGVJUkM3bnV3QmxQVkltaHhwOEhrcDFRODctMUc4OWFEa2JnUlhmWGhySFVpSElzSlhrdE1GajRXd25ORXEyWTNtV0g0czhqcGQ1dXV2bmc?oc=5",
-      "summary": "盤後／連假後不見漲勢 台股跌392點戰犯是它 Yahoo新聞 外資收假先砍632億台股失守4萬8！權值股綠成一片聯發科跌回5千元台塑四寶挺身救場｜Yahoo財經掃描 Yahoo股市 大盤「虛胖」爆警訊！節後變盤只是開端？多空僵局下，小心淪為最後接盤俠！ news.cnyes.com 秋後算帳！急跌逾400點真正兇手抓到「2種股票再不賣就太遲了」內行透露：下個月還有更驚人反轉- 上市櫃 旺得富理財網 台股逐洞賽│美科技股回檔台股失守48K 五大族群逆勢吸金- 證券 工商時報",
-      "published": "Tue, 29 Sep 2026 06:43:00 GMT",
-      "display_time": "09/29 06:43"
-    },
-    {
       "source": "Google News US Market",
-      "title": "油價債市給予喘息空間、但消費信心不足 美股週二開盤平盤遊走 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMimgNBVV95cUxQRDE2RFZYQ1NTOVJOU1pJNThqWTJSMzFUSVBVU3p3NHFQLWEyVXZaOWVZMUtZN0YtV0lnNFM4aVVodTB6bWRVSGpQV2h3S3NjRzFqNjkzcXJJZTMzVjFOUWNKam1iVkptc1p6WVNVcnBfQUtRRWJNQjV5VVBhZU4zbFhEbXJqT2dSS0xmN0ZnckVWYzVVTVQ2czBZT2NsM0VHVHJFTXIyai1IZmswZ1Bkdlc0MXE4YTVpVWVtRnozWlBQeFphYl84V2hBVGlfXzU4MHZmMjJJY2VQSlhQcjlRMUlYOE04UGMzSEpILV9jUGFScm82VW1lSVl4dXdaMTdEUTRzUmlLcHU2RVFvYUpzQVNiNTNxVkFtUnBxOGRHWjlRUGc1ZjJxNjhEbWxWSE9BMVR2Wm5tckZiN0JnMExSTHFmX21yRks4eXk5TXBGY3RTQnI1cHdFbjBMdlFlOHZ2NlFQUG1FNGYxZU9UbDFxUHZQZFVGS0pQWW5nLXE3dzRudjdIQ190Y2pMVERFV2lpR3ItQmpqRVNEdw?oc=5",
-      "summary": "油價債市給予喘息空間、但消費信心不足 美股週二開盤平盤遊走 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 14:33:30 GMT",
-      "display_time": "09/29 14:33"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "Nvidia推安全工具「OpenShell」 宣稱可阻止AI代理失控| 全球財經| 全球 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvazhNZWFfaFZKcXhBbEt1MVlTZmh5SmJpNnE3T0RUa2J6VXpHcmdYalh5ZWl2OFQ3SW9ZbjNoQTAxTmY2cEdiME9HR3JYY0pa?oc=5",
-      "summary": "Nvidia推安全工具「OpenShell」 宣稱可阻止AI代理失控| 全球財經| 全球 UDN",
-      "published": "Tue, 29 Sep 2026 06:22:00 GMT",
-      "display_time": "09/29 06:22"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "台積電在美國！滷肉飯「毫不妥協的台灣美食」軟著陸、拉起台美的橋樑 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqVnlMOVFEZW16ZmpSd0VmdUFlQklabFB6b1B2R3RNZ0t3QzFqcUFJRE1WMXhyMUZYaUVJdVdjQW8tR1duNkxmalBiZF9EVzZCNHdCMmFSQ3ZFc1ZoMERj0gFkQVVfeXFMTlBmdlZzZTNOZWF1S011aTJBSlRoVFVwdTQ2MF84ZDl6aGlUMWd5S2V0bTRDQkRoYVZOcy1lNXpHZkU4RGRaMHZaLWR0RTZwcWs3V0dXQ05iMW1aSXJRYUZvZmVWMg?oc=5",
-      "summary": "台積電在美國！滷肉飯「毫不妥協的台灣美食」軟著陸、拉起台美的橋樑 自由財經",
-      "published": "Tue, 29 Sep 2026 14:05:55 GMT",
-      "display_time": "09/29 14:05"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "台股重挫近400點！郭哲榮喊「這波跌假的」：點名這些股有戲 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQSUdMZW1VTDNRMlo3dVBFZ3pYOXlVVUFKXzV2SFc2LThBRFNPY0tOUkVGWURYdldpQVdaTURGRDhwRUlBMi1ycGJJbnFKbUREWG16cW14cWxyMFVJSE5JUGtXNThPdTVQVUxoMF9lbHZ0LWN6OW1fYXN6Tk55UmVOVHc1aGEyN2VQTjVhVmExeVlLN1N5ZExyLXVkUUpMN3dEUHk4RTZqdERvSjJrWDl1SzN5RUYtZ25KUVJ0aG56alFvRTV5ekVHRmxEZ3dSOFpYS19zX1BKMTVQdkFVU1RqNmlKb0plRU1JN1lrc3dBeURmeV9maU9ycDZpVXlYeWd4RHpuLVdGcFlINWY2cWU4UjMxUFhpeVVVOE5PZm9zNkxXTEtZUVR6VXVrU1Bpd05DVjVsY2hvZWxyOEJkdV9yXzM0bkFZTUtvZWVFTnB0NnJBWEdSNGR1UzN0Z2IzNkdhS0FF?oc=5",
-      "summary": "台股重挫近400點！郭哲榮喊「這波跌假的」：點名這些股有戲 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 14:03:00 GMT",
-      "display_time": "09/29 14:03"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "美股平盤震盪！費半強勢漲逾200點 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOc21jeHRrMnhRM2JJQk91T3V2THpoRGkyVGVKZEFWblVDSEpUaTFUNWhsZDZnRGtrSXFkT1g0LXFuNkNmazJpdHpGeDBDdW9SY2F5MkpkTmg1S090QVFDMTB3a3FaekdSS0VRb2NkRWNnMXlpVllvOVhNM3hYdjlLcjFNYndWTVVHdzBQaVJMZjVXSi01b2d1czkzM2NFSGJzTkZvVHh6WXJZSXo0SXhaT3ctMnp2d2NjOHR1OG96dEtXSDlwaEtqV3RYOUI2VTZYeHgzendjREE2WGQ4X3NqMGpDb3pISG1Jb1prVUpGTmhxblM2?oc=5",
-      "summary": "美股平盤震盪！費半強勢漲逾200點 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 13:58:16 GMT",
-      "display_time": "09/29 13:58"
-    },
-    {
-      "source": "Google News US Market",
-      "title": "輝達獲利狂奔、估值卻掉隊！14.5倍本益比背後 華爾街在擔心什麼？ - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxObzV4eFJqWFgyQXlxTHd2ZW0wQk9LRFBLdVFYS3ZJdzBxTEVPLU5GaE04Yy1tQzAxWUNVUFRxTk13azctUE5Ya05mYjJ4c2NsaFpERXJLQmFLNUFvMmxXeW01WnFuMEM0YVZYM25zNmVCdmNBb2NJX1hteU1XQ3M2ckU3aTE1RlhydUl3VnotSGUzVDJCSWNDY0k5ajFjWDJEdnpDbmV5REhtalFGdm1PVldVclBINVhUdFdidWVtbHQxenQxUjZDUFZYdjNGU1lyT3VCc09pOC0xTGs5Y2ZxQ3hlZm1fSXpZTjhDNjhaaDUzQm50cE91eS10VTF1ekN3Q3JIUVc3Wld5M0NBSUtycTVwWGpyNl9IRWNxd3M3cVhJeDY1eWVCTkNQNEJ2VkJ1RzFWdkh6WDRFbTJGZkNfWXR5RXhPM29OWWlvLVZESEVOYlUxWmh2cTRSN25zZ0ZPXzNVMEhFM3U0NEZ0d1VNNGJyTTFpWVJOdjhDcmRMVzB6VnF4c2dEajZKTTdXelRi?oc=5",
-      "summary": "輝達獲利狂奔、估值卻掉隊！14.5倍本益比背後 華爾街在擔心什麼？ Yahoo股市",
-      "published": "Tue, 29 Sep 2026 13:20:04 GMT",
-      "display_time": "09/29 13:20"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "帶領鴻海靈活轉型全球佈局 董座劉揚偉獲獎連連笑不停 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNNE9remRsRlZ3ZGtDN3BkUWxwdWRIQlVxLVRvX1puRlFCdnhFNTRyNjJqS0RXZS02ajRWdnNYVVpJaDk1dDhKTHVKT0d0VkRZdl9nM2kzVmFiUTg3TVkyek5hYnZLa2xpYTlZX29BQzk3TzhxV180aFhOdE9LZU14LU1Lek9iOGJXc1Q2M3JZUTdMUEl4YnR6a1M5UW1kdzlGRWVuNU5aTjI5VFJMXzNpN3FuTURTY2Z1RlgxVmd2Uk1wQlFmQmFsSjZlbkl2M2F0VFlPMmwxaHc3SzlMM1AyVjhUYU9tUnRIMU85MFVTWUFESDFGU2RYMEF3MzVhSmhaN2FrV3RSS2lVR2VBbTJBdUJlSl9xYThJMlRGNUlxV1pVX1lLX1RiUTN6Rmg4S0xKdkt6RFlEbjRieXExZC1lY0kxSTRpeUpWOGRiemh4MklCQ3Q1eXNfYmxpNXFOU05NZjgwclVhS1lOdU5vLTA1VmtZR2k?oc=5",
-      "summary": "帶領鴻海靈活轉型全球佈局 董座劉揚偉獲獎連連笑不停 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 13:20:00 GMT",
-      "display_time": "09/29 13:20"
-    },
-    {
-      "source": "Google News Taiwan Market",
-      "title": "增2檔關禁閉！6天飆27% 「聯發科小金雞」入列 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRldZNUdRYjRacGlJVURqTkZ4SVZORXotV0lJREdjMnRqVkFTR1hSQVZ0ZzJWdGNTc3QzZTRwTlhOeDRoSEdRZlYxNFA1anlfa1p1bEc0STZNeFd1b0IzZnRMUUdsMEVWR3E3Y2dlb1ZRNmtHSzhvdlIwVWRrS0Nyc0haS2x5d2dNcGNiT2pzcnZtZHlUX0ZwQ2RfSzdNX2ZaVHVPY2xEZVVRbjFFV3Z0XzFMdk9ROERubm1raHBKUENwRzh3aG80WktDZThGNHZiSzFQT2FBR3A4YVphLW5ZSTNGcE1LMUU0UzVZRC1IdVE4cnFsVTdmMlFJZWg1RnVJbnc0TUxpY3dpT3pweGp1Zw?oc=5",
-      "summary": "增2檔關禁閉！6天飆27% 「聯發科小金雞」入列 Yahoo新聞",
-      "published": "Tue, 29 Sep 2026 10:13:00 GMT",
-      "display_time": "09/29 10:13"
-    },
-    {
-      "source": "Google News Finance",
-      "title": "台股市值躍全球第4 投審會：大摩、小摩、美林砸139億元加碼台灣 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjME5fSVF1WjQ0UjhqOVB0MGxrY0hyekZTTWRrb2ZLTFNVTWdtdnNZcHozRWs4aHV2T0hTVnZZcFoydFRmUk9GRjVsX1RZel9C0gFWQVVfeXFMTlFTakhJaE1mb3p3cjB6ZXNjQ3BuV2NXWTRpS09PRjRsSDRoOVdIYVZMcldHQXVLYW1nb2NtRGdaNW9WNHZjcjg0TkdmLWtiVnN6LWpQb2c?oc=5",
-      "summary": "台股市值躍全球第4 投審會：大摩、小摩、美林砸139億元加碼台灣 UDN",
-      "published": "Tue, 29 Sep 2026 08:57:39 GMT",
-      "display_time": "09/29 08:57"
+      "title": "【美股盤後】油價回落、美債息續升 四大指數僅費半獨漲1% - 非凡新聞台",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wbXNLSzlBWUl5TGxSdWhRN2NjWXd0ZDViRmgyRlROZDc0RlItOW52NUxtM2ZFWDlpd096VHl6cXUzbVNJM0hRclpYU245UzZySzZ3c3hiOUxCcFE4U0dhQg?oc=5",
+      "summary": "【美股盤後】油價回落、美債息續升 四大指數僅費半獨漲1% 非凡新聞台",
+      "published": "Tue, 29 Sep 2026 16:51:24 GMT",
+      "display_time": "09/29 16:51"
     },
     {
       "source": "Google News Global",
@@ -1032,6 +1760,46 @@
       "summary": "0056暴配1.7元有可能？落後00878、00919，拚12％年化配息率「底氣在哪？」合理價、月領1萬成本曝光 今周刊 不只0050！台股攻高帶飛12檔 3檔新兵也創天價 Yahoo新聞 台股ETF人氣十天王9月績效出爐！這3檔躍雙料資優生- 理財 工商時報 月領1萬股息要多少本金？專家試算「高息3本柱」黃金組合：不用30張就能辦到 | 張庭維 | 新聞 storm.mg 高股息商品 買盤青睞 UDN",
       "published": "Tue, 29 Sep 2026 08:15:00 GMT",
       "display_time": "09/29 08:15"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "NVIDIA 推出開放式 AI 代理安全平台，強化 AI 代理從測試到部署的安全性 - iThome",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9EWDdvd3F2UWozZ29fOGNHcDNYTk1FTGFEbEI5Y3BRNlhkU2tJMlgweWxJZko5ZkV3ZWVISEczdmExdmJlcDRmYWp4QQ?oc=5",
+      "summary": "NVIDIA 推出開放式 AI 代理安全平台，強化 AI 代理從測試到部署的安全性 iThome",
+      "published": "Tue, 29 Sep 2026 16:10:51 GMT",
+      "display_time": "09/29 16:10"
+    },
+    {
+      "source": "Google News Global",
+      "title": "盤後／連假後不見漲勢 台股跌392點戰犯是它 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNTVNMbkpsSF84SnoteFVxa2oyanZ1WTZDSmRaUUNoazFBUXBGTXFZN0FHYjYtZ3I0MTFIaG5DMnJLd3pfWnZzU2FzVzM4WEJuUGFJUllGYV96NFRVRzNRd0dyZW4tWWpWZmE5eV9UZW1JZ3NYSjJFQVBaWEltblhYRzNBcEVRa3RQdlRQSldqNHpwMEV6TGtyN3Q3aFZiZDh0NDVSYklZQUw5NlJ6c1h4NUx0eWc0SlRjbW1UOW5uelBDZG53WXprMFFvM05MUEFKdWprRzRCSGVJUkM3bnV3QmxQVkltaHhwOEhrcDFRODctMUc4OWFEa2JnUlhmWGhySFVpSElzSlhrdE1GajRXd25ORXEyWTNtV0g0czhqcGQ1dXV2bmc?oc=5",
+      "summary": "盤後／連假後不見漲勢 台股跌392點戰犯是它 Yahoo新聞 外資收假先砍632億台股失守4萬8！權值股綠成一片聯發科跌回5千元台塑四寶挺身救場｜Yahoo財經掃描 Yahoo股市 大盤「虛胖」爆警訊！節後變盤只是開端？多空僵局下，小心淪為最後接盤俠！ news.cnyes.com 秋後算帳！急跌逾400點真正兇手抓到「2種股票再不賣就太遲了」內行透露：下個月還有更驚人反轉- 上市櫃 旺得富理財網 台股逐洞賽│美科技股回檔台股失守48K 五大族群逆勢吸金- 證券 工商時報",
+      "published": "Tue, 29 Sep 2026 06:43:00 GMT",
+      "display_time": "09/29 06:43"
+    },
+    {
+      "source": "Google News US Market",
+      "title": "Nvidia推安全工具「OpenShell」 宣稱可阻止AI代理失控| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvazhNZWFfaFZKcXhBbEt1MVlTZmh5SmJpNnE3T0RUa2J6VXpHcmdYalh5ZWl2OFQ3SW9ZbjNoQTAxTmY2cEdiME9HR3JYY0pa?oc=5",
+      "summary": "Nvidia推安全工具「OpenShell」 宣稱可阻止AI代理失控| 全球財經| 全球 UDN",
+      "published": "Tue, 29 Sep 2026 06:22:00 GMT",
+      "display_time": "09/29 06:22"
+    },
+    {
+      "source": "Google News Global",
+      "title": "《魔獸世界：永恆》Beta 第二階段即將到來！開放 30 級與暗矛島嶼 PvP 15v15 戰場登場 - COOL-STYLE 潮流生活網",
+      "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOZVhLcmpvblgtQk9kUEtiY0V1VEs3ZXhqeGlIclB4Q3ZKOUFUaHJHQkhqZUJwcG1GS2o5Rk5xdEYtLWJxOFV6Y1hKcXZVdE5XNTk3QnpZRlVWaVRPYVF3dVBaS3BtTURmcWdGMVpDVVNtZWIxeWpiT04wdmJZSVRKVHhvQTJ4eWVpTFNPbE5QOFNJb0ZyZzFYWGs2YUxXZnFHVkg2VktZUS1qVnZkVW50X2JfNnpsTUNqWHFyQjIwZk5mMWNBODREM3hheF80aTVvb0tvdE5HX3BDU2R0MEwyRGlzaWxiVkJHZFZnYWRHYXNhX0RBa2tEWWlVUm41Ql9SWkgwRVRNQXEtVFR4ZU9WSC1TUTdTeXoycC1ER18wSUFHSWRZeTZYTDVzYnRReHN2emUxQmI1bGZzSElKcnkyd0RfcVZvQXFJcGZhdVlxMk5sN09yenJFX2VvVEFiNEhPelU5d0FublHSAe4CQVVfeXFMTjRla3pHM1FMWDVMT1VhaEtJRmtobm05RE85eF9HcFdabFZIb0piVHhXaEU2ZkRUd0hJa05HMFJUc3FCckNjbkozWFoyM1NWTEtKMXJCNGVJcGdzYXhscEdCaFBLdUtldjVqUXRCbVRQZHJMQ3lqZXV4Yng2TzM2TWxsV0F6MzhLN3MxbVRzVUJZeURDajBaVXowbXl0MTVHai14X21uQ2loeTJ4Z2FoOEhOaXZrV1hKbDhVRmpuTmdPd0s2Ny0tV19DMGlkXzROaXctTnlOdkZncFAtZzBHbThGNVRucU9oYV9hUmcxXzhvdS1VbldzRXR1eDVZYndfUHZDOElfbmp3Q2xTY3lVWDNFS1hJeXFEeXZMd1VzcjVMUmxXVWQyRllsT0R4QWlGRmRaTWdmRUxBZzZSUHlNcEx4bGJPcGtKekUyVVpTREpGaWdURDVvVzNTYTduRjl6elo1emJWTFBVeXdmb0tB?oc=5",
+      "summary": "《魔獸世界：永恆》Beta 第二階段即將到來！開放 30 級與暗矛島嶼 PvP 15v15 戰場登場 COOL-STYLE 潮流生活網 《魔獸世界：永恆》Beta 測試將邁入第二階段開放30 級等級上限、新天賦與職業技能《World of Warcraft:Foever》 GNN 新聞網 4.5萬人公會壓垮伺服器！Asmongold玩《魔獸世界：永恆》全員跳崖收場 game.udn.com 《魔獸世界：永恆》Beta 遊玩心得：證明老一套還是有效，讓人再度理解什麼叫做 MMORPG COOL-STYLE 潮流生活網 《魔獸世界》「WoW Forever」測試伺服器滿載暴雪設計師：測試首日修掉的Bug 比內部測試六個月還多 Ludens Media",
+      "published": "Tue, 29 Sep 2026 14:21:59 GMT",
+      "display_time": "09/29 14:21"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "苦撐1年半下山！台積電工程師曝1文化壓力大 一票過來人認同 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxOcS13bWdZUlJ3TEh4QlhjMmZITlRlMFpMZ01NMXdVTVIwYmlfdjNSdUZvMU05SUFWMlZNYU9yRFRkOTBXTy0zUzBaNDIwVWlHYVNENk9fMzhaT3A1MGZmQjRxdnFra2lwV1dNdTU0eFFrdlktbmpOcVA5Q3NGQTdISDVrWEs2cV84WFhudUlkaVRmYmRsU1dXRGVKTFFSNUlQQkh2TUt5b19sNzRqTGYtdFZ5RWhWWlI3bC1PeGZoQ0NHYnhfU1NaLVBTNXJPTnpmYzRIYWRhLU5nSUJiSDBVWE1jRmYzZXNGZFVMczA1amQwV0l1S094cU9adS1uYS0tV0t4eXVRZlRlMWNKOHN4YTQ5UERGRzQxVmVmemJSZlNSMWJEU2xNZE02OVA4bWMtTTVfUXlWcV80WjJLSnZId1lVQ0hxOTdXOW1RQ1FYOWtGc2V0eDg2Zkh0Q0xfVFhpanN1a1otUFlxUXBwUkY4aVJZemhlbEln?oc=5",
+      "summary": "苦撐1年半下山！台積電工程師曝1文化壓力大 一票過來人認同 Yahoo新聞",
+      "published": "Tue, 29 Sep 2026 14:09:00 GMT",
+      "display_time": "09/29 14:09"
     },
     {
       "source": "Google News Global",
@@ -1059,14 +1827,6 @@
     },
     {
       "source": "Google News Global",
-      "title": "川習會具體成效 美中降稅清單亮牌 各300億美元 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWdnJwTmZEU1A0dnAxSktHSmozdG54b1paLUROckdkNm5zWXZfZEdhRXRlZS0taUp5UzFUM3hKeUQwNUJVNzNZYkh4UDMzUkJJRVlSenEza0NUUdIBX0FVX3lxTE1Dd1V1Mnhac2lPd3lYenZoaXA4Z2phMUZxV2JzeC16VEZTVmJzbVBLeU45djYza2N3NTdlZHdHNHR2THRnQzZDUGlJdllOQ1ZaYzRrd3VvcnpGSmJYZmZZ?oc=5",
-      "summary": "川習會具體成效 美中降稅清單亮牌 各300億美元 經濟日報 美中達關稅減讓協議 玩具與農產品等600億美元商品受惠 Yahoo股市 葛來儀：川習會未解決重大結構問題 給北京時間應對長期競爭 rti.org.tw MoneyDJ新聞 2026-09-29 08:39:06 新聞中心 發佈 MoneyDJ 中美達成300億美元對等降稅框架 AI對話機制同步建立 digitimes.com.tw",
-      "published": "Mon, 28 Sep 2026 18:36:00 GMT",
-      "display_time": "09/28 18:36"
-    },
-    {
-      "source": "Google News Global",
       "title": "月底發錢了！一早入帳快2萬元 明天還有6筆 - 東森新聞",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HNGFFU1djRHhFSVVlelNvMy0tUkt3MldZX0J6ZnYzdEY1UHpkTk9ucmVDeW5oWkNqS1o2dnBwR1hCbVlWc2E1S0V4TjNpcHZyS3c3cw?oc=5",
       "summary": "月底發錢了！一早入帳快2萬元 明天還有6筆 東森新聞 勞保年金60歲提早領最划算？多數勞工退休「沒算到這一筆」 專家：每月少拿7800元 Yahoo新聞 60歲提早領勞保「多領100萬」賺到了？　專家分析：先想1件事 ETtoday財經雲 勞保怎麼拿最賺？60歲提早、延後領試算專家：重要的是做好這件事- 理財 工商時報 63萬退休勞工重返職場！逾5成年齡超過65歲 自由時報",
@@ -1074,10 +1834,42 @@
       "display_time": "09/29 02:14"
     },
     {
+      "source": "Google News Global",
+      "title": "川普轟加拿大「世上最糟國家」！今封殺3類加國輸美商品- 國際 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54YWN3WDJvUjg4aUUxRmhpc054aFVxMVZXM0hUQXVWR2dGY1BlSm5RLUp3ZjZqOG1EV1JYeXJqbFFEbW5BLTJiUG1qWi1ManZlc0wyZU40ZlN6LUVQeG5qRFVZTnBkdElEMHcyZjZn?oc=5",
+      "summary": "川普轟加拿大「世上最糟國家」！今封殺3類加國輸美商品- 國際 中時新聞網 美加貿易戰升級美國禁酒類、乳品、機車進口| 今日紐時頭條 聯合報數位版 美加貿易戰再升級 對加拿大酒類、乳製品進口禁令生效 rti.org.tw 貿易摩擦加劇 美國對近10億美元加拿大商品進口禁令正式生效 news.cnyes.com 美國宣布禁止10億美元加拿大商品進口貿易戰再度升級- 國際 工商時報",
+      "published": "Tue, 29 Sep 2026 10:04:42 GMT",
+      "display_time": "09/29 10:04"
+    },
+    {
+      "source": "Google News Global",
+      "title": "對台軍售被川習會卡住？美眾議長揭原因 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxON2htM3c3T1RpZXgweDJXTXFXcG5oWDJ3ZkxySlNDRk9PUGxBVUszY0RkUlZsaG5oSks2NGdMLWpoemplRGl6ZG9GV2doa0xDOU5zTFFqV2Y3R2UzaHBJdmdGQVhMMEZsOUkzTmRHclEyU0haN3NDc245eV9LMmpQbmNLbjZXRVNxUlhfODdKa21pZWo3VjRuejZGTmpqVUthYXVnZ1MwcDJBR2R6NEFkZUcyQTRvU0NicWdycjM4UEwyVWphUkRTdWpLSHcwYW0wb3ZqV2U4Rkk3bmNnU0JNNG1lbjFCbDI5YmFzVk9ycVlsR1U3Z2ZMMFN2UnNvUW1yVDdkcU9kd1RLQ1Fpc0pLZVlsS3l0UHlqRnZZV0k3TWw?oc=5",
+      "summary": "對台軍售被川習會卡住？美眾議長揭原因 Yahoo新聞 售陸武器？川普：我沒聽過 駐中大使可能是講台灣 UDN 美眾議員貝拉：川習會後美國對台政策沒有改變【專訪】 中央社 CNA 美眾議長表態挺台！ 估川普2任期將完成400億美元對台軍售- 新聞 MoneyDJ 美國評估對台軍售陳明祺：台美溝通管道暢通- 兩岸 工商時報",
+      "published": "Tue, 29 Sep 2026 06:40:56 GMT",
+      "display_time": "09/29 06:40"
+    },
+    {
+      "source": "Google News Global",
+      "title": "川習會具體成效 美中降稅清單亮牌 各300億美元 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWdnJwTmZEU1A0dnAxSktHSmozdG54b1paLUROckdkNm5zWXZfZEdhRXRlZS0taUp5UzFUM3hKeUQwNUJVNzNZYkh4UDMzUkJJRVlSenEza0NUUdIBX0FVX3lxTE1Dd1V1Mnhac2lPd3lYenZoaXA4Z2phMUZxV2JzeC16VEZTVmJzbVBLeU45djYza2N3NTdlZHdHNHR2THRnQzZDUGlJdllOQ1ZaYzRrd3VvcnpGSmJYZmZZ?oc=5",
+      "summary": "川習會具體成效 美中降稅清單亮牌 各300億美元 經濟日報 美中達關稅減讓協議 玩具與農產品等600億美元商品受惠 Yahoo股市 葛來儀：川習會未解決重大結構問題 給北京時間應對長期競爭 rti.org.tw MoneyDJ新聞 2026-09-29 08:39:06 新聞中心 發佈 MoneyDJ 中美達成300億美元對等降稅框架 AI對話機制同步建立 digitimes.com.tw",
+      "published": "Mon, 28 Sep 2026 18:36:00 GMT",
+      "display_time": "09/28 18:36"
+    },
+    {
       "source": "Google News Taiwan Market",
       "title": "一座晶圓廠要250億美元！台積電擴產紅利 法人點名8檔供應鏈 - 經濟日報",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vN0FWcDBoeEQxd00yRWFOTmhWRlpaaVFqUWpfamI0V2NCMEpGMzdVWUdYT1hFc0xqSkdlZHZxYzNFR1JPOVJqZEFLV1c1VU81bTV5cnduV1FGd9IBX0FVX3lxTE5WWVVzMU9sNTFtVU1ZbXBPVVVrYk1Kci1JbDB1TG9CZEh2dzh3WUNid0hvWkV3UUNOa3FRY0NHWVpENGFxTnpFeUdfYzB5VGo2R3pYREJHMUt4VHBPR204?oc=5",
       "summary": "一座晶圓廠要250億美元！台積電擴產紅利 法人點名8檔供應鏈 經濟日報",
+      "published": "Mon, 28 Sep 2026 09:00:00 GMT",
+      "display_time": "09/28 09:00"
+    },
+    {
+      "source": "Google News Taiwan Market",
+      "title": "台股史上首檔逾2萬元神股誕生！外資目標價竟看到這裡 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZSGNQUmFRcHI0MHdBLXVHZ0dCRm5Va3FpYVh2d2E2T1I4OTNPbzYyalF2dWxfOTlFZ3R6VlYxalhlVWhmZ1JhRVh0T21Jb1J4RlZ3d3NPWF9od9IBX0FVX3lxTFAyU1dmQlhNZWU0enRrRmlXMVRsa2otYmxDRFBLUTlQQVJ0RTQ0Uzd2TnItbUZlSlhoRGxHU1pYeUhYektNclF1Q3FPRFBSZ1cza2NtTXBhczVPR0V3SWVN?oc=5",
+      "summary": "台股史上首檔逾2萬元神股誕生！外資目標價竟看到這裡 經濟日報",
       "published": "Mon, 28 Sep 2026 09:00:00 GMT",
       "display_time": "09/28 09:00"
     },
